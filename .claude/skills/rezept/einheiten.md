@@ -39,6 +39,6 @@ Kein Wert (`null`) ist erlaubt, wenn die Zutat ohne Einheit gezählt wird und di
 
 ## Schreibweise der Zutatennamen (Chefkoch-Stil)
 
-- Grundform mit Plural in Klammern: „Ei(er)“, „Zwiebel(n)“, „Tomate(n)“, „Kartoffel(n)“, „Möhre(n)“, „Paprikaschote(n)“.
-- Zusätze wie „light“, „gerieben“, „frisch“, „gehackt“ als `note`, nicht im Namen. Ausnahme: fester Begriff („Käse, geriebener“ ist Chefkoch-Stil, akzeptabel).
+- **Keine Klammer-Pluralformen** wie „Ei(er)“ oder „Zwiebel(n)“: Chefkoch interpretiert Klammern beim Import als Notiz. Stattdessen den passenden Numerus schreiben: „3 Stück Eier“, „1 Stück Zwiebel“, „2 Stück Tomaten“.
+- Zusätze wie „light“, „gerieben“, „frisch“, „gehackt“ als `note`, nicht im Namen. Die `note` wird beim Import als Klammerzusatz übertragen und erscheint in Chefkoch als kleine Zeile unter der Zutat. Ausnahme: fester Begriff („Käse, geriebener“ ist Chefkoch-Stil, akzeptabel).
 - Kein „Salz und Pfeffer“ in einer Zeile, wenn Mengen unterschiedlich sind; sonst erlaubt mit `n. B.`.

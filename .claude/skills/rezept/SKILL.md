@@ -23,7 +23,7 @@ Projektordner: `/Users/jenswolfhagen/Claude/Projects/Apps/Rezepte` (im Folgenden
 
 ## 2. Extrahieren und normalisieren (Regeln)
 - **Titel** wie in der Quelle; bei Idee prägnant im Chefkoch-Stil. **Untertitel** 2–6 Wörter („schnell, einfach & vegetarisch“).
-- **Zutaten** eine pro Zeile: `amount` als Zahl (Brüche → Dezimal), `unit` strikt aus `einheiten.md`, Zusätze in `note`, Gruppen („Für den Teig“) in `group`. Namen im Chefkoch-Stil („Ei(er)“).
+- **Zutaten** eine pro Zeile: `amount` als Zahl (Brüche → Dezimal), `unit` strikt aus `einheiten.md`, Zusätze in `note`, Gruppen („Für den Teig“) in `group`. Namen ohne Klammer-Plural („Eier“, nicht „Ei(er)“).
 - **Zubereitung**: nummerierte Schritte, 1–3 Sätze je Schritt, **eigene Formulierung** (Seite ist öffentlich, kein wörtliches Kopieren aus Kochbuch oder Website). Temperaturen, Zeiten, Mengen aus der Quelle übernehmen.
 - **Portionen** aus Quelle, sonst 4 und `estimated` ergänzen.
 - **Zeiten**: Arbeitszeit = aktive Zeit, Koch-/Backzeit = passive Hitze, Ruhezeit = Kühlen/Gehen/Marinieren. Fehlend → schätzen, `"times"` in `estimated`.

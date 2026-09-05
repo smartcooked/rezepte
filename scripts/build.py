@@ -218,11 +218,12 @@ def render_ingredients(r, micro):
             rows.append('<tr class="grp"><th colspan="3">%s</th></tr>' % esc(g))
         last_group = g
         amount = ing.get("amount")
-        prop = ' itemprop="recipeIngredient"' if micro else ""
+        prop = ""
+        meta_ing = ('<meta itemprop="recipeIngredient" content="%s">' % esc(ingredient_line(ing))) if micro else ""
         cell_n = '<td class="n"%s>%s</td>' % ((' data-amount="%s"' % amount) if amount is not None else "", esc(format_amount(amount)))
         cell_u = '<td class="u">%s</td>' % esc(ing.get("unit") or "")
         note = ('<small>%s</small>' % esc(ing["note"])) if ing.get("note") else ""
-        cell_i = '<td class="i"><span class="p-ingredient"%s>%s</span>%s</td>' % (prop, esc(ing["name"]), note)
+        cell_i = '<td class="i">%s<span class="p-ingredient"%s>%s</span>%s</td>' % (meta_ing, prop, esc(ing["name"]), note)
         rows.append("<tr>%s%s%s</tr>" % (cell_n, cell_u, cell_i))
     return "\n        ".join(rows)
 
@@ -350,8 +351,8 @@ def render_recipe(r, cfg, tpl, icons, stamp):
             '<meta property="og:site_name" content="%s">' % esc(cfg["site_title"]),
         ] + (['<meta property="og:image" content="%s">' % esc(url + r["image"])] if r.get("image") else []))
     if r.get("image"):
-        image_html = '<div class="hero-img"><img src="%s" alt="%s"%s></div>' % (
-            esc(r["image"]), esc(r["title"]), ' itemprop="image"' if micro else "")
+        image_html = '<div class="hero-img">%s<img src="%s" alt="%s"></div>' % (
+            ('<meta itemprop="image" content="%s">' % esc(url + r["image"])) if micro else "", esc(r["image"]), esc(r["title"]))
     else:
         image_html = '<div class="hero-img empty" aria-hidden="true"><svg class="icon"><use href="#i-logo"/></svg></div>'
     diet_meta = ""
@@ -385,7 +386,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "recipe_scope": 'class="h-recipe" itemscope itemtype="https://schema.org/Recipe"' if micro else "",
         "p_name": 'class="p-name" itemprop="name"' if micro else "",
         "p_author": 'itemprop="author"' if micro else "",
-        "p_yield": 'itemprop="recipeYield"' if micro else "",
+        "p_yield": "", "yield_meta": ('<meta itemprop="recipeYield" content="%d">' % r["servings"]) if micro else "",
         "image_html": image_html,
         "subtitle_html": ('<p class="sub"%s>%s</p>' % (' itemprop="description"' if micro else "", esc(r["subtitle"]))) if r.get("subtitle") else "",
         "prep_label": minutes_label(t.get("prep_min") or 0), "prep_est": ' <span class="est">geschätzt</span>' if "times" in est else "",
