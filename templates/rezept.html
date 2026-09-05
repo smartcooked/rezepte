@@ -41,22 +41,25 @@ $icons
       <h1 $p_name>$title</h1>
       $subtitle_html
       <ul class="meta">
-        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>$prep_label</b><small>Arbeitszeit$prep_est</small></span></li>
+        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>$total_label</b><small>Gesamtzeit$prep_est</small></span></li>
+        <li><svg class="icon"><use href="#i-work"/></svg><span><b>$prep_label</b><small>Arbeitszeit</small></span></li>
         <li><svg class="icon lvl-$difficulty_level"><use href="#i-gauge"/></svg><span><b>$difficulty_label</b><small>Schwierigkeit$difficulty_est</small></span></li>
         $diet_meta
         <li><svg class="icon"><use href="#i-user"/></svg><span><b $p_author>$author</b><small>Rezeptautor:in</small></span></li>
       </ul>
       $tags_html
+      $categories_html
     </div>
   </section>
 
   <div class="main">
     <section class="card" aria-labelledby="h-zutaten">
-      <div class="sect-head">
-        <h2 id="h-zutaten">Zutaten</h2>
+      <div class="sect-head"><h2 id="h-zutaten">Zutaten</h2></div>
+      <div class="portions">
+        <span class="p-text">Für <b id="p-num-lbl">$servings</b> <span id="p-lbl">Portionen</span></span>
         <div class="stepper" aria-label="Portionen anpassen">
           <button type="button" id="p-minus" aria-label="Eine Portion weniger"><svg class="icon"><use href="#i-minus"/></svg></button>
-          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="$servings" data-base="$servings"></label><span class="p-lbl" id="p-lbl">Portionen</span>$yield_meta
+          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="$servings" data-base="$servings"></label>
           <button type="button" id="p-plus" aria-label="Eine Portion mehr"><svg class="icon"><use href="#i-plus"/></svg></button>
         </div>
       </div>
@@ -86,7 +89,6 @@ $icons
       <span class="stars-lbl" id="stars-lbl"></span>
     </div>
     <label class="notes"><span>Notizen</span><textarea id="notes" rows="3" placeholder="z.B. weniger Salz, Kinder fanden es super, nächstes Mal mit Reis …">$notes</textarea></label>
-    <p class="mine-hint"><svg class="icon"><use href="#i-info"/></svg>Wird auf diesem Gerät gespeichert. Damit es überall gilt, Claude sagen: <code>/rezept update $slug Bewertung 4, Notiz: …</code></p>
   </section>
 
   <div class="actions-row">
@@ -95,30 +97,15 @@ $icons
     <a class="btn" href="$root/"><svg class="icon"><use href="#i-book"/></svg>Alle Rezepte</a>
   </div>
 
-  <details class="ck" open data-nosnippet>
-    <summary><svg class="icon"><use href="#i-info"/></svg>Chefkoch-Hinweise für den Import<svg class="icon chev"><use href="#i-chevron"/></svg></summary>
-    <div class="grid">
-      <dl>
-        <dt>Kategorien</dt><dd>$categories_label</dd>
-        <dt>Arbeitszeit</dt><dd>$prep_hm</dd>
-        <dt>Koch-/Backzeit</dt><dd>$cook_hm</dd>
-        <dt>Ruhezeit</dt><dd>$rest_dhm</dd>
-        <dt>Schwierigkeit</dt><dd>$difficulty_label</dd>
-        <dt>Kalorien</dt><dd>$calories_label</dd>
-      </dl>
-      <div>
-        <p style="margin:0 0 6px"><b>Import-URL</b><br><span class="url" id="ck-url">$url</span></p>
-        <p style="margin:0;color:var(--muted);font-size:.92rem">$source_label$estimated_label</p>
-        <div class="btns">
-          <button class="btn small" type="button" data-copy="ck-url"><svg class="icon"><use href="#i-copy"/></svg>URL kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
-        </div>
-        <textarea id="ck-zut" hidden>$copy_ingredients</textarea>
-        <textarea id="ck-zub" hidden>$copy_steps</textarea>
-      </div>
-    </div>
-  </details>
+  <textarea id="ck-zut" hidden>$copy_ingredients</textarea>
+  <textarea id="ck-zub" hidden>$copy_steps</textarea>
+  <div class="share-menu" id="share-menu" hidden role="menu">
+    <button type="button" role="menuitem" data-share="native"><svg class="icon"><use href="#i-share"/></svg>Link teilen</button>
+    <button type="button" role="menuitem" data-copy-text="$url"><svg class="icon"><use href="#i-link"/></svg>Link kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
+    <button type="button" role="menuitem" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
+  </div>
 </main>
 
 <footer class="foot"><div class="wrap"><span class="brand small">$brand_html</span><span>·</span><a href="$root/">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand $updated</span></div></footer>

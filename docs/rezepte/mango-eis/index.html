@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="rezepte-build" content="20260905213523">
+<meta name="rezepte-build" content="20260905224240">
 <title>Mango Eis – smartcooked</title>
 <meta name="description" content="Gefrorene Mango mit ungesüßter Mandelmilch zu cremigem Eis gemixt. Drei Zutaten, zwei Minuten, natürliche Süße.">
 <link rel="canonical" href="https://smartcooked.github.io/rezepte/rezepte/mango-eis/">
@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://smartcooked.github.io/rezepte/rezepte/mango-eis/bild.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
-<link rel="stylesheet" href="../../style.css?v=20260905213523">
+<link rel="stylesheet" href="../../style.css?v=20260905224240">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -130,6 +130,7 @@
   <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
   <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></symbol>
   <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
   <symbol id="i-hat" viewBox="0 0 24 24"><path d="M7 10a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 5a4 4 0 0 1 0 8v4H7z"/><path d="M7 20h10"/></symbol>
 </svg>
 
@@ -155,22 +156,25 @@
       <h1 >Mango Eis</h1>
       <p class="sub">fruchtig, cremig &amp; nur 105 kcal</p>
       <ul class="meta">
-        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>5 Min.</b><small>Arbeitszeit <span class="est">geschätzt</span></small></span></li>
+        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>5 Min.</b><small>Gesamtzeit <span class="est">geschätzt</span></small></span></li>
+        <li><svg class="icon"><use href="#i-work"/></svg><span><b>5 Min.</b><small>Arbeitszeit</small></span></li>
         <li><svg class="icon lvl-1"><use href="#i-gauge"/></svg><span><b>Simpel</b><small>Schwierigkeit</small></span></li>
         <li><svg class="icon"><use href="#i-leaf"/></svg><span><b>vegetarisch, vegan</b><small>Ernährung</small></span></li>
         <li><svg class="icon"><use href="#i-user"/></svg><span><b >smartcooked</b><small>Rezeptautor:in</small></span></li>
       </ul>
       <div class="tags"><span class="tag">Dessert</span><span class="tag">Vegan</span><span class="tag">Schnell</span></div>
+      <div class="tags cats"><span class="tag neutral">Eis</span><span class="tag neutral">Dessert</span><span class="tag neutral">Kalorienarm</span><span class="tag neutral">Vegan</span></div>
     </div>
   </section>
 
   <div class="main">
     <section class="card" aria-labelledby="h-zutaten">
-      <div class="sect-head">
-        <h2 id="h-zutaten">Zutaten</h2>
+      <div class="sect-head"><h2 id="h-zutaten">Zutaten</h2></div>
+      <div class="portions">
+        <span class="p-text">Für <b id="p-num-lbl">1</b> <span id="p-lbl">Portionen</span></span>
         <div class="stepper" aria-label="Portionen anpassen">
           <button type="button" id="p-minus" aria-label="Eine Portion weniger"><svg class="icon"><use href="#i-minus"/></svg></button>
-          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="1" data-base="1"></label><span class="p-lbl" id="p-lbl">Portionen</span>
+          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="1" data-base="1"></label>
           <button type="button" id="p-plus" aria-label="Eine Portion mehr"><svg class="icon"><use href="#i-plus"/></svg></button>
         </div>
       </div>
@@ -206,7 +210,6 @@
       <span class="stars-lbl" id="stars-lbl"></span>
     </div>
     <label class="notes"><span>Notizen</span><textarea id="notes" rows="3" placeholder="z.B. weniger Salz, Kinder fanden es super, nächstes Mal mit Reis …"></textarea></label>
-    <p class="mine-hint"><svg class="icon"><use href="#i-info"/></svg>Wird auf diesem Gerät gespeichert. Damit es überall gilt, Claude sagen: <code>/rezept update mango-eis Bewertung 4, Notiz: …</code></p>
   </section>
 
   <div class="actions-row">
@@ -215,40 +218,25 @@
     <a class="btn" href="../../"><svg class="icon"><use href="#i-book"/></svg>Alle Rezepte</a>
   </div>
 
-  <details class="ck" open data-nosnippet>
-    <summary><svg class="icon"><use href="#i-info"/></svg>Chefkoch-Hinweise für den Import<svg class="icon chev"><use href="#i-chevron"/></svg></summary>
-    <div class="grid">
-      <dl>
-        <dt>Kategorien</dt><dd>Backen &amp; Süßspeisen &gt; Eis · Menüart &gt; Dessert · Spezielles &gt; Kalorienarm · Spezielles &gt; Vegan</dd>
-        <dt>Arbeitszeit</dt><dd>0 Std. 5 Min.</dd>
-        <dt>Koch-/Backzeit</dt><dd>0 Std. 0 Min.</dd>
-        <dt>Ruhezeit</dt><dd>0 Tage 0 Std. 0 Min.</dd>
-        <dt>Schwierigkeit</dt><dd>Simpel</dd>
-        <dt>Kalorien</dt><dd>105 kcal pro Portion</dd>
-      </dl>
-      <div>
-        <p style="margin:0 0 6px"><b>Import-URL</b><br><span class="url" id="ck-url">https://smartcooked.github.io/rezepte/rezepte/mango-eis/</span></p>
-        <p style="margin:0;color:var(--muted);font-size:.92rem">Aus PDF übernommen · nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“ · Geschätzt: Zeiten</p>
-        <div class="btns">
-          <button class="btn small" type="button" data-copy="ck-url"><svg class="icon"><use href="#i-copy"/></svg>URL kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
-        </div>
-        <textarea id="ck-zut" hidden>150	g	Mango (gefroren)
+  <textarea id="ck-zut" hidden>150	g	Mango (gefroren)
 100	ml	Mandelmilch (ungesüßt)
 	n. B.	Süßstoff</textarea>
-        <textarea id="ck-zub" hidden>1. Alle Zutaten in einen leistungsstarken Mixer geben.
+  <textarea id="ck-zub" hidden>1. Alle Zutaten in einen leistungsstarken Mixer geben.
 2. So lange mixen, bis eine cremige Eiskonsistenz entsteht.
 3. Ist das Eis zu flüssig, etwas mehr gefrorene Mango zugeben; ist es zu fest, nach und nach etwas Mandelmilch.
 4. Sofort servieren.</textarea>
-      </div>
-    </div>
-  </details>
+  <div class="share-menu" id="share-menu" hidden role="menu">
+    <button type="button" role="menuitem" data-share="native"><svg class="icon"><use href="#i-share"/></svg>Link teilen</button>
+    <button type="button" role="menuitem" data-copy-text="https://smartcooked.github.io/rezepte/rezepte/mango-eis/"><svg class="icon"><use href="#i-link"/></svg>Link kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
+    <button type="button" role="menuitem" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
+  </div>
 </main>
 
 <footer class="foot"><div class="wrap"><span class="brand small"><span class="wm">smart<em>cooked</em></span></span><span>·</span><a href="../../">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand 2026-09-05</span></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
-<script src="../../app.js?v=20260905213523"></script>
+<script src="../../app.js?v=20260905224240"></script>
 </body>
 </html>

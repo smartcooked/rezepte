@@ -30,6 +30,7 @@
     var rows = $$('#ings td.n[data-amount]');
     function apply() {
       num.value = cur;
+      $('#p-num-lbl').textContent = cur;
       $('#p-lbl').textContent = cur === 1 ? 'Portion' : 'Portionen';
       rows.forEach(function (td) { td.textContent = fmt(parseFloat(td.dataset.amount) * cur / base); });
     }
@@ -44,11 +45,27 @@
       if (navigator.share) navigator.share(data).catch(function () {});
       else copy(data.url, 'Link kopiert');
     }
-    $$('#btn-print,[data-action="print"]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
-    $$('#btn-share,[data-action="share"]').forEach(function (b) { b.addEventListener('click', share); });
+    $$('#btn-print,[data-action="print"]').forEach(function (b) { b.addEventListener('click', function () { closeShare(); window.print(); }); });
+    var menu = $('#share-menu'), backdrop = null;
+    function closeShare() { if (!menu) return; menu.hidden = true; if (backdrop) { backdrop.remove(); backdrop = null; } }
+    function openShare(btn) {
+      if (!menu) return share();
+      var nativeBtn = menu.querySelector('[data-share="native"]'); if (nativeBtn) nativeBtn.hidden = !navigator.share;
+      var r = btn.getBoundingClientRect();
+      menu.style.top = (r.bottom + 8) + 'px'; menu.style.left = Math.max(12, Math.min(r.left, window.innerWidth - 250)) + 'px';
+      menu.hidden = false;
+      backdrop = document.createElement('div'); backdrop.className = 'share-backdrop'; backdrop.addEventListener('click', closeShare); document.body.appendChild(backdrop);
+    }
+    $$('#btn-share,[data-action="share"]').forEach(function (b) { b.addEventListener('click', function () { openShare(b); }); });
+    if (menu) {
+      menu.querySelector('[data-share="native"]').addEventListener('click', function () { closeShare(); share(); });
+      $$('[data-copy-text]', menu).forEach(function (b) { b.addEventListener('click', function () { closeShare(); copy(b.dataset.copyText, 'Link kopiert'); }); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeShare(); });
+    }
     $$('[data-copy]').forEach(function (b) {
       b.addEventListener('click', function () {
         var el = document.getElementById(b.dataset.copy);
+        closeShare();
         copy(el.value !== undefined ? el.value : el.textContent, 'Kopiert');
       });
     });

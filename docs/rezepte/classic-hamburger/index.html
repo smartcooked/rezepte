@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="rezepte-build" content="20260905213523">
+<meta name="rezepte-build" content="20260905224240">
 <title>Classic Hamburger – smartcooked</title>
 <meta name="description" content="Der typische Burger-Geschmack mit magerem Rinderhack und einem leichten Brötchen: deutlich weniger Kalorien, jede Menge Eiweiß und in zehn Minuten fertig.">
 <link rel="canonical" href="https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/">
@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/bild.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
-<link rel="stylesheet" href="../../style.css?v=20260905213523">
+<link rel="stylesheet" href="../../style.css?v=20260905224240">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -138,6 +138,7 @@
   <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
   <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></symbol>
   <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
   <symbol id="i-hat" viewBox="0 0 24 24"><path d="M7 10a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 5a4 4 0 0 1 0 8v4H7z"/><path d="M7 20h10"/></symbol>
 </svg>
 
@@ -163,22 +164,25 @@
       <h1 >Classic Hamburger</h1>
       <p class="sub">Fast Food mit wenig Kalorien</p>
       <ul class="meta">
-        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>10 Min.</b><small>Arbeitszeit <span class="est">geschätzt</span></small></span></li>
+        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>15 Min.</b><small>Gesamtzeit <span class="est">geschätzt</span></small></span></li>
+        <li><svg class="icon"><use href="#i-work"/></svg><span><b>10 Min.</b><small>Arbeitszeit</small></span></li>
         <li><svg class="icon lvl-1"><use href="#i-gauge"/></svg><span><b>Simpel</b><small>Schwierigkeit</small></span></li>
         <li><svg class="icon"><use href="#i-leaf"/></svg><span><b>high protein</b><small>Ernährung</small></span></li>
         <li><svg class="icon"><use href="#i-user"/></svg><span><b >smartcooked</b><small>Rezeptautor:in</small></span></li>
       </ul>
       <div class="tags"><span class="tag">Burger</span><span class="tag">High Protein</span><span class="tag">Schnell</span><span class="tag neutral"><svg class="icon"><use href="#i-globe"/></svg>Amerikanisch</span></div>
+      <div class="tags cats"><span class="tag neutral">Hauptspeise</span><span class="tag neutral">Snack</span><span class="tag neutral">USA oder Kanada</span><span class="tag neutral">Kalorienarm</span><span class="tag neutral">High Protein</span></div>
     </div>
   </section>
 
   <div class="main">
     <section class="card" aria-labelledby="h-zutaten">
-      <div class="sect-head">
-        <h2 id="h-zutaten">Zutaten</h2>
+      <div class="sect-head"><h2 id="h-zutaten">Zutaten</h2></div>
+      <div class="portions">
+        <span class="p-text">Für <b id="p-num-lbl">1</b> <span id="p-lbl">Portionen</span></span>
         <div class="stepper" aria-label="Portionen anpassen">
           <button type="button" id="p-minus" aria-label="Eine Portion weniger"><svg class="icon"><use href="#i-minus"/></svg></button>
-          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="1" data-base="1"></label><span class="p-lbl" id="p-lbl">Portionen</span>
+          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="1" data-base="1"></label>
           <button type="button" id="p-plus" aria-label="Eine Portion mehr"><svg class="icon"><use href="#i-plus"/></svg></button>
         </div>
       </div>
@@ -220,7 +224,6 @@
       <span class="stars-lbl" id="stars-lbl"></span>
     </div>
     <label class="notes"><span>Notizen</span><textarea id="notes" rows="3" placeholder="z.B. weniger Salz, Kinder fanden es super, nächstes Mal mit Reis …"></textarea></label>
-    <p class="mine-hint"><svg class="icon"><use href="#i-info"/></svg>Wird auf diesem Gerät gespeichert. Damit es überall gilt, Claude sagen: <code>/rezept update classic-hamburger Bewertung 4, Notiz: …</code></p>
   </section>
 
   <div class="actions-row">
@@ -229,45 +232,30 @@
     <a class="btn" href="../../"><svg class="icon"><use href="#i-book"/></svg>Alle Rezepte</a>
   </div>
 
-  <details class="ck" open data-nosnippet>
-    <summary><svg class="icon"><use href="#i-info"/></svg>Chefkoch-Hinweise für den Import<svg class="icon chev"><use href="#i-chevron"/></svg></summary>
-    <div class="grid">
-      <dl>
-        <dt>Kategorien</dt><dd>Menüart &gt; Hauptspeise · Menüart &gt; Snack · Regional &gt; USA oder Kanada · Spezielles &gt; Kalorienarm · Spezielles &gt; High Protein</dd>
-        <dt>Arbeitszeit</dt><dd>0 Std. 10 Min.</dd>
-        <dt>Koch-/Backzeit</dt><dd>0 Std. 5 Min.</dd>
-        <dt>Ruhezeit</dt><dd>0 Tage 0 Std. 0 Min.</dd>
-        <dt>Schwierigkeit</dt><dd>Simpel</dd>
-        <dt>Kalorien</dt><dd>285 kcal pro Portion</dd>
-      </dl>
-      <div>
-        <p style="margin:0 0 6px"><b>Import-URL</b><br><span class="url" id="ck-url">https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/</span></p>
-        <p style="margin:0;color:var(--muted);font-size:.92rem">Aus PDF übernommen · nach: E-Book „3 Cheat Meals unter 500 kcal“ · Geschätzt: Zeiten</p>
-        <div class="btns">
-          <button class="btn small" type="button" data-copy="ck-url"><svg class="icon"><use href="#i-copy"/></svg>URL kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
-          <button class="btn small" type="button" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
-        </div>
-        <textarea id="ck-zut" hidden>1	Stück	Hamburger-Brötchen (ca. 50 g, leichter Bun)
+  <textarea id="ck-zut" hidden>1	Stück	Hamburger-Brötchen (ca. 50 g, leichter Bun)
 100	g	Rinderhackfleisch (mager, 5 % Fett)
 10	g	Senf
 20	g	Ketchup light
 3	Scheibe	Gewürzgurken
 ¼	Stück	Zwiebel (rot oder weiß, in Streifen)
 	n. B.	Salz und Pfeffer</textarea>
-        <textarea id="ck-zub" hidden>1. Das Hackfleisch zu einem flachen Patty formen und mit Salz und Pfeffer würzen.
+  <textarea id="ck-zub" hidden>1. Das Hackfleisch zu einem flachen Patty formen und mit Salz und Pfeffer würzen.
 2. Das Patty in einer heißen Pfanne von beiden Seiten goldbraun braten.
 3. Das Brötchen halbieren und die Schnittflächen kurz in der Pfanne anrösten.
 4. Beide Brötchenhälften mit Senf und Ketchup light bestreichen.
 5. Patty, Zwiebelstreifen und Gewürzgurken auf die untere Hälfte legen, Deckel aufsetzen und sofort servieren.</textarea>
-      </div>
-    </div>
-  </details>
+  <div class="share-menu" id="share-menu" hidden role="menu">
+    <button type="button" role="menuitem" data-share="native"><svg class="icon"><use href="#i-share"/></svg>Link teilen</button>
+    <button type="button" role="menuitem" data-copy-text="https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/"><svg class="icon"><use href="#i-link"/></svg>Link kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
+    <button type="button" role="menuitem" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
+  </div>
 </main>
 
 <footer class="foot"><div class="wrap"><span class="brand small"><span class="wm">smart<em>cooked</em></span></span><span>·</span><a href="../../">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand 2026-09-05</span></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
-<script src="../../app.js?v=20260905213523"></script>
+<script src="../../app.js?v=20260905224240"></script>
 </body>
 </html>

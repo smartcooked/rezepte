@@ -395,6 +395,8 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "image_html": image_html,
         "subtitle_html": ('<p class="sub"%s>%s</p>' % (' itemprop="description"' if micro else "", esc(r["subtitle"]))) if r.get("subtitle") else "",
         "prep_label": minutes_label(t.get("prep_min") or 0), "prep_est": ' <span class="est">geschätzt</span>' if "times" in est else "",
+        "total_label": minutes_label((t.get("prep_min") or 0) + (t.get("cook_min") or 0) + (t.get("rest_min") or 0)),
+        "categories_html": ('<div class="tags cats">' + "".join('<span class="tag neutral">%s</span>' % esc(c.split(">")[-1].strip()) for c in (r.get("categories") or [])) + "</div>") if r.get("categories") else "",
         "difficulty_level": DIFFICULTY[r["difficulty"]], "difficulty_label": r["difficulty"].capitalize(),
         "difficulty_est": ' <span class="est">geschätzt</span>' if "difficulty" in est else "",
         "diet_meta": diet_meta, "author": esc(author), "tags_html": tags_html,

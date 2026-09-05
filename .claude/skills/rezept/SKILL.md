@@ -90,7 +90,7 @@ Chefkoch: Kochbuch → Rezept importieren → URL einfügen.
 Danach in Chefkoch setzen: Kategorien <Pfade>; Schwierigkeit <x>; Ruhezeit <c> min (falls > 0).
 <n> Zutaten · <m> Schritte · Bild: ja/nein
 ```
-Befund vom Import-Test (2026-09-05): Chefkoch übernimmt aus dem JSON-LD Name, Beschreibung (= Untertitel), Portionen, Zutaten mit Menge und Einheit, Schritte, Arbeits- und Koch-/Backzeit, kcal und Bild. Nicht übernommen werden Kategorien, Schwierigkeit (steht auf „Normal“) und Ruhezeit (Gesamtzeit = Arbeit + Kochen). Klammern im Zutatennamen werden als Notiz gelesen.
+Auf der Rezeptseite selbst stehen keine Import-Hinweise und kein Portalname (Entscheidung Jens 2026-09-05); die Hinweise gibt es nur hier im Chat. Befund vom Import-Test (2026-09-05): Chefkoch übernimmt aus dem JSON-LD Name, Beschreibung (= Untertitel), Portionen, Zutaten mit Menge und Einheit, Schritte, Arbeits- und Koch-/Backzeit, kcal und Bild. Nicht übernommen werden Kategorien, Schwierigkeit (steht auf „Normal“) und Ruhezeit (Gesamtzeit = Arbeit + Kochen). Klammern im Zutatennamen werden als Notiz gelesen.
 
 ## Regeln
 - Keine personenbezogenen Daten auf Seiten (keine Adressen, keine Namen aus privaten Notizen). Klarname von Jens nirgends verwenden.
