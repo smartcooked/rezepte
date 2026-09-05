@@ -14,6 +14,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body)
 a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px}
 :focus-visible{outline:3px solid #9fd3b5;outline-offset:2px;border-radius:4px}
 img{max-width:100%;display:block}
+[hidden]{display:none!important}
 h1,h2,h3{font-family:var(--font-head);font-weight:700;line-height:1.2;margin:0;text-wrap:balance}
 h1{font-size:clamp(1.65rem,4.5vw,2.4rem)}h2{font-size:1.35rem}h3{font-size:1.05rem}
 p{margin:0 0 12px}

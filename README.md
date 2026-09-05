@@ -75,8 +75,21 @@ In Chefkoch: Kochbuch → Rezept importieren → erste URL einfügen. Dann diese
 Falls der Import klappt: danach die zweite URL (nur JSON-LD) testen.
 Falls Chefkoch die URL ablehnt („nicht unterstützt“ o.ä.): Fehlermeldung wörtlich an Claude weitergeben.
 
-## Nutzung (ab Meilenstein M3)
-`/rezept <Text | Pfad zu Foto/PDF/Screenshot | Idee>` – siehe `.claude/skills/rezept/SKILL.md`.
+## Nutzung
+
+Im Claude-Chat (funktioniert aus jedem Projekt, der Skill ist auch global verlinkt):
+
+- `/rezept` + eingefügter Rezepttext
+- `/rezept /Pfad/zum/Foto.jpg` (Kochbuchseite, Zettel, Screenshot; HEIC wird gewandelt)
+- `/rezept /Pfad/zur/Datei.pdf`
+- `/rezept schnelle Linsensuppe, vegan, für 4` (nur Idee, Rezept wird geschrieben)
+- `/rezept update <slug> Portionen auf 6` (bestehendes Rezept ändern)
+
+Claude zeigt eine Prüftabelle, veröffentlicht nach deinem „ok“ und liefert die Import-URL.
+
+Manuell bauen: `python3 scripts/build.py` · prüfen: `python3 scripts/build.py --check` · Bild: `python3 scripts/bild.py <quelle> <slug>`
+
+Rezept löschen: `_data/<slug>.json` und `docs/rezepte/<slug>/` entfernen, `python3 scripts/build.py`, committen und pushen.
 
 ## Ordner
 - `_data/` kanonische Rezept-JSONs (Quelle der Wahrheit)
