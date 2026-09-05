@@ -171,5 +171,30 @@
   "tip": "Statt Veggie-Hack funktioniert auch mageres Rinder- oder Putenhack. Die Sauce lässt sich gut vorbereiten und hält sich zwei Tage im Kühlschrank.",
   "estimated": [
     "times"
-  ]
+  ],
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Salat",
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach",
+    "Meal Prep"
+  ],
+  "method": [
+    "Braten",
+    "Roh"
+  ],
+  "occasion": [
+    "Sommer",
+    "Büro"
+  ],
+  "rating": 0,
+  "notes": null
 }

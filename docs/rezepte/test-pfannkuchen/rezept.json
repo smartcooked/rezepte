@@ -137,5 +137,32 @@
   "created": "2026-09-05",
   "updated": "2026-09-05",
   "status": "published",
-  "tip": "Für herzhafte Pfannkuchen den Zucker weglassen und mit Kräutern, Schinken oder Käse füllen. Der Teig hält sich abgedeckt einen Tag im Kühlschrank."
+  "tip": "Für herzhafte Pfannkuchen den Zucker weglassen und mit Kräutern, Schinken oder Käse füllen. Der Teig hält sich abgedeckt einen Tag im Kühlschrank.",
+  "meal": [
+    "Hauptspeise",
+    "Dessert",
+    "Frühstück"
+  ],
+  "daytime": [
+    "Frühstück",
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pfannkuchen"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Preiswert",
+    "Basisrezept"
+  ],
+  "method": [
+    "Braten"
+  ],
+  "occasion": [
+    "Für Kinder"
+  ],
+  "rating": 0,
+  "notes": null
 }

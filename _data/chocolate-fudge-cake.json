@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "image": null,
+  "image": "bild.jpg",
   "author": null,
   "created": "2026-09-05",
   "updated": "2026-09-05",
@@ -121,5 +121,29 @@
     "Cheat Meal"
   ],
   "tip": "Für mehr Schokogeschmack einen Teelöffel Backkakao unter den Teig rühren. Der Kuchen hält sich abgedeckt einen Tag im Kühlschrank.",
-  "estimated": []
+  "estimated": [],
+  "meal": [
+    "Dessert",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Kuchen",
+    "Protein-Dessert"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten"
+  ],
+  "method": [
+    "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), Auswahl 1 von 4, 2026-09-05"
 }

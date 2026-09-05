@@ -28,5 +28,12 @@
   <symbol id="i-bread" viewBox="0 0 24 24"><path d="M5 10a3 3 0 0 1 0-6h14a3 3 0 0 1 0 6v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 10v10"/></symbol>
   <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M8.5 14.5A6 6 0 1 1 15.5 14.5c-.6.6-1 1.4-1 2.5h-5c0-1.1-.4-1.9-1-2.5z"/></symbol>
   <symbol id="i-logo" viewBox="0 0 24 24"><path d="M7 11a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 6a3.5 3.5 0 0 1 0 7v5H7z"/><path d="M7 21h10"/><path class="star" d="M19.5 1Q19.5 4.5 23 4.5Q19.5 4.5 19.5 8Q19.5 4.5 16 4.5Q19.5 4.5 19.5 1Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-bowl" viewBox="0 0 24 24"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M9 7c0-2 1.5-2 1.5-4M14 7c0-2 1.5-2 1.5-4"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3q0 9 9 9-9 0-9 9 0-9-9-9 9 0 9-9z"/></symbol>
+  <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M3 17h18"/><path d="M4 17a8 8 0 0 1 16 0"/><path d="M12 9V7"/><path d="M2 20h20"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8"/></symbol>
   <symbol id="i-hat" viewBox="0 0 24 24"><path d="M7 10a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 5a4 4 0 0 1 0 8v4H7z"/><path d="M7 20h10"/></symbol>
 </svg>

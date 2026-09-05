@@ -19,15 +19,8 @@ $icons
   <div class="cat-head"><h1>Alle Rezepte</h1><p id="cat-sub">$count_label</p></div>
   <div class="toolbar" id="toolbar">
     <label class="search"><svg class="icon"><use href="#i-search"/></svg><span class="sr">Rezepte durchsuchen</span><input type="search" id="q" placeholder="Rezept, Zutat oder Stichwort suchen" autocomplete="off"><button type="button" id="q-clear" aria-label="Suche löschen" hidden><svg class="icon"><use href="#i-x"/></svg></button></label>
-    <div class="filters" id="filters">
-      <span class="sel"><select id="f-cat" aria-label="Kategorie"><option value="">Alle Kategorien</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
-      <span class="sel"><select id="f-diet" aria-label="Ernährung"><option value="">Ernährung</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
-      <span class="sel"><select id="f-diff" aria-label="Schwierigkeit"><option value="">Schwierigkeit</option><option value="simpel">simpel</option><option value="normal">normal</option><option value="pfiffig">pfiffig</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
-      <span class="sel"><select id="f-time" aria-label="Gesamtzeit"><option value="">Zeit</option><option value="20">bis 20 Min.</option><option value="30">bis 30 Min.</option><option value="45">bis 45 Min.</option><option value="60">bis 60 Min.</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
-      <span class="spacer"></span>
-      <span class="sel"><select id="sort" aria-label="Sortierung"><option value="new">Neueste zuerst</option><option value="az">A bis Z</option><option value="time">Kürzeste Zeit</option><option value="kcal">Wenigste Kalorien</option></select><svg class="icon"><use href="#i-sort"/></svg></span>
-      <button class="chip" type="button" id="reset" hidden><svg class="icon"><use href="#i-x"/></svg>Filter zurücksetzen</button>
-    </div>
+    <div class="fbar" id="fbar" aria-label="Filter"></div>
+    <div class="fmeta"><span class="count" id="cat-count"></span><button class="chip reset" type="button" id="reset" hidden><svg class="icon"><use href="#i-x"/></svg>Alle Filter zurücksetzen</button></div>
   </div>
   <div class="grid-cards" id="cards"></div>
 </main>

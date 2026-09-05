@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="rezepte-build" content="20260905183222">
+<meta name="rezepte-build" content="20260905185522">
 <title>Classic Hamburger – smartcooked</title>
 <meta name="description" content="Der typische Burger-Geschmack mit magerem Rinderhack und einem leichten Brötchen: deutlich weniger Kalorien, jede Menge Eiweiß und in zehn Minuten fertig.">
 <link rel="canonical" href="https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/">
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="smartcooked">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
-<link rel="stylesheet" href="../../style.css?v=20260905183222">
+<link rel="stylesheet" href="../../style.css?v=20260905185522">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -127,6 +127,13 @@
   <symbol id="i-bread" viewBox="0 0 24 24"><path d="M5 10a3 3 0 0 1 0-6h14a3 3 0 0 1 0 6v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 10v10"/></symbol>
   <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M8.5 14.5A6 6 0 1 1 15.5 14.5c-.6.6-1 1.4-1 2.5h-5c0-1.1-.4-1.9-1-2.5z"/></symbol>
   <symbol id="i-logo" viewBox="0 0 24 24"><path d="M7 11a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 6a3.5 3.5 0 0 1 0 7v5H7z"/><path d="M7 21h10"/><path class="star" d="M19.5 1Q19.5 4.5 23 4.5Q19.5 4.5 19.5 8Q19.5 4.5 16 4.5Q19.5 4.5 19.5 1Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-bowl" viewBox="0 0 24 24"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M9 7c0-2 1.5-2 1.5-4M14 7c0-2 1.5-2 1.5-4"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3q0 9 9 9-9 0-9 9 0-9-9-9 9 0 9-9z"/></symbol>
+  <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M3 17h18"/><path d="M4 17a8 8 0 0 1 16 0"/><path d="M12 9V7"/><path d="M2 20h20"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8"/></symbol>
   <symbol id="i-hat" viewBox="0 0 24 24"><path d="M7 10a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 5a4 4 0 0 1 0 8v4H7z"/><path d="M7 20h10"/></symbol>
 </svg>
 
@@ -202,6 +209,16 @@
 
   <section class="nutri-sect" aria-labelledby="h-nutri"><div class="sect-head"><h2 id="h-nutri">Nährwerte pro Portion</h2><small>laut Quelle</small></div><div class="nutri-tiles"><div><svg class="icon"><use href="#i-flame"/></svg><span><b>285 kcal</b><small>Energie</small></span></div><div><svg class="icon"><use href="#i-egg"/></svg><span><b>25 g</b><small>Eiweiß</small></span></div><div><svg class="icon"><use href="#i-drop"/></svg><span><b>6 g</b><small>Fett</small></span></div><div><svg class="icon"><use href="#i-bread"/></svg><span><b>28 g</b><small>Kohlenhydrate</small></span></div></div></section>
 
+  <section class="card mine" id="mine" data-rating="0" aria-labelledby="h-mine">
+    <div class="sect-head"><h2 id="h-mine">Meine Bewertung &amp; Notizen</h2></div>
+    <div class="stars" role="radiogroup" aria-label="Bewertung in Sternen" id="stars">
+      <button type="button" data-v="1" aria-label="1 Stern"><svg class="icon"><use href="#i-star"/></svg></button><button type="button" data-v="2" aria-label="2 Sterne"><svg class="icon"><use href="#i-star"/></svg></button><button type="button" data-v="3" aria-label="3 Sterne"><svg class="icon"><use href="#i-star"/></svg></button><button type="button" data-v="4" aria-label="4 Sterne"><svg class="icon"><use href="#i-star"/></svg></button><button type="button" data-v="5" aria-label="5 Sterne"><svg class="icon"><use href="#i-star"/></svg></button>
+      <span class="stars-lbl" id="stars-lbl"></span>
+    </div>
+    <label class="notes"><span>Notizen</span><textarea id="notes" rows="3" placeholder="z.B. weniger Salz, Kinder fanden es super, nächstes Mal mit Reis …"></textarea></label>
+    <p class="mine-hint"><svg class="icon"><use href="#i-info"/></svg>Wird auf diesem Gerät gespeichert. Damit es überall gilt, Claude sagen: <code>/rezept update classic-hamburger Bewertung 4, Notiz: …</code></p>
+  </section>
+
   <div class="actions-row">
     <button class="btn primary" type="button" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
     <button class="btn" type="button" data-action="share"><svg class="icon"><use href="#i-share"/></svg>Teilen</button>
@@ -247,6 +264,6 @@
 <footer class="foot"><div class="wrap"><span class="brand small"><span class="wm">smart<em>cooked</em></span></span><span>·</span><a href="../../">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand 2026-09-05</span></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
-<script src="../../app.js?v=20260905183222"></script>
+<script src="../../app.js?v=20260905185522"></script>
 </body>
 </html>

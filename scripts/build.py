@@ -151,6 +151,11 @@ def validate(r):
     for k in ("prep_min", "cook_min", "rest_min"):
         if not isinstance(t.get(k, 0), int) or t.get(k, 0) < 0:
             errs.append("times.%s muss int >= 0 sein" % k)
+    for k in ("meal", "daytime", "dish_type", "properties", "method", "occasion", "diet", "tags", "keywords"):
+        if r.get(k) is not None and not isinstance(r[k], list):
+            errs.append("%s muss eine Liste sein" % k)
+    if r.get("rating") is not None and r["rating"] not in (0, 1, 2, 3, 4, 5):
+        errs.append("rating muss 0–5 sein")
     if len(r.get("categories") or []) > 5:
         warns.append("mehr als 5 Kategorien")
     if r.get("status") not in ("published", "draft"):
@@ -402,6 +407,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "calories_label": ("%d kcal pro Portion" % round(compute_nutrition(r)[0]["kcal"])) if compute_nutrition(r)[0] else "–",
         "source_label": source_label, "estimated_label": estimated_label,
         "copy_ingredients": esc(copy_ings), "copy_steps": esc(copy_steps), "updated": r["updated"],
+        "rating": r.get("rating") or 0, "notes": esc(r.get("notes") or ""), "slug": r["slug"],
     }
     page = string.Template(tpl).substitute(values)
     # Selbsttest: JSON-LD zurückparsen
@@ -414,12 +420,16 @@ def index_entry(r, cfg, url):
     t = r.get("times") or {}
     total = (t.get("prep_min") or 0) + (t.get("cook_min") or 0) + (t.get("rest_min") or 0)
     search = " ".join([r["title"], r.get("subtitle") or "", r.get("description") or ""] + [i["name"] for i in r["ingredients"]]
-                      + list(r.get("tags") or []) + list(r.get("keywords") or []) + list(r.get("categories") or []) + [r.get("cuisine") or ""])
+                      + list(r.get("tags") or []) + list(r.get("keywords") or []) + list(r.get("categories") or []) + [r.get("cuisine") or ""]
+                      + list(r.get("meal") or []) + list(r.get("dish_type") or []) + list(r.get("method") or []) + list(r.get("occasion") or []) + list(r.get("properties") or []))
     rdir = cfg.get("recipe_dir", "rezepte")
     return {"slug": r["slug"], "title": r["title"], "subtitle": r.get("subtitle"), "url": "%s/%s/" % (rdir, r["slug"]),
             "image": r.get("image"), "prep_min": t.get("prep_min") or 0, "total_min": total, "difficulty": r["difficulty"],
             "calories": (round(compute_nutrition(r)[0]["kcal"]) if compute_nutrition(r)[0] else None), "diet": r.get("diet") or [], "categories": r.get("categories") or [],
             "tags": r.get("tags") or [], "cuisine": r.get("cuisine"), "servings": r["servings"],
+            "meal": r.get("meal") or [], "daytime": r.get("daytime") or [], "dish_type": r.get("dish_type") or [],
+            "properties": r.get("properties") or [], "method": r.get("method") or [], "occasion": r.get("occasion") or [],
+            "rating": r.get("rating") or 0,
             "created": r["created"], "updated": r["updated"], "search": search, "absolute_url": url}
 
 

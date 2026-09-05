@@ -18,7 +18,7 @@ Projektordner: `/Users/jenswolfhagen/Claude/Projects/Apps/Rezepte` (im Folgenden
 - Mehrere Pfade → alle lesen (Doppelseite).
 - Freitext mit Zutaten/Schritten → **Text**. Nur Stichworte oder Wunsch („schnelle Linsensuppe, vegan, 4 Personen“) → **Idee**: komplettes Rezept schreiben, `source.type = "idea"`, `estimated = ["all"]`.
 - Enthält der Text eine URL: darauf hinweisen, dass Chefkoch die URL direkt importieren kann; nur auf Wunsch weitermachen.
-- `update <slug> <Änderung>` → `ROOT/_data/<slug>.json` laden, Änderung einarbeiten, weiter bei Schritt 4.
+- `update <slug> <Änderung>` → `ROOT/_data/<slug>.json` laden, Änderung einarbeiten, weiter bei Schritt 4. Sonderfall „Bewertung n, Notiz: …“: nur `rating`/`notes` setzen, ohne Prüftabelle direkt bauen und pushen.
 - Rohdateien nach `ROOT/_inbox/<datum>-<slug>.<ext>` kopieren (nicht ins Repo).
 
 ## 2. Extrahieren und normalisieren (Regeln)
@@ -31,7 +31,8 @@ Projektordner: `/Users/jenswolfhagen/Claude/Projects/Apps/Rezepte` (im Folgenden
 - **Nährwerte**: für jede Zutat `grams` (Gewicht der angegebenen Menge in Gramm, z.B. 1 Ei = 60 g, 1 EL Öl = 10 g, 500 ml Milch = 515 g) und `per100` = `{kcal, protein_g, fat_g, carbs_g}` je 100 g aus üblichen Nährwerttabellen (BLS/USDA-Richtwerte) eintragen. Der Build berechnet daraus die Werte pro Portion und zeigt die Aufschlüsselung. Wasser, Salz, Gewürze: `grams` eintragen, `per100` mit 0. Nur wenn das für einzelne Zutaten unmöglich ist: `calories_per_serving` + `nutrition` als Rezeptschätzung und `"calories"` in `estimated`.
 - **Tipp** (`tip`): optionaler Hinweis zu Varianten, Aufbewahrung oder Austausch von Zutaten, 1–3 Sätze; aus der Quelle übernehmen oder sinnvoll ergänzen.
 - **Kategorien**: 2–5 Pfade aus `kategorien.md`. **diet**: vegetarisch/vegan/glutenfrei/laktosefrei/low carb/high protein nur, wenn eindeutig. **cuisine** nur bei klarer Küche. **tags** 1–4 freie Stichworte für den Katalog, **keywords** 2–5 Suchbegriffe.
-- **Bild**: nur ein echtes Gerichtsfoto wird `image: "bild.jpg"`. Ein Foto einer Kochbuchseite, ein Screenshot oder ein Zettel ist **kein** Rezeptbild → `image: null`.
+- **Facetten für den Katalog** (Listen, Werte aus `kategorien.md` Abschnitt „Facetten“): `meal` (Frühstück, Vorspeise, Hauptspeise, Beilage, Dessert, Snack), `daytime` (Frühstück, Mittag, Abendessen – mehrere möglich), `dish_type` (Gerichtart wie Salat, Suppe, Burger, Kuchen, Bowl, Pasta, Auflauf), `properties` (Einfach, Schnell, Wenige Zutaten, Preiswert, Meal Prep, Basisrezept), `method` (Kochen, Braten, Backen, Dünsten, Schmoren, Grillen, Frittieren, Roh, Airfryer, Mikrowelle), `occasion` (Jahreszeiten, Für Kinder, Party, Büro, Picknick, Grillen, Ostern, Weihnachten, Silvester). `rating` 0 und `notes` null beim Anlegen.
+- **Bild**: Fotos aus Quellen (Kochbuch, PDF, Website, Screenshot) werden **nie** übernommen (Urheberrecht). Standard: Nach dem „ok“ vier KI-Bilder erzeugen (Schritt 5a), Jens wählt eines aus. Ein eigenes Gerichtsfoto von Jens hat immer Vorrang. Kochbuchseite, Zettel oder Screenshot sind kein Rezeptbild.
 - **source**: `{type: text|photo|pdf|screenshot|idea|url, note: "nach: <Buch/Seite/Person>"}`; keine Namen Dritter außer öffentlicher Autor:innen.
 - **slug**: `python3 ROOT/scripts/build.py --slugify "<Titel>"`.
 - Datumsfelder `created`/`updated` = heute (ISO), `status: "published"`, `schema_version: 1`, `author: null` (Konfiguration liefert den Künstlernamen).
@@ -50,6 +51,8 @@ Arbeit <x> min · Kochen <y> min · Ruhe <z> · <Schwierigkeit> · ~<kcal> kcal 
 | # | Menge | Einheit | Zutat | Hinweis | g |
 | 1 | 250 | g | Mehl | Für den Teig | 250 |
 …
+Mahlzeit: <meal> · Tageszeit: <daytime> · Art: <dish_type> · Eigenschaften: <properties> · Zubereitung: <method> · Anlass: <occasion>
+…
 Zubereitung: <n> Schritte (1. <erste 8 Wörter> … 2. …) · Tipp: ja/nein
 Nährwerte/Portion: <kcal> kcal · <E> g Eiweiß · <F> g Fett · <KH> g Kohlenhydrate (berechnet)
 Kategorien: <Pfade> · Ernährung: <diet> · Küche: <cuisine>
@@ -59,7 +62,13 @@ Rückfragen nur bei echter Unklarheit (unleserliche Menge, fehlende Einheit bei 
 
 ## 5. Schreiben und bauen
 1. `ROOT/_data/<slug>.json` schreiben (UTF-8, 2 Leerzeichen, `ensure_ascii=False`).
-2. Bei Bild: `python3 ROOT/scripts/bild.py <quelle> <slug>` (wandelt, verkleinert, entfernt EXIF/GPS).
+2. Bei Bild: `python3 ROOT/scripts/bild.py <datei-oder-url> <slug>` (wandelt, schneidet zentriert auf 4:3, max. 1600 px, entfernt EXIF/GPS). Im JSON `image: "bild.jpg"` und `image_source` (z.B. „eigenes Foto“ oder „KI-generiert (Gamma), Auswahl 2 von 4, <Datum>“).
+
+### 5a. KI-Bilder zur Auswahl (Standard, wenn kein eigenes Foto vorliegt)
+- Mit dem Gamma-Werkzeug `generate_image` vier Varianten erzeugen (`type: photo`, `sizePreset: social-square`), parallel starten, dann Status abfragen. Kosten: ca. 70 Gamma-Credits je Bild.
+- Prompt-Stil (einheitlich für alle Rezepte): „Photorealistic food photography of <Gericht mit den sichtbaren Zutaten>, <Geschirr>, on a light oak table / marble counter, linen napkin, soft natural daylight, 45-degree angle or overhead, shallow depth of field, clean bright background, no text, no people.“ Vier Varianten = zwei Perspektiven (45° und Draufsicht) mal zwei Settings. Keine Markennamen, kein Text im Bild.
+- Bilder nach `ROOT/_inbox/bilder/<slug>-1..4.jpg` laden (curl), auf 900 px verkleinern und mit `SendUserFile` (display render) als Vierergruppe zeigen: „<Titel>: Bild 1 bis 4 zur Auswahl“.
+- Nach der Wahl: `bild.py <url> <slug>`, JSON aktualisieren, neu bauen, pushen. Wählt Jens keins, `image: null` lassen und anbieten, neue Varianten zu erzeugen.
 3. `python3 ROOT/scripts/build.py --slug <slug>` — bei Exit ≠ 0 Fehler beheben und erneut bauen. Den `Build-Stempel` aus der Ausgabe merken.
 
 ## 6. Commit und Push

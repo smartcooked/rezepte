@@ -123,5 +123,30 @@
   "tip": "Ein Blatt Eisbergsalat und eine Scheibe Tomate bringen Frische ohne nennenswerte Kalorien. Leichte Buns mit rund 50 g gibt es bei REWE und EDEKA.",
   "estimated": [
     "times"
-  ]
+  ],
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Burger"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten"
+  ],
+  "method": [
+    "Braten"
+  ],
+  "occasion": [
+    "Grillen",
+    "Party"
+  ],
+  "rating": 0,
+  "notes": null
 }
