@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "image": null,
+  "image": "bild.jpg",
   "author": null,
   "created": "2026-09-05",
   "updated": "2026-09-05",
@@ -148,5 +148,6 @@
     "Party"
   ],
   "rating": 0,
-  "notes": null
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), Auswahl 1 von 4, 2026-09-05"
 }
