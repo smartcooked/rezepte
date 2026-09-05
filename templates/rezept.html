@@ -54,7 +54,7 @@ $icons
 
   <div class="main">
     <section class="card" aria-labelledby="h-zutaten">
-      <div class="sect-head"><h2 id="h-zutaten">Zutaten</h2></div>
+      <div class="sect-head"><h2 id="h-zutaten">Zutaten</h2><button class="copy-ic" type="button" data-copy="ck-zut" aria-label="Zutaten kopieren" title="Zutaten kopieren"><svg class="icon"><use href="#i-copy"/></svg></button></div>
       <div class="portions">
         <span class="p-text">Für <b id="p-num-lbl">$servings</b> <span id="p-lbl">Portionen</span></span>
         <div class="stepper" aria-label="Portionen anpassen">
@@ -69,7 +69,7 @@ $icons
     </section>
 
     <section class="card" aria-labelledby="h-zub">
-      <div class="sect-head"><h2 id="h-zub">Zubereitung</h2></div>
+      <div class="sect-head"><h2 id="h-zub">Zubereitung</h2><button class="copy-ic" type="button" data-copy="ck-zub" aria-label="Zubereitung kopieren" title="Zubereitung kopieren"><svg class="icon"><use href="#i-copy"/></svg></button></div>
       <div class="times">
         $times_html
       </div>
@@ -99,11 +99,13 @@ $icons
 
   <textarea id="ck-zut" hidden>$copy_ingredients</textarea>
   <textarea id="ck-zub" hidden>$copy_steps</textarea>
+  <textarea id="ck-all" hidden>$copy_recipe</textarea>
   <div class="share-menu" id="share-menu" hidden role="menu">
     <button type="button" role="menuitem" data-share="native"><svg class="icon"><use href="#i-share"/></svg>Link teilen</button>
     <button type="button" role="menuitem" data-copy-text="$url"><svg class="icon"><use href="#i-link"/></svg>Link kopieren</button>
     <button type="button" role="menuitem" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
     <button type="button" role="menuitem" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
+    <button type="button" role="menuitem" data-copy="ck-all"><svg class="icon"><use href="#i-copy"/></svg>Rezept kopieren (alles als Text)</button>
     <button type="button" role="menuitem" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
   </div>
 </main>

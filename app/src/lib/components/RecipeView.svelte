@@ -36,6 +36,10 @@
 	function share() { const d = { title: r.title, text: r.title, url: pageUrl }; if (navigator.share) navigator.share(d).catch(() => {}); else copy(pageUrl, 'Link kopiert'); shareOpen = false; }
 	const copyIngredients = () => copy(r.ingredients.map((i) => `${formatAmount(i.amount)}\t${i.unit || ''}\t${i.name}${i.note ? ` (${i.note})` : ''}`).join('\n'), 'Zutaten kopiert');
 	const copySteps = () => copy(r.steps.map((s, i) => `${i + 1}. ${s}`).join('\n'), 'Zubereitung kopiert');
+	const copyRecipe = () => copy([r.title, r.subtitle || '', '', `Portionen: ${r.servings}`,
+		`Gesamtzeit: ${minutesLabel(total)} · Arbeitszeit: ${minutesLabel(r.prep_min)}` + (r.cook_min ? ` · Koch-/Backzeit: ${minutesLabel(r.cook_min)}` : '') + (r.rest_min ? ` · Ruhezeit: ${minutesLabel(r.rest_min)}` : ''),
+		`Schwierigkeit: ${r.difficulty}`, '', 'Zutaten:', r.ingredients.map((i) => '- ' + ingredientLine(i)).join('\n'), '', 'Zubereitung:', r.steps.map((s, i) => `${i + 1}. ${s}`).join('\n'),
+		r.tip ? `\nTipp: ${r.tip}` : '', r.nutrition_per_serving ? `\nNährwerte pro Portion: ${Math.round(r.nutrition_per_serving.kcal)} kcal` : ''].filter((x) => x !== '' || true).join('\n').replace(/\n{3,}/g, '\n\n'), 'Rezept kopiert');
 	let qrSvg = $state(''); let canShare = $state(false);
 	onMount(async () => { canShare = 'share' in navigator; try { const QR = await import('qrcode'); qrSvg = await QR.toString(pageUrl, { type: 'svg', margin: 0 }); } catch {} });
 </script>
@@ -67,7 +71,7 @@
 	</section>
 	<div class="main">
 		<section class="card" aria-labelledby="h-zutaten">
-			<div class="sect-head"><h2 id="h-zutaten">Zutaten</h2></div>
+			<div class="sect-head"><h2 id="h-zutaten">Zutaten</h2><button class="copy-ic" type="button" aria-label="Zutaten kopieren" title="Zutaten kopieren" onclick={copyIngredients}><Icon name="copy" /></button></div>
 			<div class="portions">
 				<span class="p-text">Für <b>{cur}</b> {cur === 1 ? 'Portion' : 'Portionen'}</span>
 				<div class="stepper" aria-label="Portionen anpassen">
@@ -86,7 +90,7 @@
 			</table>
 		</section>
 		<section class="card" aria-labelledby="h-zub">
-			<div class="sect-head"><h2 id="h-zub">Zubereitung</h2></div>
+			<div class="sect-head"><h2 id="h-zub">Zubereitung</h2><button class="copy-ic" type="button" aria-label="Zubereitung kopieren" title="Zubereitung kopieren" onclick={copySteps}><Icon name="copy" /></button></div>
 			<div class="times">
 				<div><Icon name="clock" /><span><b>{minutesLabel(total)}</b><small>Gesamtzeit</small></span></div>
 				<div><Icon name="work" /><span><b>{minutesLabel(r.prep_min)}</b><small>Arbeitszeit</small></span></div>
@@ -127,6 +131,7 @@
 			<button type="button" role="menuitem" onclick={() => copy(pageUrl, 'Link kopiert')}><Icon name="link" />Link kopieren</button>
 			<button type="button" role="menuitem" onclick={copyIngredients}><Icon name="copy" />Zutaten kopieren</button>
 			<button type="button" role="menuitem" onclick={copySteps}><Icon name="copy" />Zubereitung kopieren</button>
+			<button type="button" role="menuitem" onclick={copyRecipe}><Icon name="copy" />Rezept kopieren (alles als Text)</button>
 			<button type="button" role="menuitem" onclick={() => { shareOpen = false; window.print(); }}><Icon name="print" />Drucken</button>
 		</div>
 	{/if}
