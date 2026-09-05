@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /kochbuch
+Disallow: /planer
+Disallow: /einkauf
+Disallow: /backend
+Disallow: /profil

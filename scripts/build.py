@@ -363,13 +363,15 @@ def render_recipe(r, cfg, tpl, icons, stamp):
     diet_meta = ""
     if r.get("diet"):
         diet_meta = '<li><svg class="icon"><use href="#i-leaf"/></svg><span><b>%s</b><small>Ernährung</small></span></li>' % esc(", ".join(r["diet"]))
-    tags = [esc(x) for x in (r.get("tags") or [])]
-    tags_html = ""
-    if tags or r.get("cuisine"):
-        chips = ['<span class="tag">%s</span>' % x for x in tags]
-        if r.get("cuisine"):
-            chips.append('<span class="tag neutral"><svg class="icon"><use href="#i-globe"/></svg>%s</span>' % esc(r["cuisine"]))
-        tags_html = '<div class="tags">%s</div>' % "".join(chips)
+    chips_src = list(r.get("tags") or []) + [c.split(">")[-1].strip() for c in (r.get("categories") or [])]
+    seen, chips = set(), []
+    for x in chips_src:
+        k = x.strip().lower()
+        if k and k not in seen:
+            seen.add(k); chips.append('<span class="tag">%s</span>' % esc(x.strip()))
+    if r.get("cuisine"):
+        chips.append('<span class="tag neutral"><svg class="icon"><use href="#i-globe"/></svg>%s</span>' % esc(r["cuisine"]))
+    tags_html = ('<div class="tags">%s</div>' % "".join(chips)) if chips else ""
     src = r.get("source") or {}
     src_map = {"text": "Aus Text übernommen", "photo": "Aus Foto übernommen", "pdf": "Aus PDF übernommen",
                "screenshot": "Aus Screenshot übernommen", "idea": "KI-generiert aus einer Idee", "url": "Aus Webseite übernommen"}
@@ -396,7 +398,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "subtitle_html": ('<p class="sub"%s>%s</p>' % (' itemprop="description"' if micro else "", esc(r["subtitle"]))) if r.get("subtitle") else "",
         "prep_label": minutes_label(t.get("prep_min") or 0), "prep_est": ' <span class="est">geschätzt</span>' if "times" in est else "",
         "total_label": minutes_label((t.get("prep_min") or 0) + (t.get("cook_min") or 0) + (t.get("rest_min") or 0)),
-        "categories_html": ('<div class="tags cats">' + "".join('<span class="tag neutral">%s</span>' % esc(c.split(">")[-1].strip()) for c in (r.get("categories") or [])) + "</div>") if r.get("categories") else "",
+        "categories_html": "",
         "difficulty_level": DIFFICULTY[r["difficulty"]], "difficulty_label": r["difficulty"].capitalize(),
         "difficulty_est": ' <span class="est">geschätzt</span>' if "difficulty" in est else "",
         "diet_meta": diet_meta, "author": esc(author), "tags_html": tags_html,

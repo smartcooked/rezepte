@@ -228,7 +228,7 @@
       return '<a class="rcard" href="' + esc(r.url) + '"><div class="img">' + img + '</div><div class="body">' +
         '<h3>' + esc(r.title) + '</h3>' + (r.subtitle ? '<p class="sub">' + esc(r.subtitle) + '</p>' : '') +
         '<div class="row"><span><svg class="icon"><use href="#i-clock"/></svg>' + (r.prep_min || 0) + ' Min.</span>' +
-        '<span><svg class="icon lvl-' + { simpel: 1, normal: 2, pfiffig: 3 }[r.difficulty] + '"><use href="#i-gauge"/></svg>' + esc(r.difficulty) + '</span>' + diet + rt + '</div></div></a>';
+        '<span><svg class="icon lvl-' + { simpel: 1, normal: 2, pfiffig: 3 }[r.difficulty] + '"><use href="#i-gauge"/></svg>' + esc(r.difficulty) + '</span>' + (r.calories ? '<span><svg class="icon"><use href="#i-flame"/></svg>' + r.calories + ' kcal</span>' : '') + diet + rt + '</div></div></a>';
     }
     q.addEventListener('input', function () { render(true); });
     $('#q-clear').addEventListener('click', function () { q.value = ''; render(true); q.focus(); });
