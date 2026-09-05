@@ -58,11 +58,11 @@ p{margin:0 0 12px}
 .main{display:grid;gap:28px;padding:20px 0 40px}
 @media(min-width:800px){.main{grid-template-columns:minmax(280px,420px) 1fr;gap:32px}}
 .card{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px}
-.sect-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.sect-head{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin-bottom:12px}
 .sect-head h2{flex:1}
 
 /* Portionen-Stepper */
-.stepper{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.stepper{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden;max-width:100%}
 .stepper button{width:44px;height:44px;border:0;background:var(--bg);color:var(--green);cursor:pointer;display:grid;place-items:center}
 .stepper button:hover{background:var(--green-soft)}
 .stepper .p-field input{width:56px;height:44px;border:0;border-left:1px solid var(--line);border-right:1px solid var(--line);text-align:center;font:inherit;font-weight:700;font-size:1.05rem;color:var(--ink);background:var(--bg);-moz-appearance:textfield}
