@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "image": null,
+  "author": null,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „3 Cheat Meals unter 500 kcal“"
+  },
+  "slug": "crispy-taco-salat",
+  "title": "Crispy Taco Salat",
+  "subtitle": "crunchy, würzig & sättigend",
+  "description": "Angebratenes Veggie-Hack mit Taco-Gewürz, viel Salat, Mais und Bohnen, dazu eine cremige Burger-Sauce aus Magerquark und ein paar Nachos für den Crunch. Viel Volumen, viel Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für das Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Gemüsezwiebel",
+      "note": "groß, ¾ zum Anbraten, ¼ roh für die Sauce",
+      "group": "Für das Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Schuss",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für das Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz",
+      "note": null,
+      "group": "Für das Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Eisbergsalat",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Mais",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Kidneybohnen",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Nachos",
+      "note": "Tortillachips",
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Ketchup light",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "Gewürzgurken",
+      "note": "gehackt",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Veggie-Hack mit heißem Wasser aufgießen, ziehen lassen und anschließend in einer Pfanne anbraten.",
+    "Drei Viertel der Zwiebel würfeln und mitbraten, bis sie weich und leicht karamellisiert ist.",
+    "Taco-Gewürz und einen Schuss passierte Tomaten zum Hack geben und kurz einköcheln lassen.",
+    "Den Eisbergsalat klein schneiden, in eine große Schüssel geben und Mais und Kidneybohnen dazugeben.",
+    "Für die Sauce Magerquark, Senf, Ketchup light, das restliche Viertel der Zwiebel fein gewürfelt und die gehackten Gewürzgurken verrühren.",
+    "Hack und gebratene Zwiebeln auf dem Salat verteilen und die Sauce darüber geben.",
+    "Die Nachos erst kurz vor dem Servieren darauf verteilen, damit sie knusprig bleiben."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 10,
+    "rest_min": 0
+  },
+  "difficulty": "normal",
+  "calories_per_serving": 580,
+  "nutrition": {
+    "carbs_g": 50,
+    "protein_g": 66,
+    "fat_g": 14
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Salat",
+    "Menüart > Hauptspeise",
+    "Regional > Mexiko",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Taco Salat",
+    "Veggie Hack",
+    "Tex-Mex",
+    "Burger-Sauce"
+  ],
+  "tags": [
+    "Salat",
+    "High Protein",
+    "Tex-Mex"
+  ],
+  "tip": "Statt Veggie-Hack funktioniert auch mageres Rinder- oder Putenhack. Die Sauce lässt sich gut vorbereiten und hält sich zwei Tage im Kühlschrank.",
+  "estimated": [
+    "times"
+  ]
+}

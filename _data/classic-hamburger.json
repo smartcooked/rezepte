@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image": null,
+  "author": null,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „3 Cheat Meals unter 500 kcal“"
+  },
+  "slug": "classic-hamburger",
+  "title": "Classic Hamburger",
+  "subtitle": "Fast Food mit wenig Kalorien",
+  "description": "Der typische Burger-Geschmack mit magerem Rinderhack und einem leichten Brötchen: deutlich weniger Kalorien, jede Menge Eiweiß und in zehn Minuten fertig.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Hamburger-Brötchen",
+      "note": "ca. 50 g, leichter Bun",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Rinderhackfleisch",
+      "note": "mager, 5 % Fett",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Senf",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Ketchup light",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 3,
+      "unit": "Scheibe",
+      "name": "Gewürzgurken",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.25,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": "rot oder weiß, in Streifen",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salz und Pfeffer",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Hackfleisch zu einem flachen Patty formen und mit Salz und Pfeffer würzen.",
+    "Das Patty in einer heißen Pfanne von beiden Seiten goldbraun braten.",
+    "Das Brötchen halbieren und die Schnittflächen kurz in der Pfanne anrösten.",
+    "Beide Brötchenhälften mit Senf und Ketchup light bestreichen.",
+    "Patty, Zwiebelstreifen und Gewürzgurken auf die untere Hälfte legen, Deckel aufsetzen und sofort servieren."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 5,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 285,
+  "nutrition": {
+    "carbs_g": 28,
+    "protein_g": 25,
+    "fat_g": 6
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Regional > USA oder Kanada",
+    "Spezielles > Kalorienarm",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Burger",
+    "Rinderhack",
+    "Fast Food",
+    "kalorienarm"
+  ],
+  "tags": [
+    "Burger",
+    "High Protein",
+    "Schnell"
+  ],
+  "tip": "Ein Blatt Eisbergsalat und eine Scheibe Tomate bringen Frische ohne nennenswerte Kalorien. Leichte Buns mit rund 50 g gibt es bei REWE und EDEKA.",
+  "estimated": [
+    "times"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image": null,
+  "author": null,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „3 Cheat Meals unter 500 kcal“"
+  },
+  "slug": "chocolate-fudge-cake",
+  "title": "Chocolate Fudge Cake",
+  "subtitle": "schokoladig, fudgy & proteinreich",
+  "description": "Außen leicht fest, innen weich und cremig: ein schokoladiger Protein-Kuchen aus Magerquark, der sich wie ein Cheat Meal anfühlt und trotzdem in die Diät passt.",
+  "servings": 2,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Puddingpulver",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Ei",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Chunky Flavour",
+      "note": "2–3 Scoops, Geschmack nach Wahl",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Backpulver",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "High Protein Pudding",
+      "note": "als Topping",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Alle Zutaten außer dem Protein-Pudding in einer Schüssel glatt rühren, bis eine dicke Masse entsteht.",
+    "Die Masse in eine kleine, ofenfeste Form geben.",
+    "Im vorgeheizten Backofen bei 180 °C etwa 20 Minuten backen.",
+    "Kurz abkühlen lassen, damit die Konsistenz schön fudgy wird.",
+    "Den High Protein Pudding als Topping darauf verteilen und servieren."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "rest_min": 5
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 190,
+  "nutrition": {
+    "carbs_g": 19,
+    "protein_g": 24,
+    "fat_g": 2
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Backen & Süßspeisen > Dessert",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Protein-Kuchen",
+    "Schokokuchen",
+    "Magerquark",
+    "Dessert"
+  ],
+  "tags": [
+    "Dessert",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Für mehr Schokogeschmack einen Teelöffel Backkakao unter den Teig rühren. Der Kuchen hält sich abgedeckt einen Tag im Kühlschrank.",
+  "estimated": []
+}

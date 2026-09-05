@@ -1,5 +1,102 @@
 [
  {
+  "slug": "chocolate-fudge-cake",
+  "title": "Chocolate Fudge Cake",
+  "subtitle": "schokoladig, fudgy & proteinreich",
+  "url": "rezepte/chocolate-fudge-cake/",
+  "image": null,
+  "prep_min": 10,
+  "total_min": 35,
+  "difficulty": "simpel",
+  "calories": 190,
+  "diet": [
+   "vegetarisch",
+   "high protein"
+  ],
+  "categories": [
+   "Backen & Süßspeisen > Dessert",
+   "Spezielles > High Protein",
+   "Spezielles > Kalorienarm",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Dessert",
+   "High Protein",
+   "Cheat Meal"
+  ],
+  "cuisine": null,
+  "servings": 2,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "search": "Chocolate Fudge Cake schokoladig, fudgy & proteinreich Außen leicht fest, innen weich und cremig: ein schokoladiger Protein-Kuchen aus Magerquark, der sich wie ein Cheat Meal anfühlt und trotzdem in die Diät passt. Magerquark Puddingpulver Proteinpulver Ei Chunky Flavour Backpulver High Protein Pudding Dessert High Protein Cheat Meal Protein-Kuchen Schokokuchen Magerquark Dessert Backen & Süßspeisen > Dessert Spezielles > High Protein Spezielles > Kalorienarm Spezielles > Vegetarisch ",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/chocolate-fudge-cake/"
+ },
+ {
+  "slug": "classic-hamburger",
+  "title": "Classic Hamburger",
+  "subtitle": "Fast Food mit wenig Kalorien",
+  "url": "rezepte/classic-hamburger/",
+  "image": null,
+  "prep_min": 10,
+  "total_min": 15,
+  "difficulty": "simpel",
+  "calories": 285,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Menüart > Snack",
+   "Regional > USA oder Kanada",
+   "Spezielles > Kalorienarm",
+   "Spezielles > High Protein"
+  ],
+  "tags": [
+   "Burger",
+   "High Protein",
+   "Schnell"
+  ],
+  "cuisine": "Amerikanisch",
+  "servings": 1,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "search": "Classic Hamburger Fast Food mit wenig Kalorien Der typische Burger-Geschmack mit magerem Rinderhack und einem leichten Brötchen: deutlich weniger Kalorien, jede Menge Eiweiß und in zehn Minuten fertig. Hamburger-Brötchen Rinderhackfleisch Senf Ketchup light Gewürzgurken Zwiebel Salz und Pfeffer Burger High Protein Schnell Burger Rinderhack Fast Food kalorienarm Menüart > Hauptspeise Menüart > Snack Regional > USA oder Kanada Spezielles > Kalorienarm Spezielles > High Protein Amerikanisch",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/classic-hamburger/"
+ },
+ {
+  "slug": "crispy-taco-salat",
+  "title": "Crispy Taco Salat",
+  "subtitle": "crunchy, würzig & sättigend",
+  "url": "rezepte/crispy-taco-salat/",
+  "image": null,
+  "prep_min": 15,
+  "total_min": 25,
+  "difficulty": "normal",
+  "calories": 580,
+  "diet": [
+   "vegetarisch",
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Salat",
+   "Menüart > Hauptspeise",
+   "Regional > Mexiko",
+   "Spezielles > High Protein",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Salat",
+   "High Protein",
+   "Tex-Mex"
+  ],
+  "cuisine": "Mexikanisch",
+  "servings": 1,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "search": "Crispy Taco Salat crunchy, würzig & sättigend Angebratenes Veggie-Hack mit Taco-Gewürz, viel Salat, Mais und Bohnen, dazu eine cremige Burger-Sauce aus Magerquark und ein paar Nachos für den Crunch. Viel Volumen, viel Eiweiß. Veggie Hack Gemüsezwiebel passierte Tomaten Taco-Gewürz Eisbergsalat Mais Kidneybohnen Nachos Magerquark Senf Ketchup light Gewürzgurken Salat High Protein Tex-Mex Taco Salat Veggie Hack Tex-Mex Burger-Sauce Menüart > Salat Menüart > Hauptspeise Regional > Mexiko Spezielles > High Protein Spezielles > Vegetarisch Mexikanisch",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/crispy-taco-salat/"
+ },
+ {
   "slug": "test-pfannkuchen",
   "title": "Klassische Pfannkuchen",
   "subtitle": "schnell, einfach & vegetarisch",
