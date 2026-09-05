@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="rezepte-build" content="$build_stamp">
+<title>$title – $site_title</title>
+<meta name="description" content="$description_attr">
+<link rel="canonical" href="$url">
+$og_tags
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="$root/style.css?v=$build_stamp">
+<script type="application/ld+json">
+$jsonld
+</script>
+</head>
+<body data-url="$url" data-title="$title_attr">
+$icons
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="$root/"><svg class="icon"><use href="#i-hat"/></svg>$site_title</a>
+    <div class="actions">
+      <button class="btn icon-only" type="button" id="btn-share" aria-label="Rezept teilen" title="Teilen"><svg class="icon"><use href="#i-share"/></svg></button>
+      <button class="btn icon-only" type="button" id="btn-print" aria-label="Rezept drucken" title="Drucken"><svg class="icon"><use href="#i-print"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" $recipe_scope>
+  <div class="print-head">
+    <span class="brand"><svg class="icon"><use href="#i-hat"/></svg>$site_title</span>
+    <span class="qr"><span>Rezept online<br>aufrufen</span><span id="qr"></span></span>
+  </div>
+
+  <section class="hero">
+    $image_html
+    <div>
+      <h1 $p_name>$title</h1>
+      $subtitle_html
+      <ul class="meta">
+        <li><svg class="icon"><use href="#i-clock"/></svg><span><b>$prep_label</b><small>Arbeitszeit$prep_est</small></span></li>
+        <li><svg class="icon lvl-$difficulty_level"><use href="#i-gauge"/></svg><span><b>$difficulty_label</b><small>Schwierigkeit$difficulty_est</small></span></li>
+        $diet_meta
+        <li><svg class="icon"><use href="#i-user"/></svg><span><b $p_author>$author</b><small>Rezeptautor:in</small></span></li>
+      </ul>
+      $tags_html
+    </div>
+  </section>
+
+  <div class="main">
+    <section class="card" aria-labelledby="h-zutaten">
+      <div class="sect-head">
+        <h2 id="h-zutaten">Zutaten</h2>
+        <div class="stepper" aria-label="Portionen anpassen">
+          <button type="button" id="p-minus" aria-label="Eine Portion weniger"><svg class="icon"><use href="#i-minus"/></svg></button>
+          <output id="p-out" for="p-minus p-plus" data-base="$servings"><span id="p-num" $p_yield>$servings</span> Portionen</output>
+          <button type="button" id="p-plus" aria-label="Eine Portion mehr"><svg class="icon"><use href="#i-plus"/></svg></button>
+        </div>
+      </div>
+      <table class="ings" id="ings">
+        $ingredients_html
+      </table>
+    </section>
+
+    <section class="card" aria-labelledby="h-zub">
+      <div class="sect-head"><h2 id="h-zub">Zubereitung</h2></div>
+      <div class="times">
+        $times_html
+      </div>
+      <ol class="steps">
+        $steps_html
+      </ol>
+      $nutrition_html
+    </section>
+  </div>
+
+  <details class="ck" open data-nosnippet>
+    <summary><svg class="icon"><use href="#i-info"/></svg>Chefkoch-Hinweise für den Import<svg class="icon chev"><use href="#i-chevron"/></svg></summary>
+    <div class="grid">
+      <dl>
+        <dt>Kategorien</dt><dd>$categories_label</dd>
+        <dt>Arbeitszeit</dt><dd>$prep_hm</dd>
+        <dt>Koch-/Backzeit</dt><dd>$cook_hm</dd>
+        <dt>Ruhezeit</dt><dd>$rest_dhm</dd>
+        <dt>Schwierigkeit</dt><dd>$difficulty_label</dd>
+        <dt>Kalorien</dt><dd>$calories_label</dd>
+      </dl>
+      <div>
+        <p style="margin:0 0 6px"><b>Import-URL</b><br><span class="url" id="ck-url">$url</span></p>
+        <p style="margin:0;color:var(--muted);font-size:.92rem">$source_label$estimated_label</p>
+        <div class="btns">
+          <button class="btn small" type="button" data-copy="ck-url"><svg class="icon"><use href="#i-copy"/></svg>URL kopieren</button>
+          <button class="btn small" type="button" data-copy="ck-zut"><svg class="icon"><use href="#i-copy"/></svg>Zutaten kopieren</button>
+          <button class="btn small" type="button" data-copy="ck-zub"><svg class="icon"><use href="#i-copy"/></svg>Zubereitung kopieren</button>
+        </div>
+        <textarea id="ck-zut" hidden>$copy_ingredients</textarea>
+        <textarea id="ck-zub" hidden>$copy_steps</textarea>
+      </div>
+    </div>
+  </details>
+</main>
+
+<footer class="foot"><div class="wrap"><span>$site_title</span><span>·</span><a href="$root/">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand $updated</span></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="$root/app.js?v=$build_stamp"></script>
+</body>
+</html>

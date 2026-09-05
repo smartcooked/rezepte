@@ -1,0 +1,31 @@
+[
+ {
+  "slug": "test-pfannkuchen",
+  "title": "Klassische Pfannkuchen",
+  "subtitle": "schnell, einfach & vegetarisch",
+  "url": "rezepte/test-pfannkuchen/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 45,
+  "difficulty": "simpel",
+  "calories": 320,
+  "diet": [
+   "vegetarisch"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Backen & Süßspeisen > Süßspeise",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Klassiker",
+   "Kinder"
+  ],
+  "cuisine": "Deutsch",
+  "servings": 4,
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "search": "Klassische Pfannkuchen schnell, einfach & vegetarisch Fluffige Pfannkuchen aus Mehl, Milch und Eiern. Schnell gemacht, süß oder herzhaft belegbar. Mehl Milch Ei(er) Salz Zucker Butter Klassiker Kinder Pfannkuchen Eierkuchen schnell Menüart > Hauptspeise Backen & Süßspeisen > Süßspeise Spezielles > Vegetarisch Deutsch",
+  "absolute_url": "https://GITHUB-BENUTZERNAME.github.io/rezepte/rezepte/test-pfannkuchen/"
+ }
+]

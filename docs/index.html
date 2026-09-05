@@ -1,5 +1,63 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mein Rezeptbuch</title>
-<style>body{font:16px/1.5 -apple-system,sans-serif;max-width:720px;margin:0 auto;padding:24px;color:#2b2622;background:#fbf7f1}a{color:#2f7d4f}</style></head>
-<body><h1>Mein Rezeptbuch</h1><p>Der Rezept-Katalog entsteht gerade. Testseiten:</p>
-<ul><li><a href="rezepte/test-pfannkuchen/">Klassische Pfannkuchen</a> (JSON-LD + Microdata + Open Graph)</li>
-<li><a href="rezepte/test-pfannkuchen-jsonld/">Klassische Pfannkuchen (JSON-LD-Test)</a> (nur JSON-LD)</li></ul></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="rezepte-build" content="20260905101540">
+<title>Mein Rezeptbuch</title>
+<meta name="description" content="Rezeptkatalog mit Suche, Filter und Sortierung.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="style.css?v=20260905101540">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-work" viewBox="0 0 24 24"><path d="M4 12h16M4 12a8 8 0 0 0 16 0"/><path d="M12 4v4"/><path d="M8 4h8"/></symbol>
+  <symbol id="i-cook" viewBox="0 0 24 24"><path d="M3 11h18l-2 8H5z"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 3v2"/></symbol>
+  <symbol id="i-rest" viewBox="0 0 24 24"><path d="M4 14h16v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M6 14c0-4 3-6 6-6s6 2 6 6"/><path d="M12 5v3"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><rect class="b1" x="4" y="14" width="4" height="6" rx="1"/><rect class="b2" x="10" y="10" width="4" height="10" rx="1"/><rect class="b3" x="16" y="5" width="4" height="15" rx="1"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14 0 9-4 14-12 14"/><path d="M5 19c3-5 6-8 10-10"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M17.5 13.5a6.5 6.5 0 0 1 4 6.5"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-9z"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V4h12v5"/><rect x="4" y="9" width="16" height="8" rx="2"/><path d="M6 14h12v6H6z"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V4"/><path d="M8 8l4-4 4 4"/><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+  <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M7 12h10"/><path d="M10 18h4"/></symbol>
+  <symbol id="i-sort" viewBox="0 0 24 24"><path d="M7 4v16"/><path d="M4 7l3-3 3 3"/><path d="M17 20V4"/><path d="M14 17l3 3 3-3"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="M11 6l-6 6 6 6"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 6v12"/><path d="M6 12h12"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></symbol>
+  <symbol id="i-hat" viewBox="0 0 24 24"><path d="M7 10a4 4 0 1 1 1.5-7.7A5 5 0 0 1 17 5a4 4 0 0 1 0 8v4H7z"/><path d="M7 20h10"/></symbol>
+</svg>
+
+<header class="topbar"><div class="wrap"><a class="brand" href="./"><svg class="icon"><use href="#i-hat"/></svg>Mein Rezeptbuch</a></div></header>
+<main class="wrap">
+  <div class="cat-head"><h1>Alle Rezepte</h1><p id="cat-sub">1 Rezept</p></div>
+  <div class="toolbar" id="toolbar">
+    <label class="search"><svg class="icon"><use href="#i-search"/></svg><span class="sr">Rezepte durchsuchen</span><input type="search" id="q" placeholder="Rezept, Zutat oder Stichwort suchen" autocomplete="off"><button type="button" id="q-clear" aria-label="Suche löschen" hidden><svg class="icon"><use href="#i-x"/></svg></button></label>
+    <div class="filters" id="filters">
+      <span class="sel"><select id="f-cat" aria-label="Kategorie"><option value="">Alle Kategorien</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
+      <span class="sel"><select id="f-diet" aria-label="Ernährung"><option value="">Ernährung</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
+      <span class="sel"><select id="f-diff" aria-label="Schwierigkeit"><option value="">Schwierigkeit</option><option value="simpel">simpel</option><option value="normal">normal</option><option value="pfiffig">pfiffig</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
+      <span class="sel"><select id="f-time" aria-label="Gesamtzeit"><option value="">Zeit</option><option value="20">bis 20 Min.</option><option value="30">bis 30 Min.</option><option value="45">bis 45 Min.</option><option value="60">bis 60 Min.</option></select><svg class="icon"><use href="#i-chevron"/></svg></span>
+      <span class="spacer"></span>
+      <span class="sel"><select id="sort" aria-label="Sortierung"><option value="new">Neueste zuerst</option><option value="az">A bis Z</option><option value="time">Kürzeste Zeit</option><option value="kcal">Wenigste Kalorien</option></select><svg class="icon"><use href="#i-sort"/></svg></span>
+      <button class="chip" type="button" id="reset" hidden><svg class="icon"><use href="#i-x"/></svg>Filter zurücksetzen</button>
+    </div>
+  </div>
+  <div class="grid-cards" id="cards"></div>
+</main>
+<footer class="foot"><div class="wrap"><span>Mein Rezeptbuch</span><span>·</span><span>1 Rezept</span><span>·</span><span>Stand 2026-09-05</span></div></footer>
+<script id="data" type="application/json">[{"slug": "test-pfannkuchen", "title": "Klassische Pfannkuchen", "subtitle": "schnell, einfach & vegetarisch", "url": "rezepte/test-pfannkuchen/", "image": "bild.jpg", "prep_min": 10, "total_min": 45, "difficulty": "simpel", "calories": 320, "diet": ["vegetarisch"], "categories": ["Menüart > Hauptspeise", "Backen & Süßspeisen > Süßspeise", "Spezielles > Vegetarisch"], "tags": ["Klassiker", "Kinder"], "cuisine": "Deutsch", "servings": 4, "created": "2026-09-05", "updated": "2026-09-05", "search": "Klassische Pfannkuchen schnell, einfach & vegetarisch Fluffige Pfannkuchen aus Mehl, Milch und Eiern. Schnell gemacht, süß oder herzhaft belegbar. Mehl Milch Ei(er) Salz Zucker Butter Klassiker Kinder Pfannkuchen Eierkuchen schnell Menüart > Hauptspeise Backen & Süßspeisen > Süßspeise Spezielles > Vegetarisch Deutsch", "absolute_url": "https://GITHUB-BENUTZERNAME.github.io/rezepte/rezepte/test-pfannkuchen/"}]</script>
+<script src="app.js?v=20260905101540"></script>
+</body>
+</html>

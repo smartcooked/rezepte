@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "slug": "test-pfannkuchen",
+  "title": "Klassische Pfannkuchen",
+  "subtitle": "schnell, einfach & vegetarisch",
+  "description": "Fluffige Pfannkuchen aus Mehl, Milch und Eiern. Schnell gemacht, süß oder herzhaft belegbar.",
+  "servings": 4,
+  "ingredients": [
+    {"amount": 250, "unit": "g", "name": "Mehl", "note": null, "group": "Für den Teig"},
+    {"amount": 500, "unit": "ml", "name": "Milch", "note": null, "group": "Für den Teig"},
+    {"amount": 3, "unit": "Stück", "name": "Ei(er)", "note": null, "group": "Für den Teig"},
+    {"amount": 1, "unit": "Prise", "name": "Salz", "note": null, "group": "Für den Teig"},
+    {"amount": 1, "unit": "EL", "name": "Zucker", "note": null, "group": "Für den Teig"},
+    {"amount": 2, "unit": "EL", "name": "Butter", "note": "zum Ausbacken", "group": "Zum Ausbacken"}
+  ],
+  "steps": [
+    "Mehl, Salz und Zucker in einer Schüssel mischen. Milch und Eier zugeben und mit dem Schneebesen zu einem glatten Teig verrühren.",
+    "Den Teig 15 Minuten ruhen lassen, damit das Mehl quellen kann.",
+    "Etwas Butter in einer beschichteten Pfanne bei mittlerer Hitze schmelzen. Eine Kelle Teig hineingeben und durch Schwenken dünn verteilen.",
+    "Pfannkuchen 2 bis 3 Minuten backen, bis die Unterseite goldbraun ist, wenden und weitere 1 bis 2 Minuten backen. Mit dem restlichen Teig wiederholen."
+  ],
+  "times": {"prep_min": 10, "cook_min": 20, "rest_min": 15},
+  "difficulty": "simpel",
+  "calories_per_serving": 320,
+  "nutrition": {"carbs_g": 48, "protein_g": 12, "fat_g": 9},
+  "diet": ["vegetarisch"],
+  "categories": ["Menüart > Hauptspeise", "Backen & Süßspeisen > Süßspeise", "Spezielles > Vegetarisch"],
+  "cuisine": "Deutsch",
+  "keywords": ["Pfannkuchen", "Eierkuchen", "schnell"],
+  "tags": ["Klassiker", "Kinder"],
+  "image": "bild.jpg",
+  "source": {"type": "text", "note": "Testrezept für den Chefkoch-Import"},
+  "author": null,
+  "estimated": ["calories"],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published"
+}
