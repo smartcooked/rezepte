@@ -385,7 +385,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
     copy_ings = "\n".join("%s\t%s\t%s" % (format_amount(i.get("amount")), i.get("unit") or "", i["name"] + ((" (%s)" % i["note"]) if i.get("note") else "")) for i in r["ingredients"])
     copy_steps = "\n".join("%d. %s" % (n + 1, s) for n, s in enumerate(r["steps"]))
     copy_ing_lines = "\n".join("- " + ingredient_line(i) for i in r["ingredients"])
-    copy_recipe = "\n".join(filter(None, [
+    copy_recipe = "\n".join(x for x in [
         r["title"], r.get("subtitle") or "", "",
         "Portionen: %d" % r["servings"],
         "Gesamtzeit: %s · Arbeitszeit: %s" % (minutes_label((t.get("prep_min") or 0) + (t.get("cook_min") or 0) + (t.get("rest_min") or 0)), minutes_label(t.get("prep_min") or 0))
@@ -393,7 +393,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "Schwierigkeit: %s" % r["difficulty"], "", "Zutaten:", copy_ing_lines, "", "Zubereitung:", copy_steps,
         ("\nTipp: " + r["tip"]) if r.get("tip") else "",
         ("\nNährwerte pro Portion: %d kcal" % round(compute_nutrition(r)[0]["kcal"])) if compute_nutrition(r)[0] else "",
-    ]))
+    ] if x is not None).replace("\n\n\n", "\n\n")
     values = {
         "build_stamp": stamp, "site_title": esc(cfg["site_title"]), "brand_html": cfg.get("site_title_html") or esc(cfg["site_title"]), "root": "../..",
         "title": esc(r["title"]), "title_attr": esc(r["title"]), "description_attr": esc(desc),
