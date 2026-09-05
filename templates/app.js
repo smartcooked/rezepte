@@ -39,6 +39,7 @@
     num.addEventListener('input', function () { var v = parseInt(num.value, 10); if (v >= 1 && v <= 99) { cur = v; apply(); } });
     num.addEventListener('blur', function () { apply(); });
     num.addEventListener('focus', function () { num.select(); });
+    apply();
 
     function share() {
       var data = { title: document.body.dataset.title, text: document.body.dataset.title, url: document.body.dataset.url };
