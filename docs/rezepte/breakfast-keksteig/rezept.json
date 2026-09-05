@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "slug": "breakfast-keksteig",
+  "title": "Breakfast Keksteig",
+  "subtitle": "cremig, süß & in 5 Minuten fertig",
+  "description": "Schmelzflocken, Proteinpulver und heißes Wasser werden zu einer teigartigen, cremigen Masse, obendrauf frische Himbeeren. Ein sättigendes Frühstück mit viel Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Schmelzflocken",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Whey Protein",
+      "note": "z.B. Geschmack Zimt-Cerealien",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Chunky Flavour",
+      "note": "1 Scoop, optional",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "heißes Wasser",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 75,
+      "unit": "g",
+      "name": "Himbeeren",
+      "note": "frisch oder aufgetaut",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Schmelzflocken, Proteinpulver und Chunky Flavour in einer Schüssel mischen.",
+    "Nach und nach heißes Wasser zugeben und verrühren, bis eine dicke, cremige Masse entsteht.",
+    "Kurz ziehen lassen, damit die Schmelzflocken aufquellen und eine teigartige Konsistenz entsteht.",
+    "Die Himbeeren darauf verteilen und nach Belieben mit etwas Zimt bestreuen."
+  ],
+  "times": {
+    "prep_min": 5,
+    "cook_min": 0,
+    "rest_min": 5
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 343,
+  "nutrition": {
+    "carbs_g": 31,
+    "protein_g": 36,
+    "fat_g": 5
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Frühstück",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch",
+    "Spezielles > Schnell und einfach"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Frühstück",
+    "Proteinbowl",
+    "Schmelzflocken",
+    "Keksteig"
+  ],
+  "tags": [
+    "Frühstück",
+    "High Protein",
+    "Schnell"
+  ],
+  "tip": "Mit veganem Proteinpulver wird das Frühstück vegan. Statt Himbeeren passen auch Blaubeeren oder Banane.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Frühstück"
+  ],
+  "daytime": [
+    "Frühstück"
+  ],
+  "dish_type": [
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten"
+  ],
+  "method": [
+    "Roh"
+  ],
+  "occasion": [
+    "Büro"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

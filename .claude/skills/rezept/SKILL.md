@@ -64,8 +64,9 @@ Rückfragen nur bei echter Unklarheit (unleserliche Menge, fehlende Einheit bei 
 1. `ROOT/_data/<slug>.json` schreiben (UTF-8, 2 Leerzeichen, `ensure_ascii=False`).
 2. Bei Bild: `python3 ROOT/scripts/bild.py <datei-oder-url> <slug>` (wandelt, schneidet zentriert auf 4:3, max. 1600 px, entfernt EXIF/GPS). Im JSON `image: "bild.jpg"` und `image_source` (z.B. „eigenes Foto“ oder „KI-generiert (Gamma), Auswahl 2 von 4, <Datum>“).
 
-### 5a. KI-Bilder zur Auswahl (Standard, wenn kein eigenes Foto vorliegt)
-- Mit dem Gamma-Werkzeug `generate_image` vier Varianten erzeugen (`type: photo`, `sizePreset: social-square`), parallel starten, dann Status abfragen. Kosten: ca. 70 Gamma-Credits je Bild.
+### 5a. KI-Bild (Standard, wenn kein eigenes Foto vorliegt)
+Seit 2026-09-05 gilt: **ein** Bild direkt erzeugen und einbauen, keine Auswahlrunde (Jens meldet sich, wenn ein Bild nicht passt; dann `/rezept bild <slug>` → vier neue Varianten zur Auswahl). Die Auswahl-Variante unten nur auf ausdrücklichen Wunsch.
+- Mit dem Gamma-Werkzeug `generate_image` ein Bild (bzw. bei Auswahlrunde vier Varianten) erzeugen (`type: photo`, `sizePreset: social-square`), parallel starten, dann Status abfragen. Kosten: ca. 70 Gamma-Credits je Bild.
 - Prompt-Stil (einheitlich für alle Rezepte): „Photorealistic food photography of <Gericht mit den sichtbaren Zutaten>, <Geschirr>, on a light oak table / marble counter, linen napkin, soft natural daylight, 45-degree angle or overhead, shallow depth of field, clean bright background, no text, no people.“ Vier Varianten = zwei Perspektiven (45° und Draufsicht) mal zwei Settings. Keine Markennamen, kein Text im Bild.
 - Bilder nach `ROOT/_inbox/bilder/<slug>-1..4.jpg` laden (curl), auf 900 px verkleinern und mit `SendUserFile` (display render) als Vierergruppe zeigen: „<Titel>: Bild 1 bis 4 zur Auswahl“.
 - Nach der Wahl: `bild.py <url> <slug>`, JSON aktualisieren, neu bauen, pushen. Wählt Jens keins, `image: null` lassen und anbieten, neue Varianten zu erzeugen.

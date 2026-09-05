@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "slug": "doener-veggie-bowl",
+  "title": "Döner Veggie Bowl",
+  "subtitle": "würzig, frisch & sättigend",
+  "description": "Reis, scharf angebratenes Veggie-Döner mit Zwiebeln, Tomate, Gurke und Salat, dazu Knoblauchquark. Döner-Geschmack in der Bowl mit viel Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 70,
+      "unit": "g",
+      "name": "Reis",
+      "note": "roh, ergibt ca. 200 g gekocht",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Veggie Döner",
+      "note": "z.B. von Davert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "rote Zwiebel",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für den Knoblauchquark",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauch, Salz und Pfeffer",
+      "note": null,
+      "group": "Für den Knoblauchquark",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Tomate",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Gurke",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salat",
+      "note": "nach Wahl",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Veggie-Döner mit 200 ml heißem Wasser übergießen und 5 bis 8 Minuten ziehen lassen.",
+    "Den Reis nach Packungsanleitung kochen.",
+    "Die Zwiebel in einer Pfanne anbraten, das Döner zugeben und 6 bis 8 Minuten scharf anbraten, bis es leicht knusprig ist.",
+    "Magerquark mit Knoblauch, Salz und Pfeffer verrühren.",
+    "Reis, Döner, Tomate, Gurke und Salat in einer Bowl anrichten und den Knoblauchquark darauf geben."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 640,
+  "nutrition": {
+    "carbs_g": 70,
+    "protein_g": 55,
+    "fat_g": 15
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Türkei",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Türkisch",
+  "keywords": [
+    "Döner",
+    "Bowl",
+    "Reis",
+    "Knoblauchquark"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein"
+  ],
+  "tip": "Mit etwas Zitronensaft und Petersilie im Quark wird die Soße noch frischer.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl",
+    "Reisgericht"
+  ],
+  "properties": [
+    "Einfach",
+    "Meal Prep"
+  ],
+  "method": [
+    "Kochen",
+    "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

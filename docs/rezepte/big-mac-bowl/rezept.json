@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "slug": "big-mac-bowl",
+  "title": "Big Mac Bowl",
+  "subtitle": "Fast-Food-Geschmack, Diät-Makros",
+  "description": "Knusprige Kartoffelwürfel, würziges Veggie-Burger-Hack in Tomatensauce und eine cremige Big-Mac-Sauce aus Magerquark, Gewürzgurken, Senf und Ketchup.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Kartoffeln",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Pommes-Gewürz",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für das Burger-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für das Burger-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Tomatenmark",
+      "note": null,
+      "group": "Für das Burger-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für das Burger-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Big-Mac-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Gewürzgurken",
+      "note": "fein gewürfelt",
+      "group": "Für die Big-Mac-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Zwiebel",
+      "note": "fein gewürfelt",
+      "group": "Für die Big-Mac-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Big-Mac-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Ketchup light",
+      "note": null,
+      "group": "Für die Big-Mac-Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Kartoffeln klein würfeln, mit Pommes-Gewürz würzen und im Airfryer oder Ofen goldbraun und knusprig backen.",
+    "Das Veggie-Hack mit heißem Wasser übergießen, nach 2 Minuten abtropfen lassen. Die Zwiebel anbraten, das Hack zugeben und kurz mitrösten.",
+    "Tomatenmark zugeben und karamellisieren lassen.",
+    "Passierte Tomaten und Gewürze zugeben und kurz einkochen.",
+    "Für die Sauce Magerquark, Gewürzgurken, Zwiebel, Senf und Ketchup verrühren.",
+    "Die Kartoffeln in eine Bowl geben, das Burger-Hack darauf verteilen und großzügig mit der Big-Mac-Sauce toppen."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 25,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 420,
+  "nutrition": {
+    "carbs_g": 42,
+    "protein_g": 50,
+    "fat_g": 5
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Big Mac",
+    "Bowl",
+    "Burger-Sauce",
+    "Kartoffeln"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Die Sauce schmeckt nach einer Stunde im Kühlschrank noch runder.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach",
+    "Preiswert"
+  ],
+  "method": [
+    "Airfryer",
+    "Backen",
+    "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

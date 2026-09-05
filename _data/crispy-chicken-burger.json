@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-chicken-burger",
+  "title": "Crispy Chicken Burger",
+  "subtitle": "knusprig, saftig & cremig",
+  "description": "Panierte Hähnchen-Innenfilets aus dem Airfryer im gerösteten Bun, dazu eine cremige Quark-Sauce mit Senf, Ketchup, Gurke und Zwiebel.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Hamburger-Brötchen",
+      "note": "ca. 140 kcal",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Hähnchen-Innenfilets",
+      "note": "paniert, tiefgekühlt",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Ketchup light",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Zwiebel",
+      "note": "fein gehackt",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Gewürzgurke",
+      "note": "fein gehackt",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Hähnchen-Innenfilets im Ofen oder Airfryer knusprig backen.",
+    "Für die Sauce Magerquark, Senf, Ketchup light, Gewürzgurke und Zwiebel verrühren.",
+    "Das Brötchen halbieren und kurz anrösten.",
+    "Das Chicken auf die untere Hälfte legen, die Sauce darauf verteilen, zuklappen und servieren."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 340,
+  "nutrition": {
+    "carbs_g": 30,
+    "protein_g": 28,
+    "fat_g": 7
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Chicken Burger",
+    "Airfryer",
+    "Fast Food",
+    "Burger-Sauce"
+  ],
+  "tags": [
+    "Burger",
+    "High Protein",
+    "Schnell"
+  ],
+  "tip": "Ein Blatt Eisbergsalat und eine Tomatenscheibe bringen Frische ohne Kalorien.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Burger"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Airfryer",
+    "Backen"
+  ],
+  "occasion": [
+    "Party"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

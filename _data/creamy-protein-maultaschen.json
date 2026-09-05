@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "slug": "creamy-protein-maultaschen",
+  "title": "Creamy Protein Maultaschen",
+  "subtitle": "cremig, würzig & extrem sättigend",
+  "description": "Knusprig angebratene vegane Maultaschen in einer cremigen Protein-Sauce aus Magerquark und Milch, dazu Brokkoli und karamellisierte Zwiebeln.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Maultaschen",
+      "note": "vegan",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Brokkoli",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": "groß",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Protein-Sahnepulver",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 125,
+      "unit": "ml",
+      "name": "Milch",
+      "note": "1,5 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salz, Pfeffer und Knoblauchpulver",
+      "note": "kräftig würzen",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Protein-Sahnepulver mit Milch, Magerquark und Gewürzen im Mixer oder Shaker glatt mixen.",
+    "Die Maultaschen in einer Pfanne goldbraun und leicht knusprig anbraten.",
+    "Die Zwiebel in Streifen schneiden und anbraten.",
+    "Den Brokkoli kurz kochen oder dämpfen, bis er bissfest ist.",
+    "Alles zusammen in die Pfanne geben und kurz erhitzen, bis die Sauce cremig ist."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 620,
+  "nutrition": {
+    "carbs_g": 55,
+    "protein_g": 67,
+    "fat_g": 14
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Deutschland",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Deutsch",
+  "keywords": [
+    "Maultaschen",
+    "Brokkoli",
+    "Protein-Sauce"
+  ],
+  "tags": [
+    "Pfannengericht",
+    "High Protein"
+  ],
+  "tip": "Statt Protein-Sahnepulver funktioniert auch ein neutrales Whey plus etwas Speisestärke.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pfannengericht"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Braten",
+    "Kochen"
+  ],
+  "occasion": [
+    "Winter"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

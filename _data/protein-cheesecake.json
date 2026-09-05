@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "slug": "protein-cheesecake",
+  "title": "Protein Cheesecake",
+  "subtitle": "cremig, fruchtig & ohne Backen",
+  "description": "Ein Boden aus Schmelzflocken und Proteinpulver, darauf eine cremige Quark-Himbeer-Schicht. Ein einfaches Dessert mit viel Eiweiß und moderaten Kalorien.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Schmelzflocken",
+      "note": null,
+      "group": "Für den Boden",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": null,
+      "group": "Für den Boden",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "heißes Wasser",
+      "note": null,
+      "group": "Für den Boden",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Creme",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Himbeeren",
+      "note": null,
+      "group": "Für die Creme",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Chunky Flavour",
+      "note": "1 Scoop",
+      "group": "Für die Creme",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Schmelzflocken und Proteinpulver mischen, etwas heißes Wasser zugeben und verrühren, bis eine dicke Masse entsteht.",
+    "Die Masse in eine Schale oder kleine Form drücken und als Boden glatt verteilen.",
+    "Magerquark mit Himbeeren und Chunky Flavour glatt rühren.",
+    "Die Quarkcreme auf den Boden geben, gleichmäßig verteilen und vor dem Servieren kalt stellen."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 0,
+    "rest_min": 30
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 290,
+  "nutrition": {
+    "carbs_g": 23,
+    "protein_g": 40,
+    "fat_g": 3
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Backen & Süßspeisen > Dessert",
+    "Menüart > Dessert",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Cheesecake",
+    "Protein-Dessert",
+    "Magerquark",
+    "ohne Backen"
+  ],
+  "tags": [
+    "Dessert",
+    "High Protein"
+  ],
+  "tip": "Über Nacht im Kühlschrank wird der Boden fester und die Creme schnittfest.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Dessert",
+    "Snack"
+  ],
+  "daytime": [
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Protein-Dessert",
+    "Kuchen"
+  ],
+  "properties": [
+    "Einfach",
+    "Wenige Zutaten"
+  ],
+  "method": [
+    "Roh"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

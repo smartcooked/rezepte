@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "slug": "loaded-texmex-fries",
+  "title": "Loaded Tex-Mex Fries",
+  "subtitle": "würzig, knusprig & cremig",
+  "description": "Knusprige Pommes mit Tex-Mex-Veggie-Hack in Tomatensauce, cremiger Knoblauch-Quark-Soße und Jalapeños. Fühlt sich wie ein Cheat Meal an, bleibt aber im Rahmen.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Backofen-Pommes",
+      "note": "ca. 130 kcal je 100 g",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für die Hack-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für die Hack-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für die Hack-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz",
+      "note": null,
+      "group": "Für die Hack-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver und Salz",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Jalapeños",
+      "note": "aus dem Glas",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Pommes im Airfryer oder Backofen bei 180 bis 200 °C knusprig backen.",
+    "Das Veggie-Hack mit heißem Wasser übergießen, 5 bis 8 Minuten ziehen lassen und abgießen.",
+    "Die Zwiebel würfeln und in einer Pfanne anbraten, das Hack zugeben und kurz mitbraten.",
+    "Passierte Tomaten und Taco-Gewürz zugeben und köcheln lassen, bis eine sämige Sauce entsteht.",
+    "Die Pommes auf einen Teller geben und die Hack-Sauce darüber verteilen.",
+    "Magerquark mit Knoblauchpulver, Salz und einem Schluck Wasser glatt rühren, über die Fries geben und mit Jalapeños toppen."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 590,
+  "nutrition": {
+    "carbs_g": 60,
+    "protein_g": 56,
+    "fat_g": 11
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Mexiko",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Tex-Mex",
+    "Pommes",
+    "Veggie Hack",
+    "Loaded Fries"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Wer es milder mag, lässt die Jalapeños weg und nimmt Paprikapulver statt Taco-Gewürz.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pommes",
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach"
+  ],
+  "method": [
+    "Backen",
+    "Braten",
+    "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

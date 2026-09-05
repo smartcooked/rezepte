@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "slug": "protein-pizza",
+  "title": "Protein Pizza",
+  "subtitle": "knuspriger Quarkteig, viel Eiweiß",
+  "description": "Pizzateig aus Mehl und Magerquark, belegt mit gewürzten passierten Tomaten und Mozzarella light. Toppings nach Lust und Laune.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Weizenmehl",
+      "note": "Type 405",
+      "group": "Für den Teig",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für den Teig",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für den Belag",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 125,
+      "unit": "g",
+      "name": "Mozzarella light",
+      "note": null,
+      "group": "Für den Belag",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salz, Pfeffer und Oregano",
+      "note": null,
+      "group": "Für den Belag",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Toppings",
+      "note": "z.B. Zwiebeln, Gemüse, Veggie Hack, Jalapeños, Hähnchenbrust",
+      "group": "Für den Belag",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Mehl und Magerquark in einer Schüssel zu einem glatten Teig kneten und dünn rund ausrollen.",
+    "Die passierten Tomaten mit Salz, Pfeffer und Oregano würzen und auf dem Teig verteilen.",
+    "Mozzarella darüber streuen und nach Wunsch weitere Toppings verteilen.",
+    "Bei 200 °C etwa 15 bis 20 Minuten backen, bis der Rand goldbraun und der Käse geschmolzen ist."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 690,
+  "nutrition": {
+    "carbs_g": 80,
+    "protein_g": 65,
+    "fat_g": 11
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Backen & Süßspeisen > Pizza",
+    "Regional > Italien",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Italienisch",
+  "keywords": [
+    "Pizza",
+    "Quarkteig",
+    "Protein Pizza"
+  ],
+  "tags": [
+    "Pizza",
+    "High Protein",
+    "Für Kinder"
+  ],
+  "tip": "Den Teig auf Backpapier ausrollen, dann lässt er sich ohne Reißen aufs Blech ziehen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pizza"
+  ],
+  "properties": [
+    "Einfach",
+    "Preiswert"
+  ],
+  "method": [
+    "Backen"
+  ],
+  "occasion": [
+    "Für Kinder",
+    "Party"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

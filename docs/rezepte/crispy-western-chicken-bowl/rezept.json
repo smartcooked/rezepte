@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-western-chicken-bowl",
+  "title": "Crispy Western Chicken Bowl",
+  "subtitle": "crunchy, würzig & maximal sättigend",
+  "description": "Knusprige Wedges und Chicken Nuggets auf Rucola-Tomaten-Salat mit Mozzarella und Balsamico-Dressing, dazu eine cremige Pesto-Quark-Sauce.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Kartoffel-Wedges",
+      "note": "tiefgekühlt oder selbst gemacht",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Chicken Nuggets",
+      "note": "oder Hähnchen mit Cornflakes-Panade",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Rucola",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Tomaten",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Mozzarella light",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Balsamico",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "TL",
+      "name": "Pesto",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Salz und Kräuter",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Wedges und Chicken im Ofen oder Airfryer knusprig backen.",
+    "Die Zwiebel in Streifen schneiden und anbraten, bis sie weich und leicht karamellisiert ist.",
+    "Rucola, gewürfelte Tomaten und Mozzarella in einer Schüssel mischen.",
+    "Ein Dressing aus Balsamico, Senf und Kräutern anrühren und unter den Salat heben.",
+    "Für die Sauce Magerquark, Pesto, Senf, Knoblauchpulver und Salz verrühren.",
+    "Wedges, Chicken, Zwiebeln und Salat auf einem Teller anrichten und mit der Sauce servieren."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "normal",
+  "calories_per_serving": 643,
+  "nutrition": {
+    "carbs_g": 79,
+    "protein_g": 48,
+    "fat_g": 14
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Salat",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Chicken Bowl",
+    "Wedges",
+    "Rucola",
+    "Pesto-Sauce"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Selbst gemachte Wedges aus 200 g Kartoffeln mit etwas Paprikapulver sparen Fett gegenüber der Tiefkühlvariante.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl"
+  ],
+  "properties": [],
+  "method": [
+    "Airfryer",
+    "Backen",
+    "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

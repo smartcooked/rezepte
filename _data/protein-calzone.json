@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "slug": "protein-calzone",
+  "title": "Protein Calzone",
+  "subtitle": "knusprig außen, saftig innen",
+  "description": "Ein Teig aus Mehl und Magerquark, gefüllt mit würzigem Veggie-Hack in Tomatensauce und geschmolzenem Mozzarella. Pizza-Gefühl mit viel Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Weizenmehl",
+      "note": "Type 405",
+      "group": "Für den Teig",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für den Teig",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für die Füllung",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Tomatenmark",
+      "note": null,
+      "group": "Für die Füllung",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für die Füllung",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Mozzarella light",
+      "note": null,
+      "group": "Für die Füllung",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Gewürze",
+      "note": "Oregano, Salz, Pfeffer, Knoblauch",
+      "group": "Für die Füllung",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Veggie-Hack mit 200 ml heißem Wasser übergießen, 5 bis 8 Minuten ziehen lassen und abtropfen.",
+    "Die Zwiebel würfeln und in einer Pfanne anbraten, das Hack zugeben und kurz mitbraten.",
+    "Tomatenmark, 50 ml Wasser und Gewürze zugeben und 3 bis 5 Minuten köcheln lassen.",
+    "Für den Teig Mehl und Magerquark zu einem glatten Teig kneten und dünn rund ausrollen.",
+    "Die Füllung auf eine Hälfte geben, Mozzarella darüber streuen, den Teig zuklappen und den Rand fest zusammendrücken.",
+    "Bei 200 °C 20 bis 25 Minuten backen, bis die Calzone goldbraun ist."
+  ],
+  "times": {
+    "prep_min": 20,
+    "cook_min": 25,
+    "rest_min": 0
+  },
+  "difficulty": "normal",
+  "calories_per_serving": 700,
+  "nutrition": {
+    "carbs_g": 90,
+    "protein_g": 70,
+    "fat_g": 8
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Backen & Süßspeisen > Pizza",
+    "Regional > Italien",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Italienisch",
+  "keywords": [
+    "Calzone",
+    "Pizza",
+    "Quarkteig",
+    "Veggie Hack"
+  ],
+  "tags": [
+    "Pizza",
+    "High Protein"
+  ],
+  "tip": "Der Quarkteig gelingt am besten, wenn der Quark gut abgetropft ist; bei Bedarf etwas mehr Mehl zugeben.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pizza"
+  ],
+  "properties": [
+    "Preiswert"
+  ],
+  "method": [
+    "Backen",
+    "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

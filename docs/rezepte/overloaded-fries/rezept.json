@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "slug": "overloaded-fries",
+  "title": "Overloaded Fries",
+  "subtitle": "knusprig, cremig & über 50 g Eiweiß",
+  "description": "Knusprige Pommes mit Veggie Chunks, Coleslaw und einer cremigen Knoblauch-Quark-Sauce. Fast-Food-Feeling bei rund 500 kcal.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Pommes",
+      "note": "tiefgekühlt",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Veggie Chunks",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Paprikapulver, Salz und Pfeffer",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Coleslaw-Mix",
+      "note": "oder fein geschnittener Weißkohl und Karotten",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Zero-Chipotle-Soße",
+      "note": "optional",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Pommes und Veggie Chunks im Airfryer oder Ofen goldbraun und knusprig backen.",
+    "Magerquark mit Senf, Knoblauchpulver, Salz, Paprikapulver und etwas Wasser zu einer cremigen Sauce verrühren.",
+    "Einen Teil der Sauce mit dem Coleslaw-Mix vermengen.",
+    "Die Pommes als Basis in eine Bowl geben.",
+    "Veggie Chunks darauf verteilen, Coleslaw und die restliche Knoblauchcreme darüber geben."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 500,
+  "nutrition": {
+    "carbs_g": 52,
+    "protein_g": 53,
+    "fat_g": 8
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Loaded Fries",
+    "Veggie Chunks",
+    "Coleslaw",
+    "Knoblauchsauce"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Der Kohlenhydratwert im Heft ist mit 2 g offensichtlich ein Tippfehler; rechnerisch sind es rund 52 g.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times",
+    "nutrition"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pommes",
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Airfryer",
+    "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

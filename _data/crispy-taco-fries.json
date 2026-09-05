@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-taco-fries",
+  "title": "Crispy Taco Fries",
+  "subtitle": "knusprig, würzig & komplett beladen",
+  "description": "Knusprige Pommes mit saftigem Taco-Hack aus Veggie-Hack und Tomaten, getoppt mit cremiger Senf-Quark-Sauce und Nachos.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Pommes",
+      "note": "tiefgekühlt oder selbst gemacht",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Tomatenmark",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver und Gewürze",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Handvoll",
+      "name": "Nachos",
+      "note": "Käsegeschmack passt gut",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Light-Soßen",
+      "note": "optional",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Pommes im Ofen oder Airfryer knusprig backen.",
+    "Das Veggie-Hack mit heißem Wasser aufgießen, kurz ziehen lassen und anschließend anbraten.",
+    "Die Zwiebel würfeln und mit dem Hack anbraten.",
+    "Tomatenmark zugeben und kurz mitrösten.",
+    "Passierte Tomaten und Taco-Gewürz zugeben und einige Minuten köcheln lassen, bis eine dicke Taco-Sauce entsteht.",
+    "Magerquark mit Senf, Knoblauchpulver und Gewürzen verrühren.",
+    "Pommes auf einen Teller geben, Taco-Hack darüber verteilen, mit der Sauce toppen und Nachos darüber bröseln."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 595,
+  "nutrition": {
+    "carbs_g": 79,
+    "protein_g": 59,
+    "fat_g": 14
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Mexiko",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Taco Fries",
+    "Pommes",
+    "Veggie Hack",
+    "Nachos"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Das Taco-Hack lässt sich in doppelter Menge vorkochen und hält drei Tage im Kühlschrank.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pommes",
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach"
+  ],
+  "method": [
+    "Backen",
+    "Braten",
+    "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

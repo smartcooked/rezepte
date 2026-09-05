@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "slug": "mango-eis",
+  "title": "Mango Eis",
+  "subtitle": "fruchtig, cremig & nur 105 kcal",
+  "description": "Gefrorene Mango mit ungesüßter Mandelmilch zu cremigem Eis gemixt. Drei Zutaten, zwei Minuten, natürliche Süße.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Mango",
+      "note": "gefroren",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "ml",
+      "name": "Mandelmilch",
+      "note": "ungesüßt",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Süßstoff",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Alle Zutaten in einen leistungsstarken Mixer geben.",
+    "So lange mixen, bis eine cremige Eiskonsistenz entsteht.",
+    "Ist das Eis zu flüssig, etwas mehr gefrorene Mango zugeben; ist es zu fest, nach und nach etwas Mandelmilch.",
+    "Sofort servieren."
+  ],
+  "times": {
+    "prep_min": 5,
+    "cook_min": 0,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 105,
+  "nutrition": {
+    "carbs_g": 24,
+    "protein_g": 2,
+    "fat_g": 1
+  },
+  "diet": [
+    "vegetarisch",
+    "vegan"
+  ],
+  "categories": [
+    "Backen & Süßspeisen > Eis",
+    "Menüart > Dessert",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegan"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Nicecream",
+    "Mango",
+    "Eis",
+    "vegan"
+  ],
+  "tags": [
+    "Dessert",
+    "Vegan",
+    "Schnell"
+  ],
+  "tip": "Ein Spritzer Limettensaft hebt den Mango-Geschmack. Für mehr Eiweiß einen Scoop neutrales Proteinpulver mitmixen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Dessert",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Eis"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten",
+    "Preiswert"
+  ],
+  "method": [
+    "Roh"
+  ],
+  "occasion": [
+    "Sommer",
+    "Für Kinder"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

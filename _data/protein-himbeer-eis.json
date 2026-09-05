@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "slug": "protein-himbeer-eis",
+  "title": "Protein Himbeer Eis",
+  "subtitle": "fruchtig, cremig & nur 102 kcal",
+  "description": "Gefrorene Himbeeren mit Mandelmilch und Chunky Flavour zu cremigem Eis gemixt. Viel Volumen, wenig Kalorien, schmeckt wie echtes Eis.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Himbeeren",
+      "note": "gefroren",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Chunky Flavour",
+      "note": "1 Scoop, oder Süßstoff",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "ml",
+      "name": "Mandelmilch",
+      "note": "ungesüßt, plus etwas mehr nach Bedarf",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die gefrorenen Himbeeren in einen Mixer geben.",
+    "Chunky Flavour und 100 ml Mandelmilch zugeben.",
+    "Alles mixen, bis eine cremige, eisartige Konsistenz entsteht.",
+    "Ist die Masse zu fest, schrittweise 10 bis 20 ml Mandelmilch zugeben, bis das Eis löffelbar ist."
+  ],
+  "times": {
+    "prep_min": 5,
+    "cook_min": 0,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 102,
+  "nutrition": null,
+  "diet": [
+    "vegetarisch",
+    "vegan"
+  ],
+  "categories": [
+    "Backen & Süßspeisen > Eis",
+    "Menüart > Dessert",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegan"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Nicecream",
+    "Himbeeren",
+    "Eis",
+    "Dessert"
+  ],
+  "tags": [
+    "Dessert",
+    "Kalorienarm",
+    "Schnell"
+  ],
+  "tip": "Sofort servieren; im Gefrierfach wird das Eis hart. Mit veganem Chunky Flavour komplett vegan.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times",
+    "nutrition"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Dessert",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Eis"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten",
+    "Preiswert"
+  ],
+  "method": [
+    "Roh"
+  ],
+  "occasion": [
+    "Sommer",
+    "Für Kinder"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-chicken-wrap",
+  "title": "Crispy Chicken Wrap",
+  "subtitle": "knusprig, cremig & schnell",
+  "description": "Paniertes Hähnchenbrustfilet und Pommes aus dem Airfryer in einer Tortilla, dazu eine Knoblauch-Quark-Sauce. Fast-Food-Gefühl in 20 Minuten.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Weizentortilla",
+      "note": "klein",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Hähnchenbrustfilet",
+      "note": "paniert, tiefgekühlt",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Backofen-Pommes",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver und Gewürze",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Chicken und Pommes im Airfryer oder Ofen knusprig backen.",
+    "Magerquark mit Senf, Knoblauchpulver und Gewürzen verrühren.",
+    "Die Tortilla kurz erwärmen und die Sauce darauf streichen.",
+    "Pommes und Chicken mittig platzieren, fest einrollen und servieren."
+  ],
+  "times": {
+    "prep_min": 5,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 370,
+  "nutrition": {
+    "carbs_g": 30,
+    "protein_g": 40,
+    "fat_g": 7
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Chicken Wrap",
+    "Airfryer",
+    "Pommes",
+    "Knoblauchsauce"
+  ],
+  "tags": [
+    "Wrap",
+    "High Protein",
+    "Schnell"
+  ],
+  "tip": "Etwas Eisbergsalat im Wrap bringt Crunch und Frische.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Wrap"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Wenige Zutaten"
+  ],
+  "method": [
+    "Airfryer",
+    "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

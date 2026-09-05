@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "slug": "tex-mex-lasagne",
+  "title": "Tex-Mex Lasagne",
+  "subtitle": "Taco-Bowl trifft Lasagne",
+  "description": "Würziges Tex-Mex-Veggie-Hack mit Mais, Kidneybohnen und Tomatensauce, geschichtet mit Lasagneblättern und Light-Käse. Perfekt für Meal Prep.",
+  "servings": 4,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Veggie Hack",
+      "note": "trocken",
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 500,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 2,
+      "unit": "Zehe",
+      "name": "Knoblauch",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Kidneybohnen",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Mais",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz",
+      "note": null,
+      "group": "Für die Soße",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Lasagneblätter",
+      "note": null,
+      "group": "Zum Schichten",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Gratinkäse light",
+      "note": null,
+      "group": "Zum Schichten",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 125,
+      "unit": "g",
+      "name": "Mozzarella light",
+      "note": null,
+      "group": "Zum Schichten",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Veggie-Hack mit 500 ml heißem Wasser übergießen, 2 bis 3 Minuten ziehen lassen und abtropfen.",
+    "Zwiebel und Knoblauch fein schneiden und anbraten, das Hack zugeben und kurz mitbraten.",
+    "Passierte Tomaten, Kidneybohnen, Mais und Taco-Gewürz zugeben und die Soße 5 bis 8 Minuten köcheln lassen.",
+    "In einer Auflaufform abwechselnd Soße und Lasagneblätter schichten, zwei- bis dreimal wiederholen.",
+    "Gratinkäse und Mozzarella darüber verteilen und bei 180 bis 200 °C etwa 25 bis 30 Minuten goldbraun backen."
+  ],
+  "times": {
+    "prep_min": 25,
+    "cook_min": 30,
+    "rest_min": 0
+  },
+  "difficulty": "normal",
+  "calories_per_serving": 375,
+  "nutrition": {
+    "carbs_g": 30,
+    "protein_g": 50,
+    "fat_g": 8
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Zubereitungsarten > Überbacken",
+    "Regional > Mexiko",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Lasagne",
+    "Tex-Mex",
+    "Meal Prep",
+    "Veggie Hack"
+  ],
+  "tags": [
+    "Lasagne",
+    "High Protein",
+    "Meal Prep"
+  ],
+  "tip": "Portionsweise eingefroren hält die Lasagne drei Monate; zum Aufwärmen bei 160 °C abgedeckt in den Ofen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Auflauf",
+    "Lasagne"
+  ],
+  "properties": [
+    "Meal Prep",
+    "Preiswert"
+  ],
+  "method": [
+    "Backen",
+    "Kochen"
+  ],
+  "occasion": [
+    "Winter",
+    "Party"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-taco-burrito",
+  "title": "Crispy Taco Burrito",
+  "subtitle": "würzig, cremig & mit Crunch",
+  "description": "Weizentortilla mit Taco-Hack aus veganem Hack, Reis, cremiger Quark-Senf-Sauce und ein paar Nachos für den Crunch. Schnell, sättigend und nur 390 kcal.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Weizentortilla",
+      "note": "ca. 40 g",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "veganes Hack",
+      "note": "trocken",
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": "klein",
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz",
+      "note": null,
+      "group": "Für das Taco-Hack",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Reis",
+      "note": "gekocht",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 120,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Senf",
+      "note": "mittelscharf",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salz und Pfeffer",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Nachos",
+      "note": "5 bis 10 g",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Hack mit heißem Wasser aufgießen, kurz ziehen lassen und anbraten.",
+    "Die Zwiebel klein schneiden und mit dem Hack anbraten.",
+    "Passierte Tomaten und Taco-Gewürz zugeben und kurz köcheln lassen.",
+    "Den Reis kochen oder fertig gekochten Reis verwenden.",
+    "Magerquark mit etwas Taco-Gewürz, Senf, Salz und Pfeffer glatt rühren.",
+    "Die Tortilla kurz erwärmen, Hack, Reis, Sauce und zerbröselte Nachos darauf geben, einrollen und genießen."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 10,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 390,
+  "nutrition": {
+    "carbs_g": 45,
+    "protein_g": 34,
+    "fat_g": 4
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Mexiko",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Burrito",
+    "Wrap",
+    "Taco",
+    "veganes Hack"
+  ],
+  "tags": [
+    "Wrap",
+    "High Protein",
+    "Schnell"
+  ],
+  "tip": "Den Burrito in Backpapier einrollen, dann lässt er sich gut mitnehmen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Wrap"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Preiswert"
+  ],
+  "method": [
+    "Braten",
+    "Kochen"
+  ],
+  "occasion": [
+    "Büro"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "slug": "protein-caesar-salad",
+  "title": "Protein Caesar Salad",
+  "subtitle": "viel Eiweiß, viel Volumen",
+  "description": "Gebratene Hähnchenbrust und Kidneybohnen auf einem großen Salat, dazu ein cremiges Joghurt-Senf-Dressing mit Crema di Balsamico. Sättigend und intensiv im Geschmack.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "Hähnchenbrustfilet",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Salat",
+      "note": "nach Wahl",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Kidneybohnen",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Joghurt",
+      "note": "1,5 % Fett",
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Senf",
+      "note": "mittelscharf",
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Crema di Balsamico",
+      "note": null,
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Gewürze",
+      "note": "nach Wahl, gern kräftig",
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Hähnchenbrust in einer beschichteten Pfanne goldbraun und durchgegart braten, dann in Stücke schneiden.",
+    "Den Salat in eine große Bowl geben und die Kidneybohnen darüber verteilen.",
+    "Für das Dressing Joghurt, Senf und reichlich Gewürze verrühren.",
+    "Das Hähnchen auf den Salat geben, das Dressing darüber verteilen, mit Crema di Balsamico toppen und alles gut vermischen."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 10,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 515,
+  "nutrition": {
+    "carbs_g": 21,
+    "protein_g": 80,
+    "fat_g": 8
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Salat",
+    "Menüart > Hauptspeise",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Caesar Salad",
+    "Hähnchen",
+    "Salat",
+    "Dressing"
+  ],
+  "tags": [
+    "Salat",
+    "High Protein"
+  ],
+  "tip": "Für zwei Portionen einfach alles verdoppeln; das Dressing hält sich zwei Tage im Kühlschrank.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Salat"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell",
+    "Meal Prep"
+  ],
+  "method": [
+    "Braten"
+  ],
+  "occasion": [
+    "Sommer",
+    "Büro"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "slug": "loaded-gyros-fries",
+  "title": "Loaded Gyros Fries",
+  "subtitle": "deftig, knusprig & voller Geschmack",
+  "description": "Knusprige Ofenpommes, würzig angebratenes Veggie-Gyros und geschmälzte Zwiebeln, in der Mitte ein cremiger Knoblauchquark. Deftig und trotzdem im Rahmen.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Backofen-Pommes",
+      "note": "ca. 130 kcal je 100 g",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Pck.",
+      "name": "Veggie Gyros",
+      "note": "z.B. von Davert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "0,2 % Fett",
+      "group": "Für den Knoblauchquark",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauch, Salz und Pfeffer",
+      "note": null,
+      "group": "Für den Knoblauchquark",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Pommes im Airfryer oder Backofen nach Packungsanleitung goldbraun und knusprig backen.",
+    "Die Zwiebel in Streifen schneiden und in einer beschichteten Pfanne anbraten, bis sie weich und leicht gebräunt ist.",
+    "Das Veggie-Gyros mit 200 ml heißem Wasser übergießen, 5 bis 8 Minuten ziehen lassen und kurz abtropfen.",
+    "Das Gyros zu den Zwiebeln geben und alles zusammen anbraten, bis Röstaromen entstehen.",
+    "Für die Soße den Magerquark mit gepresstem Knoblauch, Salz und Pfeffer verrühren.",
+    "Die Pommes in eine Bowl geben, Gyros und Zwiebeln darauf verteilen und den Knoblauchquark in die Mitte setzen."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 640,
+  "nutrition": {
+    "carbs_g": 62,
+    "protein_g": 45,
+    "fat_g": 20
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Regional > Griechenland",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": "Griechisch",
+  "keywords": [
+    "Gyros",
+    "Pommes",
+    "Bowl",
+    "Knoblauchquark"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Ein paar Gurkenwürfel im Quark machen daraus einen schnellen Tzatziki.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „The Cook Book – High Protein, High Volume, Low Calorie“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-09-05",
+  "updated": "2026-09-05",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl",
+    "Pommes"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Backen",
+    "Braten",
+    "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-09-05"
+}
