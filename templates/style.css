@@ -60,7 +60,9 @@ p{margin:0 0 12px}
 .stepper{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .stepper button{width:44px;height:44px;border:0;background:var(--bg);color:var(--green);cursor:pointer;display:grid;place-items:center}
 .stepper button:hover{background:var(--green-soft)}
-.stepper output{min-width:92px;text-align:center;font-weight:600;font-variant-numeric:tabular-nums}
+.stepper .p-field input{width:56px;height:44px;border:0;border-left:1px solid var(--line);border-right:1px solid var(--line);text-align:center;font:inherit;font-weight:700;font-size:1.05rem;color:var(--ink);background:var(--bg);-moz-appearance:textfield}
+.stepper input::-webkit-outer-spin-button,.stepper input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.stepper .p-lbl{padding:0 12px 0 10px;font-weight:600;color:var(--muted)}
 
 /* Zutaten */
 .ings{width:100%;border-collapse:collapse}
@@ -86,6 +88,26 @@ p{margin:0 0 12px}
 .steps li p{margin:.3em 0 0}
 .nutri{display:flex;flex-wrap:wrap;gap:6px 18px;color:var(--muted);font-size:.95rem;margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
 .nutri .icon{color:var(--green)}
+
+/* Tipp */
+.tip{display:flex;gap:12px;background:var(--amber-soft);border-radius:var(--r-md);padding:12px 14px;margin-top:16px}
+.tip .icon{color:var(--amber);width:1.4em;height:1.4em;flex:0 0 auto;margin-top:.15em}
+.tip p{margin:0}
+
+/* Nährwerte */
+.nutri-sect{padding:0 0 28px}
+.nutri-sect .sect-head{margin-bottom:10px}
+.nutri-sect .sect-head small{color:var(--muted);font-size:.9rem}
+.nutri-tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}@media(min-width:640px){.nutri-tiles{grid-template-columns:repeat(4,1fr)}}
+.nutri-tiles div{background:var(--surface);border-radius:var(--r-md);padding:12px 14px;display:flex;gap:10px;align-items:center}
+.nutri-tiles .icon{color:var(--green);width:1.5em;height:1.5em}.nutri-tiles b{display:block;font-variant-numeric:tabular-nums}.nutri-tiles small{color:var(--muted);font-size:.85rem}
+.nutri-calc{margin-top:12px}.nutri-calc summary{cursor:pointer;color:var(--green);font-weight:600;list-style:none;display:inline-flex;gap:6px;align-items:center;min-height:44px}
+.nutri-calc summary::-webkit-details-marker{display:none}
+.nutri-calc table{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:6px}.nutri-calc td,.nutri-calc th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.nutri-calc td.r,.nutri-calc th.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.nutri-calc tr.sum td{font-weight:700;border-bottom:0}
+
+/* Aktionsleiste */
+.actions-row{display:flex;flex-wrap:wrap;gap:10px;padding:0 0 28px}
 
 /* Tags */
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
@@ -151,7 +173,8 @@ p{margin:0 0 12px}
 @media print{
   @page{size:A4;margin:14mm 15mm}
   body{font-size:11.5pt;color:#000;background:#fff}
-  .topbar,.ck,.btn,.stepper,.foot,.toast,.tags{display:none!important}
+  .topbar,.ck,.btn,.stepper,.foot,.toast,.tags,.actions-row,.nutri-calc{display:none!important}
+  .nutri-sect{padding:0 0 4mm}.nutri-tiles{grid-template-columns:repeat(4,1fr)}.nutri-tiles div{background:#f0f0f0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .wrap{max-width:none;padding:0}
   .print-head{display:flex!important;justify-content:space-between;align-items:center;border-bottom:1px dotted #999;padding-bottom:6mm;margin-bottom:6mm}
   .print-head .brand{color:#000}

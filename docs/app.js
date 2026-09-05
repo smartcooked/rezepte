@@ -24,24 +24,28 @@
   }
 
   /* ---------- Rezeptseite ---------- */
-  var out = $('#p-out');
-  if (out) {
-    var base = parseInt(out.dataset.base, 10) || 1, cur = base;
+  var num = $('#p-num');
+  if (num) {
+    var base = parseInt(num.dataset.base, 10) || 1, cur = base;
     var rows = $$('#ings td.n[data-amount]');
     function apply() {
-      $('#p-num').textContent = cur;
-      out.lastChild.textContent = cur === 1 ? ' Portion' : ' Portionen';
+      num.value = cur;
+      $('#p-lbl').textContent = cur === 1 ? 'Portion' : 'Portionen';
       rows.forEach(function (td) { td.textContent = fmt(parseFloat(td.dataset.amount) * cur / base); });
     }
     $('#p-minus').addEventListener('click', function () { if (cur > 1) { cur--; apply(); } });
     $('#p-plus').addEventListener('click', function () { if (cur < 99) { cur++; apply(); } });
+    num.addEventListener('input', function () { var v = parseInt(num.value, 10); if (v >= 1 && v <= 99) { cur = v; apply(); } });
+    num.addEventListener('blur', function () { apply(); });
+    num.addEventListener('focus', function () { num.select(); });
 
-    $('#btn-print').addEventListener('click', function () { window.print(); });
-    $('#btn-share').addEventListener('click', function () {
+    function share() {
       var data = { title: document.body.dataset.title, text: document.body.dataset.title, url: document.body.dataset.url };
       if (navigator.share) navigator.share(data).catch(function () {});
       else copy(data.url, 'Link kopiert');
-    });
+    }
+    $$('#btn-print,[data-action="print"]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
+    $$('#btn-share,[data-action="share"]').forEach(function (b) { b.addEventListener('click', share); });
     $$('[data-copy]').forEach(function (b) {
       b.addEventListener('click', function () {
         var el = document.getElementById(b.dataset.copy);

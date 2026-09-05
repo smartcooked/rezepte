@@ -54,7 +54,7 @@ $icons
         <h2 id="h-zutaten">Zutaten</h2>
         <div class="stepper" aria-label="Portionen anpassen">
           <button type="button" id="p-minus" aria-label="Eine Portion weniger"><svg class="icon"><use href="#i-minus"/></svg></button>
-          <output id="p-out" for="p-minus p-plus" data-base="$servings"><span id="p-num" $p_yield>$servings</span> Portionen</output>
+          <label class="p-field"><span class="sr">Portionen</span><input type="number" id="p-num" min="1" max="99" inputmode="numeric" value="$servings" data-base="$servings"></label><span class="p-lbl" id="p-lbl" $p_yield>Portionen</span>
           <button type="button" id="p-plus" aria-label="Eine Portion mehr"><svg class="icon"><use href="#i-plus"/></svg></button>
         </div>
       </div>
@@ -71,8 +71,16 @@ $icons
       <ol class="steps">
         $steps_html
       </ol>
-      $nutrition_html
+      $tip_html
     </section>
+  </div>
+
+  $nutrition_html
+
+  <div class="actions-row">
+    <button class="btn primary" type="button" data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drucken</button>
+    <button class="btn" type="button" data-action="share"><svg class="icon"><use href="#i-share"/></svg>Teilen</button>
+    <a class="btn" href="$root/"><svg class="icon"><use href="#i-book"/></svg>Alle Rezepte</a>
   </div>
 
   <details class="ck" open data-nosnippet>

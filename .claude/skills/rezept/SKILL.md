@@ -28,7 +28,8 @@ Projektordner: `/Users/jenswolfhagen/Claude/Projects/Apps/Rezepte` (im Folgenden
 - **Portionen** aus Quelle, sonst 4 und `estimated` ergänzen.
 - **Zeiten**: Arbeitszeit = aktive Zeit, Koch-/Backzeit = passive Hitze, Ruhezeit = Kühlen/Gehen/Marinieren. Fehlend → schätzen, `"times"` in `estimated`.
 - **Schwierigkeit**: ≤ 8 Zutaten und ≤ 6 Schritte → simpel; Teig, Temperieren, Reduktionen, mehrere Komponenten → pfiffig; sonst normal. Geschätzt → `estimated`.
-- **Kalorien** pro Portion grob schätzen (Makros überschlagen) → `estimated`; Angabe in Quelle übernehmen, optional `nutrition` (carbs_g, protein_g, fat_g).
+- **Nährwerte**: für jede Zutat `grams` (Gewicht der angegebenen Menge in Gramm, z.B. 1 Ei = 60 g, 1 EL Öl = 10 g, 500 ml Milch = 515 g) und `per100` = `{kcal, protein_g, fat_g, carbs_g}` je 100 g aus üblichen Nährwerttabellen (BLS/USDA-Richtwerte) eintragen. Der Build berechnet daraus die Werte pro Portion und zeigt die Aufschlüsselung. Wasser, Salz, Gewürze: `grams` eintragen, `per100` mit 0. Nur wenn das für einzelne Zutaten unmöglich ist: `calories_per_serving` + `nutrition` als Rezeptschätzung und `"calories"` in `estimated`.
+- **Tipp** (`tip`): optionaler Hinweis zu Varianten, Aufbewahrung oder Austausch von Zutaten, 1–3 Sätze; aus der Quelle übernehmen oder sinnvoll ergänzen.
 - **Kategorien**: 2–5 Pfade aus `kategorien.md`. **diet**: vegetarisch/vegan/glutenfrei/laktosefrei/low carb/high protein nur, wenn eindeutig. **cuisine** nur bei klarer Küche. **tags** 1–4 freie Stichworte für den Katalog, **keywords** 2–5 Suchbegriffe.
 - **Bild**: nur ein echtes Gerichtsfoto wird `image: "bild.jpg"`. Ein Foto einer Kochbuchseite, ein Screenshot oder ein Zettel ist **kein** Rezeptbild → `image: null`.
 - **source**: `{type: text|photo|pdf|screenshot|idea|url, note: "nach: <Buch/Seite/Person>"}`; keine Namen Dritter außer öffentlicher Autor:innen.
@@ -46,10 +47,11 @@ Genau dieses Format, keine Zusatzprosa:
 ```
 **<Titel>** – <Untertitel> · <n> Portionen
 Arbeit <x> min · Kochen <y> min · Ruhe <z> · <Schwierigkeit> · ~<kcal> kcal (geschätzt: <Liste>)
-| # | Menge | Einheit | Zutat | Hinweis |
-| 1 | 250 | g | Mehl | Für den Teig |
+| # | Menge | Einheit | Zutat | Hinweis | g |
+| 1 | 250 | g | Mehl | Für den Teig | 250 |
 …
-Zubereitung: <n> Schritte (1. <erste 8 Wörter> … 2. …)
+Zubereitung: <n> Schritte (1. <erste 8 Wörter> … 2. …) · Tipp: ja/nein
+Nährwerte/Portion: <kcal> kcal · <E> g Eiweiß · <F> g Fett · <KH> g Kohlenhydrate (berechnet)
 Kategorien: <Pfade> · Ernährung: <diet> · Küche: <cuisine>
 Bild: keins / bild.jpg
 ```

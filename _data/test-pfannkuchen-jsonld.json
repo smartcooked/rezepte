@@ -11,42 +11,84 @@
       "unit": "g",
       "name": "Mehl",
       "note": null,
-      "group": "Für den Teig"
+      "group": "Für den Teig",
+      "grams": 250,
+      "per100": {
+        "kcal": 364,
+        "protein_g": 10,
+        "fat_g": 1,
+        "carbs_g": 76
+      }
     },
     {
       "amount": 500,
       "unit": "ml",
       "name": "Milch",
       "note": null,
-      "group": "Für den Teig"
+      "group": "Für den Teig",
+      "grams": 515,
+      "per100": {
+        "kcal": 47,
+        "protein_g": 3.4,
+        "fat_g": 1.5,
+        "carbs_g": 4.8
+      }
     },
     {
       "amount": 3,
       "unit": "Stück",
       "name": "Ei(er)",
       "note": null,
-      "group": "Für den Teig"
+      "group": "Für den Teig",
+      "grams": 180,
+      "per100": {
+        "kcal": 155,
+        "protein_g": 13,
+        "fat_g": 11,
+        "carbs_g": 1.1
+      }
     },
     {
       "amount": 1,
       "unit": "Prise",
       "name": "Salz",
       "note": null,
-      "group": "Für den Teig"
+      "group": "Für den Teig",
+      "grams": 1,
+      "per100": {
+        "kcal": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0
+      }
     },
     {
       "amount": 1,
       "unit": "EL",
       "name": "Zucker",
       "note": null,
-      "group": "Für den Teig"
+      "group": "Für den Teig",
+      "grams": 10,
+      "per100": {
+        "kcal": 400,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 100
+      }
     },
     {
       "amount": 2,
       "unit": "EL",
       "name": "Butter",
       "note": "zum Ausbacken",
-      "group": "Zum Ausbacken"
+      "group": "Zum Ausbacken",
+      "grams": 30,
+      "per100": {
+        "kcal": 741,
+        "protein_g": 0.7,
+        "fat_g": 83,
+        "carbs_g": 0.6
+      }
     }
   ],
   "steps": [
@@ -91,11 +133,10 @@
     "note": "Testrezept für den Chefkoch-Import"
   },
   "author": null,
-  "estimated": [
-    "calories"
-  ],
+  "estimated": [],
   "created": "2026-09-05",
   "updated": "2026-09-05",
   "status": "draft",
-  "_test_jsonld_only": true
+  "_test_jsonld_only": true,
+  "tip": "Für herzhafte Pfannkuchen den Zucker weglassen und mit Kräutern, Schinken oder Käse füllen. Der Teig hält sich abgedeckt einen Tag im Kühlschrank."
 }

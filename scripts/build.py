@@ -138,6 +138,8 @@ def validate(r):
         a = ing.get("amount")
         if a is not None and not isinstance(a, (int, float)):
             errs.append("Zutat %d: amount muss Zahl oder null sein" % (i + 1))
+        if ing.get("grams") is not None and not isinstance(ing["grams"], (int, float)):
+            errs.append("Zutat %d: grams muss Zahl oder null sein" % (i + 1))
         u = ing.get("unit")
         if u and u not in UNITS:
             warns.append("Zutat %d: Einheit %r nicht in Chefkoch-Liste" % (i + 1, u))
@@ -185,12 +187,12 @@ def build_jsonld(r, cfg, url):
             ld[key] = iso_duration(t[field])
     if total:
         ld["totalTime"] = iso_duration(total)
-    if r.get("calories_per_serving"):
-        n = {"@type": "NutritionInformation", "calories": "%d kcal" % r["calories_per_serving"], "servingSize": "1 Portion"}
-        nu = r.get("nutrition") or {}
-        if nu.get("carbs_g") is not None: n["carbohydrateContent"] = "%s g" % nu["carbs_g"]
-        if nu.get("protein_g") is not None: n["proteinContent"] = "%s g" % nu["protein_g"]
-        if nu.get("fat_g") is not None: n["fatContent"] = "%s g" % nu["fat_g"]
+    per, _src, _rows = compute_nutrition(r)
+    if per:
+        n = {"@type": "NutritionInformation", "calories": "%d kcal" % round(per["kcal"]), "servingSize": "1 Portion"}
+        if per.get("carbs_g") is not None: n["carbohydrateContent"] = "%d g" % round(per["carbs_g"])
+        if per.get("protein_g") is not None: n["proteinContent"] = "%d g" % round(per["protein_g"])
+        if per.get("fat_g") is not None: n["fatContent"] = "%d g" % round(per["fat_g"])
         ld["nutrition"] = n
     cats = [c.split(">")[-1].strip() for c in (r.get("categories") or [])]
     if cats:
@@ -249,7 +251,70 @@ def render_times(r, micro):
     return "\n        ".join(out)
 
 
+def compute_nutrition(r):
+    """Nährwerte pro Portion. Bevorzugt Berechnung aus Zutaten (grams + per100), sonst Rezeptangabe.
+    Rückgabe: (werte-dict oder None, quelle: 'berechnet'|'angabe'|'geschaetzt'|None, zeilen für die Aufschlüsselung)."""
+    rows, tot = [], {"kcal": 0.0, "protein_g": 0.0, "fat_g": 0.0, "carbs_g": 0.0}
+    complete = True
+    for ing in r["ingredients"]:
+        g, p = ing.get("grams"), ing.get("per100") or {}
+        if g is None or p.get("kcal") is None:
+            if ing.get("amount") is not None:
+                complete = False
+            continue
+        row = {"name": ing["name"], "grams": g}
+        for k, pk in (("kcal", "kcal"), ("protein_g", "protein_g"), ("fat_g", "fat_g"), ("carbs_g", "carbs_g")):
+            v = (p.get(pk) or 0) * g / 100.0
+            row[k] = v
+            tot[k] += v
+        rows.append(row)
+    n = max(1, r["servings"])
+    if rows and complete:
+        per = {k: v / n for k, v in tot.items()}
+        return per, "berechnet", rows
+    if r.get("calories_per_serving"):
+        nu = r.get("nutrition") or {}
+        per = {"kcal": float(r["calories_per_serving"]), "protein_g": nu.get("protein_g"), "fat_g": nu.get("fat_g"), "carbs_g": nu.get("carbs_g")}
+        return per, ("geschaetzt" if "calories" in (r.get("estimated") or []) or "all" in (r.get("estimated") or []) else "angabe"), rows
+    return None, None, rows
+
+
+def fmt_g(v):
+    return "–" if v is None else ("%d" % round(v))
+
+
 def render_nutrition(r, micro):
+    per, src, rows = compute_nutrition(r)
+    if not per:
+        return ""
+    label = {"berechnet": "berechnet aus den Zutaten", "angabe": "laut Quelle", "geschaetzt": "geschätzt"}[src]
+    scope = ' itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation"' if micro else ""
+    tiles = [("i-flame", "%d kcal" % round(per["kcal"]), "Energie", "calories", "%d kcal" % round(per["kcal"])),
+             ("i-egg", fmt_g(per["protein_g"]) + " g", "Eiweiß", "proteinContent", None),
+             ("i-drop", fmt_g(per["fat_g"]) + " g", "Fett", "fatContent", None),
+             ("i-bread", fmt_g(per["carbs_g"]) + " g", "Kohlenhydrate", "carbohydrateContent", None)]
+    t_html = []
+    for icon, val, name, prop, _ in tiles:
+        meta = ""
+        if micro and per.get({"calories": "kcal", "proteinContent": "protein_g", "fatContent": "fat_g", "carbohydrateContent": "carbs_g"}[prop]) is not None:
+            meta = '<meta itemprop="%s" content="%s">' % (prop, val)
+        t_html.append('<div><svg class="icon"><use href="#%s"/></svg><span><b>%s</b><small>%s</small></span>%s</div>' % (icon, val, name, meta))
+    calc = ""
+    if src == "berechnet" and rows:
+        trs = "".join('<tr><td>%s</td><td class="r">%d g</td><td class="r">%d</td><td class="r">%s</td><td class="r">%s</td><td class="r">%s</td></tr>' % (
+            esc(x["name"]), round(x["grams"]), round(x["kcal"]), fmt_g(x["protein_g"]), fmt_g(x["fat_g"]), fmt_g(x["carbs_g"])) for x in rows)
+        n = r["servings"]
+        tot = {k: sum(x[k] for x in rows) for k in ("kcal", "protein_g", "fat_g", "carbs_g")}
+        calc = ('<details class="nutri-calc"><summary><svg class="icon"><use href="#i-chevron"/></svg>Berechnung anzeigen</summary>'
+                '<div style="overflow-x:auto"><table><thead><tr><th>Zutat</th><th class="r">Menge</th><th class="r">kcal</th><th class="r">Eiweiß g</th><th class="r">Fett g</th><th class="r">KH g</th></tr></thead>'
+                '<tbody>%s<tr class="sum"><td>Gesamt (%d Portionen)</td><td></td><td class="r">%d</td><td class="r">%d</td><td class="r">%d</td><td class="r">%d</td></tr></tbody></table></div>'
+                '<p style="color:var(--muted);font-size:.88rem;margin:8px 0 0">Richtwerte je 100 g aus üblichen Nährwerttabellen, Mengen in Gramm geschätzt. Abweichungen je nach Produkt möglich.</p></details>'
+                % (trs, n, round(tot["kcal"]), round(tot["protein_g"]), round(tot["fat_g"]), round(tot["carbs_g"])))
+    return ('<section class="nutri-sect" aria-labelledby="h-nutri"%s><div class="sect-head"><h2 id="h-nutri">Nährwerte pro Portion</h2><small>%s</small></div>'
+            '<div class="nutri-tiles">%s</div>%s</section>') % (scope, label, "".join(t_html), calc)
+
+
+def _unused_render_nutrition(r, micro):
     if not r.get("calories_per_serving"):
         return ""
     nu = r.get("nutrition") or {}
@@ -330,9 +395,10 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         "servings": r["servings"],
         "ingredients_html": render_ingredients(r, micro), "times_html": render_times(r, micro),
         "steps_html": render_steps(r, micro), "nutrition_html": render_nutrition(r, micro),
+        "tip_html": ('<div class="tip"><svg class="icon"><use href="#i-bulb"/></svg><p><b>Tipp:</b> %s</p></div>' % esc(r["tip"])) if r.get("tip") else "",
         "categories_label": esc(" · ".join(r.get("categories") or [])) or "–",
         "prep_hm": hm(t.get("prep_min")), "cook_hm": hm(t.get("cook_min")), "rest_dhm": dhm(t.get("rest_min")),
-        "calories_label": ("%d kcal pro Portion" % r["calories_per_serving"]) if r.get("calories_per_serving") else "–",
+        "calories_label": ("%d kcal pro Portion" % round(compute_nutrition(r)[0]["kcal"])) if compute_nutrition(r)[0] else "–",
         "source_label": source_label, "estimated_label": estimated_label,
         "copy_ingredients": esc(copy_ings), "copy_steps": esc(copy_steps), "updated": r["updated"],
     }
@@ -351,7 +417,7 @@ def index_entry(r, cfg, url):
     rdir = cfg.get("recipe_dir", "rezepte")
     return {"slug": r["slug"], "title": r["title"], "subtitle": r.get("subtitle"), "url": "%s/%s/" % (rdir, r["slug"]),
             "image": r.get("image"), "prep_min": t.get("prep_min") or 0, "total_min": total, "difficulty": r["difficulty"],
-            "calories": r.get("calories_per_serving"), "diet": r.get("diet") or [], "categories": r.get("categories") or [],
+            "calories": (round(compute_nutrition(r)[0]["kcal"]) if compute_nutrition(r)[0] else None), "diet": r.get("diet") or [], "categories": r.get("categories") or [],
             "tags": r.get("tags") or [], "cuisine": r.get("cuisine"), "servings": r["servings"],
             "created": r["created"], "updated": r["updated"], "search": search, "absolute_url": url}
 
