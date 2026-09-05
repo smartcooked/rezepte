@@ -48,7 +48,23 @@ Der Mac-Schlüsselbund merkt sich das; alle weiteren Uploads laufen automatisch 
 2. Unter „Build and deployment“: Source **Deploy from a branch**; Branch **main**, Ordner **/docs** → **Save**.
 3. Nach 1–2 Minuten ist die Seite unter `https://smartcooked.github.io/rezepte/` erreichbar.
 
-## Chefkoch-Import-Test (Meilenstein M1)
+## Chefkoch-Importverhalten (getestet am 2026-09-05)
+
+Chefkoch importiert von GitHub Pages und liest **schema.org/Recipe als JSON-LD**. Microdata (`itemprop`) wird von Chefkoch bevorzugt
+und hat dabei Mengen, Portionen und Bild verloren, deshalb liefern die Seiten nur noch JSON-LD (plus Open Graph für Link-Vorschauen).
+
+| Feld | Import |
+|---|---|
+| Rezeptname, Beschreibung (= Untertitel), Portionen | ja |
+| Zutaten mit Menge und Einheit (z.B. „3 Stück“ → „3 Stücke“), Notizen in Klammern | ja |
+| Zubereitung als getrennte Schritte | ja |
+| Arbeitszeit, Koch-/Backzeit, Gesamtzeit = Summe der beiden | ja |
+| Kalorien pro Portion, Bild | ja |
+| Ruhezeit, Schwierigkeit (bleibt „Normal“), Kategorien | **nein**, manuell in Chefkoch setzen |
+
+Klammern im Zutatennamen („Ei(er)“) werden als Notiz gelesen, daher keine Klammer-Plurale.
+
+## Chefkoch-Import-Test (Meilenstein M1, erledigt)
 
 Testseiten nach der Einrichtung:
 - `https://smartcooked.github.io/rezepte/rezepte/test-pfannkuchen/` (JSON-LD + Microdata + Open Graph)

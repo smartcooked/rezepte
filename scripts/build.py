@@ -169,7 +169,7 @@ def build_jsonld(r, cfg, url):
         "@context": "https://schema.org",
         "@type": "Recipe",
         "name": r["title"],
-        "description": r.get("description") or r.get("subtitle") or "",
+        "description": r.get("subtitle") or r.get("description") or "",  # landet in Chefkoch unter dem Titel
         "url": url,
         "mainEntityOfPage": url,
         "author": {"@type": "Person", "name": r.get("author") or cfg.get("author") or "Rezeptbuch"},
@@ -330,7 +330,7 @@ def _unused_render_nutrition(r, micro):
 
 
 def render_recipe(r, cfg, tpl, icons, stamp):
-    micro = not r.get("_test_jsonld_only")
+    micro = False  # Chefkoch bevorzugt Microdata und verliert dabei Mengen/Portionen/Bild -> nur JSON-LD + OG
     base = cfg["base_url"].rstrip("/")
     rdir = cfg.get("recipe_dir", "rezepte")
     url = "%s/%s/%s/" % (base, rdir, r["slug"])
@@ -342,7 +342,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
     author = r.get("author") or cfg.get("author") or "Rezeptbuch"
     desc = r.get("description") or r.get("subtitle") or r["title"]
     og = ""
-    if micro:
+    if True:
         og = "\n".join([
             '<meta property="og:type" content="article">', '<meta property="og:locale" content="de_DE">',
             '<meta property="og:title" content="%s">' % esc(r["title"]),
