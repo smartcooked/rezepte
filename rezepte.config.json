@@ -1,7 +1,7 @@
 {
   "base_url": "https://smartcooked.github.io/rezepte",
   "site_title": "smartcooked",
-  "site_title_html": "smart<em>cooked</em>",
+  "site_title_html": "<span class=\"wm\">smart<em>cooked</em></span>",
   "author": "smartcooked",
   "recipe_dir": "rezepte",
   "language": "de"
