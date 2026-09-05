@@ -1,4 +1,6 @@
-# Rezepte – KI-gestützter Rezept-Import für Chefkoch
+# smartcooked – Rezeptbuch mit KI-Import für Chefkoch
+
+Künstlername/GitHub-Konto: **smartcooked** (Wortmarke klein, zweifarbig: smart·cooked). Seite: https://smartcooked.github.io/rezepte/
 
 Rezepte werden hier als JSON gepflegt (`_data/`), daraus entstehen öffentliche Rezeptseiten
 (`docs/`, veröffentlicht über GitHub Pages) mit schema.org-Daten, die Chefkoch per URL importieren kann.
@@ -12,7 +14,7 @@ Du brauchst dafür nur den Browser. Claude gibt niemals Passwörter oder Token e
 ### 1. GitHub-Konto anlegen
 1. https://github.com/signup öffnen.
 2. E-Mail, Passwort und einen **Benutzernamen** wählen (kurz, nur Kleinbuchstaben/Ziffern, frei erfunden, **nicht** dein Klarname, z.B. ein Künstlername).
-   Dieser Benutzername wird Teil aller Rezept-URLs: `https://<benutzername>.github.io/rezepte/...`
+   Dieser Benutzername wird Teil aller Rezept-URLs: `https://smartcooked.github.io/rezepte/...`
 3. E-Mail bestätigen. Der kostenlose Plan reicht.
 
 ### 2. Repository „rezepte“ anlegen
@@ -42,15 +44,15 @@ Abfrage `Username`: dein GitHub-Benutzername. Abfrage `Password`: den **Token** 
 Der Mac-Schlüsselbund merkt sich das; alle weiteren Uploads laufen automatisch aus Claude Code.
 
 ### 5. GitHub Pages einschalten
-1. Im Browser: `https://github.com/<benutzername>/rezepte` → **Settings** → links **Pages**.
+1. Im Browser: `https://github.com/smartcooked/rezepte` → **Settings** → links **Pages**.
 2. Unter „Build and deployment“: Source **Deploy from a branch**; Branch **main**, Ordner **/docs** → **Save**.
-3. Nach 1–2 Minuten ist die Seite unter `https://<benutzername>.github.io/rezepte/` erreichbar.
+3. Nach 1–2 Minuten ist die Seite unter `https://smartcooked.github.io/rezepte/` erreichbar.
 
 ## Chefkoch-Import-Test (Meilenstein M1)
 
 Testseiten nach der Einrichtung:
-- `https://<benutzername>.github.io/rezepte/rezepte/test-pfannkuchen/` (JSON-LD + Microdata + Open Graph)
-- `https://<benutzername>.github.io/rezepte/rezepte/test-pfannkuchen-jsonld/` (nur JSON-LD, Isolationstest)
+- `https://smartcooked.github.io/rezepte/rezepte/test-pfannkuchen/` (JSON-LD + Microdata + Open Graph)
+- `https://smartcooked.github.io/rezepte/rezepte/test-pfannkuchen-jsonld/` (nur JSON-LD, Isolationstest)
 
 In Chefkoch: Kochbuch → Rezept importieren → erste URL einfügen. Dann diese Checkliste ausfüllen
 (Screenshot des importierten Rezepts an Claude reicht):

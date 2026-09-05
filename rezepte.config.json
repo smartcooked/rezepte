@@ -1,7 +1,8 @@
 {
-  "base_url": "https://GITHUB-BENUTZERNAME.github.io/rezepte",
-  "site_title": "Mein Rezeptbuch",
-  "author": "KUENSTLERNAME",
+  "base_url": "https://smartcooked.github.io/rezepte",
+  "site_title": "smartcooked",
+  "site_title_html": "smart<em>cooked</em>",
+  "author": "smartcooked",
   "recipe_dir": "rezepte",
   "language": "de"
 }

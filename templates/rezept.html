@@ -19,7 +19,7 @@ $jsonld
 $icons
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="$root/"><svg class="icon"><use href="#i-hat"/></svg>$site_title</a>
+    <a class="brand" href="$root/"><svg class="icon"><use href="#i-hat"/></svg>$brand_html</a>
     <div class="actions">
       <button class="btn icon-only" type="button" id="btn-share" aria-label="Rezept teilen" title="Teilen"><svg class="icon"><use href="#i-share"/></svg></button>
       <button class="btn icon-only" type="button" id="btn-print" aria-label="Rezept drucken" title="Drucken"><svg class="icon"><use href="#i-print"/></svg></button>
@@ -29,7 +29,7 @@ $icons
 
 <main class="wrap" $recipe_scope>
   <div class="print-head">
-    <span class="brand"><svg class="icon"><use href="#i-hat"/></svg>$site_title</span>
+    <span class="brand"><svg class="icon"><use href="#i-hat"/></svg>$brand_html</span>
     <span class="qr"><span>Rezept online<br>aufrufen</span><span id="qr"></span></span>
   </div>
 
@@ -109,7 +109,7 @@ $icons
   </details>
 </main>
 
-<footer class="foot"><div class="wrap"><span>$site_title</span><span>·</span><a href="$root/">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand $updated</span></div></footer>
+<footer class="foot"><div class="wrap"><span class="brand small">$brand_html</span><span>·</span><a href="$root/">Alle Rezepte</a><span>·</span><a href="rezept.json">Rezeptdaten (JSON)</a><span>·</span><span>Stand $updated</span></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
 <script src="$root/app.js?v=$build_stamp"></script>

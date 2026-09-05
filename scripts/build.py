@@ -377,7 +377,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
     copy_ings = "\n".join("%s\t%s\t%s" % (format_amount(i.get("amount")), i.get("unit") or "", i["name"] + ((" (%s)" % i["note"]) if i.get("note") else "")) for i in r["ingredients"])
     copy_steps = "\n".join("%d. %s" % (n + 1, s) for n, s in enumerate(r["steps"]))
     values = {
-        "build_stamp": stamp, "site_title": esc(cfg["site_title"]), "root": "../..",
+        "build_stamp": stamp, "site_title": esc(cfg["site_title"]), "brand_html": cfg.get("site_title_html") or esc(cfg["site_title"]), "root": "../..",
         "title": esc(r["title"]), "title_attr": esc(r["title"]), "description_attr": esc(desc),
         "url": esc(url), "og_tags": og,
         "jsonld": json.dumps(ld, ensure_ascii=False, indent=2).replace("</", "<\\/"),
@@ -487,7 +487,7 @@ def main():
     n = len(entries)
     count_label = "1 Rezept" if n == 1 else "%d Rezepte" % n
     idx = string.Template(tpl_i).substitute({
-        "build_stamp": stamp, "site_title": esc(cfg["site_title"]), "count_label": count_label, "today": today,
+        "build_stamp": stamp, "site_title": esc(cfg["site_title"]), "brand_html": cfg.get("site_title_html") or esc(cfg["site_title"]), "count_label": count_label, "today": today,
         "icons": icons, "index_json": json.dumps(entries, ensure_ascii=False).replace("</", "<\\/"),
     })
     if write_if_changed(os.path.join(DOCS, "index.html"), idx):

@@ -12,7 +12,7 @@
 </head>
 <body>
 $icons
-<header class="topbar"><div class="wrap"><a class="brand" href="./"><svg class="icon"><use href="#i-hat"/></svg>$site_title</a></div></header>
+<header class="topbar"><div class="wrap"><a class="brand" href="./"><svg class="icon"><use href="#i-hat"/></svg>$brand_html</a></div></header>
 <main class="wrap">
   <div class="cat-head"><h1>Alle Rezepte</h1><p id="cat-sub">$count_label</p></div>
   <div class="toolbar" id="toolbar">
@@ -29,7 +29,7 @@ $icons
   </div>
   <div class="grid-cards" id="cards"></div>
 </main>
-<footer class="foot"><div class="wrap"><span>$site_title</span><span>·</span><span>$count_label</span><span>·</span><span>Stand $today</span></div></footer>
+<footer class="foot"><div class="wrap"><span class="brand small">$brand_html</span><span>·</span><span>$count_label</span><span>·</span><span>Stand $today</span></div></footer>
 <script id="data" type="application/json">$index_json</script>
 <script src="app.js?v=$build_stamp"></script>
 </body>

@@ -27,7 +27,8 @@ p{margin:0 0 12px}
 /* Kopfleiste */
 .topbar{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .topbar .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
-.brand{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-weight:700;font-size:1.1rem;color:var(--green)}
+.brand{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-weight:700;font-size:1.15rem;color:var(--ink);letter-spacing:-.01em}
+.brand em{font-style:normal;color:var(--green)}.brand.small{font-size:1rem}.brand:hover{text-decoration:none}
 .brand .icon{width:1.4em;height:1.4em}
 .topbar .actions{margin-left:auto;display:flex;gap:6px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
