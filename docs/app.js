@@ -109,7 +109,7 @@
       var qs = np.toString(); history.replaceState(null, '', qs ? '?' + qs : location.pathname);
     }
     function card(r) {
-      var img = r.image ? '<img src="' + esc(r.url) + esc(r.image) + '" alt="" loading="lazy">' : '<svg class="icon"><use href="#i-hat"/></svg>';
+      var img = r.image ? '<img src="' + esc(r.url) + esc(r.image) + '" alt="" loading="lazy">' : '<svg class="icon"><use href="#i-logo"/></svg>';
       var diet = (r.diet && r.diet.length) ? '<span><svg class="icon"><use href="#i-leaf"/></svg>' + esc(r.diet[0]) + '</span>' : '';
       return '<a class="rcard" href="' + esc(r.url) + '"><div class="img">' + img + '</div><div class="body">' +
         '<h3>' + esc(r.title) + '</h3>' + (r.subtitle ? '<p class="sub">' + esc(r.subtitle) + '</p>' : '') +

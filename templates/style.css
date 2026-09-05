@@ -20,6 +20,10 @@ h1{font-size:clamp(1.65rem,4.5vw,2.4rem)}h2{font-size:1.35rem}h3{font-size:1.05r
 p{margin:0 0 12px}
 .icon{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.2em;flex:0 0 auto}
 .icon .b1,.icon .b2,.icon .b3{fill:currentColor;stroke:none;opacity:.25}
+.icon .star{fill:var(--green);stroke:none}
+.brand .icon{color:var(--ink)}.brand .icon .star{transform-origin:19.5px 4.5px;transition:transform .3s,filter .3s}
+.brand:hover .icon .star{transform:scale(1.25);filter:drop-shadow(0 0 2px rgba(46,125,79,.8))}
+@media(prefers-reduced-motion:no-preference){@keyframes twinkle{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}.brand .icon .star{animation:twinkle 4s ease-in-out 1.5s 2}}
 .lvl-1 .b1,.lvl-2 .b1,.lvl-2 .b2,.lvl-3 .b1,.lvl-3 .b2,.lvl-3 .b3{opacity:1}
 .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
@@ -29,7 +33,7 @@ p{margin:0 0 12px}
 .topbar .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
 .brand{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-weight:700;font-size:1.15rem;color:var(--ink);letter-spacing:-.01em}
 .brand em{font-style:normal;color:var(--green)}.brand.small{font-size:1rem}.brand:hover{text-decoration:none}
-.brand .icon{width:1.4em;height:1.4em}
+.brand .icon{width:1.5em;height:1.5em;overflow:visible}
 .topbar .actions{margin-left:auto;display:flex;gap:6px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-weight:600;cursor:pointer;white-space:nowrap}
 .btn:hover{background:var(--surface);text-decoration:none}

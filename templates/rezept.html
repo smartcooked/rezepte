@@ -7,6 +7,8 @@
 <title>$title – $site_title</title>
 <meta name="description" content="$description_attr">
 <link rel="canonical" href="$url">
+<link rel="icon" href="$root/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="$root/apple-touch-icon.png">
 $og_tags
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
@@ -19,7 +21,7 @@ $jsonld
 $icons
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="$root/"><svg class="icon"><use href="#i-hat"/></svg>$brand_html</a>
+    <a class="brand" href="$root/"><svg class="icon"><use href="#i-logo"/></svg>$brand_html</a>
     <div class="actions">
       <button class="btn icon-only" type="button" id="btn-share" aria-label="Rezept teilen" title="Teilen"><svg class="icon"><use href="#i-share"/></svg></button>
       <button class="btn icon-only" type="button" id="btn-print" aria-label="Rezept drucken" title="Drucken"><svg class="icon"><use href="#i-print"/></svg></button>
@@ -29,7 +31,7 @@ $icons
 
 <main class="wrap" $recipe_scope>
   <div class="print-head">
-    <span class="brand"><svg class="icon"><use href="#i-hat"/></svg>$brand_html</span>
+    <span class="brand"><svg class="icon"><use href="#i-logo"/></svg>$brand_html</span>
     <span class="qr"><span>Rezept online<br>aufrufen</span><span id="qr"></span></span>
   </div>
 

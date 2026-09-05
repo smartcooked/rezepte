@@ -353,7 +353,7 @@ def render_recipe(r, cfg, tpl, icons, stamp):
         image_html = '<div class="hero-img"><img src="%s" alt="%s"%s></div>' % (
             esc(r["image"]), esc(r["title"]), ' itemprop="image"' if micro else "")
     else:
-        image_html = '<div class="hero-img empty" aria-hidden="true"><svg class="icon"><use href="#i-hat"/></svg></div>'
+        image_html = '<div class="hero-img empty" aria-hidden="true"><svg class="icon"><use href="#i-logo"/></svg></div>'
     diet_meta = ""
     if r.get("diet"):
         diet_meta = '<li><svg class="icon"><use href="#i-leaf"/></svg><span><b>%s</b><small>Ernährung</small></span></li>' % esc(", ".join(r["diet"]))
@@ -493,8 +493,9 @@ def main():
     if write_if_changed(os.path.join(DOCS, "index.html"), idx):
         written.append("docs/index.html")
     write_if_changed(os.path.join(DOCS, "index.json"), json.dumps(entries, ensure_ascii=False, indent=1) + "\n")
-    for static in ("style.css", "app.js"):
-        shutil.copyfile(os.path.join(TPL, static), os.path.join(DOCS, static))
+    for static in ("style.css", "app.js", "favicon.svg", "apple-touch-icon.png"):
+        if os.path.exists(os.path.join(TPL, static)):
+            shutil.copyfile(os.path.join(TPL, static), os.path.join(DOCS, static))
     open(os.path.join(DOCS, ".nojekyll"), "a").close()
 
     for w in written:
