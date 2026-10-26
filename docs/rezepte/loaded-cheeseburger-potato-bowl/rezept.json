@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "slug": "loaded-cheeseburger-potato-bowl",
+  "title": "Loaded Cheeseburger Potato Bowl",
+  "subtitle": "schmeckt wie ein ganzer Cheeseburger",
+  "description": "Knusprige Kartoffelwürfel, krümelig gebratenes Rinderhack, geschmolzener Käse und eine cremige Burger-Sauce mit Gewürzgurken und Senf. Brutal sättigend, trotzdem kalorienarm.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Kartoffeln",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Rinderhackfleisch",
+      "note": "mager",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Käse light",
+      "note": "gerieben, z.B. Protein-Käse",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Salz, Pfeffer und Paprikapulver",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Ölspray",
+      "note": "optional",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": null,
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "Gewürzgurken",
+      "note": "gehackt",
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Ketchup light",
+      "note": null,
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Zwiebel",
+      "note": "fein gewürfelt",
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Gurkenwasser",
+      "note": "optional",
+      "group": "Für die Burger-Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Kartoffeln klein würfeln, würzen und bei etwa 200 °C im Airfryer oder Ofen goldbraun und knusprig backen.",
+    "Das Rinderhack in einer beschichteten Pfanne krümelig anbraten und kräftig würzen.",
+    "Magerquark, Ketchup light, Senf, Gewürzgurken und Zwiebel zu einer Sauce verrühren, nach Belieben mit etwas Gurkenwasser verdünnen.",
+    "Die Kartoffeln in eine Bowl geben und das Hack darauf verteilen.",
+    "Den Käse über das heiße Hack streuen und kurz schmelzen lassen.",
+    "Großzügig mit der Burger-Sauce toppen und sofort servieren."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 450,
+  "nutrition": {
+    "carbs_g": 40,
+    "protein_g": 49,
+    "fat_g": 11
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Cheeseburger",
+    "Bowl",
+    "Kartoffeln",
+    "Burger-Sauce"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Gewürzgurken und Senf liefern viel Geschmack für wenige Kalorien, bei der Sauce also nicht sparen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Braten",
+    "Airfryer",
+    "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "slug": "creamy-chicken-alfredo",
+  "title": "Creamy Chicken Alfredo",
+  "subtitle": "cremige Pasta mit über 50 g Eiweiß",
+  "description": "Alfredo-Pasta mit saftigen Hähnchenstücken und ordentlich Knoblauch. Light-Frischkäse, Milch und etwas Nudelwasser machen die Sauce cremig, ohne sie schwer zu machen.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Pasta",
+      "note": "trocken",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 160,
+      "unit": "g",
+      "name": "Hähnchenbrustfilet",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Frischkäse light",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Käse light",
+      "note": "gerieben, z.B. Protein-Käse oder Parmesan light",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 70,
+      "unit": "ml",
+      "name": "Milch",
+      "note": "fettarm",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Salz, Pfeffer und italienische Kräuter",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Nudelwasser",
+      "note": "optional",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Pasta nach Packungsanweisung kochen und etwas Nudelwasser auffangen.",
+    "Das Hähnchen in Stücke schneiden, kräftig würzen, goldbraun anbraten und kurz aus der Pfanne nehmen.",
+    "Milch und Frischkäse bei niedriger Hitze in die Pfanne geben und cremig verrühren.",
+    "Geriebenen Käse, Knoblauchpulver, Pfeffer und italienische Kräuter zugeben.",
+    "Bei Bedarf etwas Nudelwasser zugeben, bis die Sauce schön cremig ist.",
+    "Pasta und Hähnchen zurück in die Pfanne geben und alles gut vermengen."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 480,
+  "nutrition": {
+    "carbs_g": 43,
+    "protein_g": 54,
+    "fat_g": 10
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Italien",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Italienisch",
+  "keywords": [
+    "Alfredo",
+    "Pasta",
+    "Hähnchen",
+    "Sahnesauce light"
+  ],
+  "tags": [
+    "Pasta",
+    "High Protein"
+  ],
+  "tip": "Nudelwasser bindet die Sauce und macht sie cremig, ohne mehr Käse oder Milch.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pasta"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Kochen",
+    "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-buffalo-chicken-wrap",
+  "title": "Crispy Buffalo Chicken Wrap",
+  "subtitle": "scharf, crunchy & proteinreich",
+  "description": "Knuspriges Chicken in Buffalo-Sauce, frischer Salat, rote Zwiebel und eine cremige Knoblauch-Sauce in einem warmen Protein-Wrap. Fast-Food-Gefühl bei 400 kcal.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Protein-Wrap",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Crispy Chicken",
+      "note": "tiefgekühlt, paniert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Buffalo Hot Sauce",
+      "note": null,
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": "oder Skyr",
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Salz und Pfeffer",
+      "note": null,
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Eisbergsalat",
+      "note": null,
+      "group": "Für den Wrap",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "rote Zwiebel",
+      "note": "in Streifen",
+      "group": "Für den Wrap",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Frühlingszwiebeln",
+      "note": "optional",
+      "group": "Für den Wrap",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Crispy Chicken im Airfryer oder Ofen knusprig backen, in Stücke schneiden und direkt in der Buffalo-Sauce schwenken.",
+    "Magerquark oder Skyr mit Senf, Knoblauchpulver, Salz und etwas Wasser cremig rühren.",
+    "Den Protein-Wrap kurz erwärmen.",
+    "Salat und Zwiebeln auf dem Wrap verteilen.",
+    "Das Buffalo Chicken daraufgeben und großzügig mit der Knoblauch-Sauce toppen.",
+    "Den Wrap fest zusammenrollen und nach Belieben von beiden Seiten kurz anrösten."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 10,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 400,
+  "nutrition": {
+    "carbs_g": 38,
+    "protein_g": 45,
+    "fat_g": 9
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Menüart > Snack",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Buffalo Chicken",
+    "Wrap",
+    "Hot Sauce",
+    "Knoblauchsauce"
+  ],
+  "tags": [
+    "Wrap",
+    "High Protein",
+    "Schnell",
+    "Scharf"
+  ],
+  "tip": "Das Chicken direkt nach dem Backen in der Buffalo-Sauce schwenken, so bekommt es maximalen Geschmack ohne zusätzliche Kalorien.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise",
+    "Snack"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Wrap"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Airfryer",
+    "Backen"
+  ],
+  "occasion": [
+    "Büro"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

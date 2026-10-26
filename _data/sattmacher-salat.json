@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "sattmacher-salat",
+  "title": "Sattmacher Salat",
+  "subtitle": "Volumen-Meal mit Crispy Chicken",
+  "description": "Knusprige Kartoffelspalten, ein cremiger Gurken-Skyr-Salat mit Ei und roter Zwiebel, dazu Crispy Chicken. Macht richtig satt und bleibt unter 400 kcal.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Kartoffeln",
+      "note": null,
+      "group": "Für die Kartoffelspalten",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Ölspray, Salz, Knoblauchpulver und Rosmarin",
+      "note": null,
+      "group": "Für die Kartoffelspalten",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Crispy Chicken",
+      "note": "tiefgekühlt, paniert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Gurke",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "rote Zwiebel",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Ei",
+      "note": "gekocht",
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Skyr",
+      "note": null,
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Zitronensaft, Knoblauchpulver, Salz und Pfeffer",
+      "note": null,
+      "group": "Für das Dressing",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Kartoffeln in Spalten schneiden, mit zwei bis drei Sprühstößen Öl besprühen und mit Salz, Knoblauchpulver und Rosmarin würzen.",
+    "Die Spalten bei 200 °C etwa 20 Minuten im Ofen backen, bis sie goldbraun und knusprig sind.",
+    "Die Gurke fein schneiden, gut ausdrücken und in eine Schüssel geben. Die rote Zwiebel in feine Streifen und das gekochte Ei klein schneiden, beides dazugeben.",
+    "Skyr mit Senf, etwas Zitronensaft, Knoblauchpulver, Salz und Pfeffer verrühren und unter den Gurkensalat mischen.",
+    "Das Crispy Chicken nach Packungsanweisung im Ofen oder Airfryer knusprig zubereiten.",
+    "Den Gurkensalat auf einen Teller geben, die Kartoffelspalten daneben anrichten und das Crispy Chicken dazu servieren."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 385,
+  "nutrition": {
+    "carbs_g": 35,
+    "protein_g": 39,
+    "fat_g": 8
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Salat",
+    "Menüart > Hauptspeise",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Gurkensalat",
+    "Skyr",
+    "Crispy Chicken",
+    "Kartoffelspalten"
+  ],
+  "tags": [
+    "Salat",
+    "High Protein",
+    "Volumen"
+  ],
+  "tip": "Die Gurke nach dem Schneiden kräftig ausdrücken, sonst verwässert das Dressing.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Salat"
+  ],
+  "properties": [
+    "Einfach"
+  ],
+  "method": [
+    "Backen",
+    "Airfryer"
+  ],
+  "occasion": [
+    "Sommer"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

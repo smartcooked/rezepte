@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "slug": "protein-cinnamon-roll-bowl",
+  "title": "Protein Cinnamon Roll Bowl",
+  "subtitle": "warm, zimtig & mit Vanille-Frosting",
+  "description": "Eine warme Zimt-Bowl mit weichem Kern aus Schmelzflocken, Proteinpulver, Eiklar und Skyr, getoppt mit kaltem Vanille-Frosting. Schmeckt wie eine Zimtschnecke mit 40 g Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 35,
+      "unit": "g",
+      "name": "Schmelzflocken",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 25,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": "Vanille",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Eiklar",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Skyr",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 80,
+      "unit": "ml",
+      "name": "Mandelmilch",
+      "note": "ungesüßt",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Backpulver",
+      "note": null,
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Zimt und Süßstoff",
+      "note": "oder Chunky Flavour",
+      "group": "Für die Bowl",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Skyr",
+      "note": null,
+      "group": "Für das Frosting",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Süßstoff",
+      "note": "Vanille, oder Vanille-Chunky",
+      "group": "Für das Frosting",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Mandelmilch",
+      "note": null,
+      "group": "Für das Frosting",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Schmelzflocken, Proteinpulver, Eiklar, Skyr, Mandelmilch, Backpulver, Zimt und Süßstoff zu einem glatten Teig verrühren.",
+    "Die Masse in eine kleine ofenfeste Schale geben.",
+    "Oben großzügig Zimt und etwas Süßstoff verteilen und leicht einziehen lassen.",
+    "Bei etwa 180 °C 15 bis 20 Minuten backen, bis die Bowl außen fest und innen noch saftig ist.",
+    "Für das Frosting Skyr, Süßstoff und einen kleinen Schluck Mandelmilch cremig verrühren.",
+    "Die noch warme Bowl mit dem kalten Frosting toppen."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 360,
+  "nutrition": {
+    "carbs_g": 38,
+    "protein_g": 40,
+    "fat_g": 5
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Frühstück",
+    "Menüart > Dessert",
+    "Backen & Süßspeisen > Süßspeise",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Cinnamon Roll",
+    "Zimtschnecke",
+    "Protein-Bowl",
+    "Frühstück"
+  ],
+  "tags": [
+    "Frühstück",
+    "Dessert",
+    "High Protein"
+  ],
+  "tip": "Die Bowl nicht zu lange backen: Bleibt die Mitte weich, wird sie saftig und fudgy.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Frühstück",
+    "Dessert"
+  ],
+  "daytime": [
+    "Frühstück",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl",
+    "Protein-Dessert"
+  ],
+  "properties": [
+    "Einfach"
+  ],
+  "method": [
+    "Backen"
+  ],
+  "occasion": [
+    "Winter"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

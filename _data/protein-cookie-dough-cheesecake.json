@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "slug": "protein-cookie-dough-cheesecake",
+  "title": "Protein Cookie Dough Cheesecake",
+  "subtitle": "cremig, mit weichen Cookie-Dough-Klecksen",
+  "description": "Ein gebackener Protein-Cheesecake aus Magerquark und Skyr, auf dem kleine Cookie-Dough-Kleckse backen. Nach dem Kühlen fest und cremig, mit 43 g Eiweiß pro Portion.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 250,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": null,
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Skyr",
+      "note": null,
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Ei",
+      "note": null,
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": "Vanille",
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Puddingpulver",
+      "note": null,
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Süßstoff",
+      "note": null,
+      "group": "Für die Cheesecake-Masse",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Schmelzflocken",
+      "note": "oder Hafermehl",
+      "group": "Für den Cookie Dough",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 10,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": null,
+      "group": "Für den Cookie Dough",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "Skyr",
+      "note": null,
+      "group": "Für den Cookie Dough",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Mandelmilch",
+      "note": null,
+      "group": "Für den Cookie Dough",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 5,
+      "unit": "g",
+      "name": "Schokodrops",
+      "note": "optional",
+      "group": "Für den Cookie Dough",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Magerquark, Skyr, Ei, Proteinpulver, Puddingpulver und Süßstoff zu einer glatten Masse verrühren.",
+    "Die Cheesecake-Masse in eine kleine ofenfeste Form geben.",
+    "Schmelzflocken, Proteinpulver, Skyr und Süßstoff zu einem Cookie Dough verrühren.",
+    "Bei Bedarf etwas Mandelmilch zugeben, den Teig in Klecksen auf der Creme verteilen und nach Belieben Schokodrops ergänzen.",
+    "Bei etwa 170 bis 175 °C 25 bis 30 Minuten backen.",
+    "Vollständig auskühlen lassen und anschließend mindestens ein bis zwei Stunden kalt stellen."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 30,
+    "rest_min": 120
+  },
+  "difficulty": "normal",
+  "calories_per_serving": 335,
+  "nutrition": {
+    "carbs_g": 28,
+    "protein_g": 43,
+    "fat_g": 7
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Dessert",
+    "Backen & Süßspeisen > Dessert",
+    "Spezielles > High Protein",
+    "Spezielles > Kalorienarm",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Cheesecake",
+    "Cookie Dough",
+    "Protein-Dessert",
+    "Magerquark"
+  ],
+  "tags": [
+    "Dessert",
+    "High Protein"
+  ],
+  "tip": "Erst nach dem vollständigen Auskühlen und Kaltstellen wird der Cheesecake fest und cremig.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Dessert",
+    "Snack"
+  ],
+  "daytime": [
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Protein-Dessert",
+    "Kuchen"
+  ],
+  "properties": [
+    "Einfach",
+    "Meal Prep"
+  ],
+  "method": [
+    "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

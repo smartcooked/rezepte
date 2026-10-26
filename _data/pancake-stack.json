@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "slug": "pancake-stack",
+  "title": "Pancake Stack",
+  "subtitle": "fluffig, fruchtig & über 40 g Eiweiß",
+  "description": "Fluffige Protein-Pancakes aus Proteinpulver, Schmelzflocken und Ei, gestapelt und mit Fruchtaufstrich und frischen Beeren getoppt. Ein Frühstück wie ein Dessert.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Proteinpulver",
+      "note": "z.B. Zimt-Geschmack",
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 15,
+      "unit": "g",
+      "name": "Puddingpulver",
+      "note": null,
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "Schmelzflocken",
+      "note": null,
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Backpulver",
+      "note": null,
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "Stück",
+      "name": "Ei",
+      "note": null,
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "ml",
+      "name": "Mandelmilch",
+      "note": "ungesüßt",
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Chunky Flavour",
+      "note": "1–2 Scoops, Geschmack nach Wahl",
+      "group": "Für die Pancakes",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Fruchtaufstrich light",
+      "note": "z.B. Moremalade",
+      "group": "Zum Toppen",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 50,
+      "unit": "g",
+      "name": "Beeren",
+      "note": "z.B. Himbeeren oder Heidelbeeren",
+      "group": "Zum Toppen",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Alle Zutaten für die Pancakes in einen Mixer geben und zu einem glatten Teig mixen.",
+    "Eine beschichtete Pfanne auf mittlere Hitze bringen.",
+    "Den Teig portionsweise in die Pfanne geben und die Pancakes von beiden Seiten goldbraun ausbacken.",
+    "Die Pancakes zu einem Stapel aufschichten.",
+    "Mit dem Fruchtaufstrich toppen und die Beeren daneben anrichten."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 10,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 365,
+  "nutrition": {
+    "carbs_g": 32,
+    "protein_g": 40,
+    "fat_g": 8
+  },
+  "diet": [
+    "vegetarisch",
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Frühstück",
+    "Backen & Süßspeisen > Süßspeise",
+    "Spezielles > High Protein",
+    "Spezielles > Vegetarisch"
+  ],
+  "cuisine": null,
+  "keywords": [
+    "Pancakes",
+    "Protein-Pancakes",
+    "Frühstück",
+    "Beeren"
+  ],
+  "tags": [
+    "Frühstück",
+    "High Protein",
+    "Süß"
+  ],
+  "tip": "Die Pancakes gelingen gleichmäßig, wenn der Teig zwei Minuten quellen darf, bevor er in die Pfanne kommt.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times",
+    "nutrition"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Frühstück",
+    "Dessert"
+  ],
+  "daytime": [
+    "Frühstück"
+  ],
+  "dish_type": [
+    "Pfannkuchen"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Braten"
+  ],
+  "occasion": [
+    "Für Kinder"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

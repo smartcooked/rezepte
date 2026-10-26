@@ -1,5 +1,528 @@
 [
  {
+  "slug": "cheesy-taco-potato-bake",
+  "title": "Cheesy Taco Potato Bake",
+  "subtitle": "überbacken, würzig & voller Volumen",
+  "url": "rezepte/cheesy-taco-potato-bake/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 30,
+  "difficulty": "simpel",
+  "calories": 450,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Zubereitungsarten > Überbacken",
+   "Regional > Mexiko",
+   "Spezielles > High Protein"
+  ],
+  "tags": [
+   "Auflauf",
+   "High Protein",
+   "Tex-Mex"
+  ],
+  "cuisine": "Mexikanisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Auflauf"
+  ],
+  "properties": [
+   "Einfach"
+  ],
+  "method": [
+   "Backen",
+   "Braten",
+   "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Cheesy Taco Potato Bake überbacken, würzig & voller Volumen Knusprige Kartoffelwürfel unter einer dicken Taco-Hack-Sauce mit Kidneybohnen und Mais, mit Käse überbacken. Sieht nach Cheat Meal aus, passt in jede Diät. Kartoffeln Käse light Jalapeños Rinderhackfleisch Zwiebel Kidneybohnen Mais passierte Tomaten Taco-Gewürz, Salz und Pfeffer Auflauf High Protein Tex-Mex Taco Auflauf Kartoffeln Hackfleisch Menüart > Hauptspeise Zubereitungsarten > Überbacken Regional > Mexiko Spezielles > High Protein Mexikanisch Hauptspeise Auflauf Backen Braten Airfryer Einfach",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/cheesy-taco-potato-bake/"
+ },
+ {
+  "slug": "creamy-chicken-alfredo",
+  "title": "Creamy Chicken Alfredo",
+  "subtitle": "cremige Pasta mit über 50 g Eiweiß",
+  "url": "rezepte/creamy-chicken-alfredo/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 25,
+  "difficulty": "simpel",
+  "calories": 480,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Regional > Italien",
+   "Spezielles > High Protein"
+  ],
+  "tags": [
+   "Pasta",
+   "High Protein"
+  ],
+  "cuisine": "Italienisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Pasta"
+  ],
+  "properties": [
+   "Einfach",
+   "Schnell"
+  ],
+  "method": [
+   "Kochen",
+   "Braten"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Creamy Chicken Alfredo cremige Pasta mit über 50 g Eiweiß Alfredo-Pasta mit saftigen Hähnchenstücken und ordentlich Knoblauch. Light-Frischkäse, Milch und etwas Nudelwasser machen die Sauce cremig, ohne sie schwer zu machen. Pasta Hähnchenbrustfilet Frischkäse light Käse light Milch Knoblauchpulver, Salz, Pfeffer und italienische Kräuter Nudelwasser Pasta High Protein Alfredo Pasta Hähnchen Sahnesauce light Menüart > Hauptspeise Regional > Italien Spezielles > High Protein Italienisch Hauptspeise Pasta Kochen Braten Einfach Schnell",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/creamy-chicken-alfredo/"
+ },
+ {
+  "slug": "crispy-buffalo-chicken-wrap",
+  "title": "Crispy Buffalo Chicken Wrap",
+  "subtitle": "scharf, crunchy & proteinreich",
+  "url": "rezepte/crispy-buffalo-chicken-wrap/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 20,
+  "difficulty": "simpel",
+  "calories": 400,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Menüart > Snack",
+   "Regional > USA oder Kanada",
+   "Spezielles > High Protein",
+   "Spezielles > Kalorienarm"
+  ],
+  "tags": [
+   "Wrap",
+   "High Protein",
+   "Schnell",
+   "Scharf"
+  ],
+  "cuisine": "Amerikanisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise",
+   "Snack"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Wrap"
+  ],
+  "properties": [
+   "Einfach",
+   "Schnell"
+  ],
+  "method": [
+   "Airfryer",
+   "Backen"
+  ],
+  "occasion": [
+   "Büro"
+  ],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Crispy Buffalo Chicken Wrap scharf, crunchy & proteinreich Knuspriges Chicken in Buffalo-Sauce, frischer Salat, rote Zwiebel und eine cremige Knoblauch-Sauce in einem warmen Protein-Wrap. Fast-Food-Gefühl bei 400 kcal. Protein-Wrap Crispy Chicken Buffalo Hot Sauce Magerquark Senf Knoblauchpulver, Salz und Pfeffer Eisbergsalat rote Zwiebel Frühlingszwiebeln Wrap High Protein Schnell Scharf Buffalo Chicken Wrap Hot Sauce Knoblauchsauce Menüart > Hauptspeise Menüart > Snack Regional > USA oder Kanada Spezielles > High Protein Spezielles > Kalorienarm Amerikanisch Hauptspeise Snack Wrap Airfryer Backen Büro Einfach Schnell",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/crispy-buffalo-chicken-wrap/"
+ },
+ {
+  "slug": "crispy-chicken-kebab-bowl",
+  "title": "Crispy Chicken Kebab Bowl",
+  "subtitle": "wie ein Dönerteller, nur leichter",
+  "url": "rezepte/crispy-chicken-kebab-bowl/",
+  "image": "bild.jpg",
+  "prep_min": 15,
+  "total_min": 30,
+  "difficulty": "simpel",
+  "calories": 450,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Regional > Türkei",
+   "Spezielles > High Protein"
+  ],
+  "tags": [
+   "Bowl",
+   "High Protein",
+   "Volumen"
+  ],
+  "cuisine": "Türkisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Bowl",
+   "Reisgericht"
+  ],
+  "properties": [
+   "Einfach",
+   "Meal Prep"
+  ],
+  "method": [
+   "Kochen",
+   "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Crispy Chicken Kebab Bowl wie ein Dönerteller, nur leichter Knuspriges Chicken, Reis, knackiger Salat mit Tomate, Gurke und roter Zwiebel, dazu eine cremige Knoblauch-Sauce aus Magerquark. Beim Gemüse darf es großzügig sein. Crispy Chicken Reis Eisbergsalat Tomate Gurke rote Zwiebel Magerquark Senf Knoblauchpulver, Salz, Pfeffer und Paprikapulver Zitronensaft Light-Sauce Bowl High Protein Volumen Kebab Döner Bowl Knoblauchsauce Menüart > Hauptspeise Regional > Türkei Spezielles > High Protein Türkisch Hauptspeise Bowl Reisgericht Kochen Airfryer Einfach Meal Prep",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/crispy-chicken-kebab-bowl/"
+ },
+ {
+  "slug": "crispy-chicken-mac-and-cheese",
+  "title": "Crispy Chicken Mac & Cheese",
+  "subtitle": "ultra cremig, knusprig & proteinreich",
+  "url": "rezepte/crispy-chicken-mac-and-cheese/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 25,
+  "difficulty": "simpel",
+  "calories": 490,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Regional > USA oder Kanada",
+   "Spezielles > High Protein"
+  ],
+  "tags": [
+   "Pasta",
+   "High Protein",
+   "Cheat Meal"
+  ],
+  "cuisine": "Amerikanisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Pasta"
+  ],
+  "properties": [
+   "Einfach",
+   "Schnell"
+  ],
+  "method": [
+   "Kochen",
+   "Airfryer"
+  ],
+  "occasion": [
+   "Für Kinder"
+  ],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Crispy Chicken Mac & Cheese ultra cremig, knusprig & proteinreich Cremige Mac & Cheese aus Light-Frischkäse, Milch und Protein-Käse, getoppt mit knusprigem Crispy Chicken. Comfort Food mit fast 50 g Eiweiß. Pasta Crispy Chicken Frischkäse light Käse light Milch Senf Paprikapulver Knoblauchpulver, Salz und Pfeffer Nudelwasser Pasta High Protein Cheat Meal Mac and Cheese Pasta Crispy Chicken Käsesauce Menüart > Hauptspeise Regional > USA oder Kanada Spezielles > High Protein Amerikanisch Hauptspeise Pasta Kochen Airfryer Für Kinder Einfach Schnell",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/crispy-chicken-mac-and-cheese/"
+ },
+ {
+  "slug": "loaded-cheeseburger-potato-bowl",
+  "title": "Loaded Cheeseburger Potato Bowl",
+  "subtitle": "schmeckt wie ein ganzer Cheeseburger",
+  "url": "rezepte/loaded-cheeseburger-potato-bowl/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 25,
+  "difficulty": "simpel",
+  "calories": 450,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Hauptspeise",
+   "Regional > USA oder Kanada",
+   "Spezielles > High Protein",
+   "Spezielles > Kalorienarm"
+  ],
+  "tags": [
+   "Bowl",
+   "High Protein",
+   "Cheat Meal"
+  ],
+  "cuisine": "Amerikanisch",
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Bowl"
+  ],
+  "properties": [
+   "Einfach",
+   "Schnell"
+  ],
+  "method": [
+   "Braten",
+   "Airfryer",
+   "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Loaded Cheeseburger Potato Bowl schmeckt wie ein ganzer Cheeseburger Knusprige Kartoffelwürfel, krümelig gebratenes Rinderhack, geschmolzener Käse und eine cremige Burger-Sauce mit Gewürzgurken und Senf. Brutal sättigend, trotzdem kalorienarm. Kartoffeln Rinderhackfleisch Käse light Salz, Pfeffer und Paprikapulver Ölspray Magerquark Gewürzgurken Ketchup light Senf Zwiebel Gurkenwasser Bowl High Protein Cheat Meal Cheeseburger Bowl Kartoffeln Burger-Sauce Menüart > Hauptspeise Regional > USA oder Kanada Spezielles > High Protein Spezielles > Kalorienarm Amerikanisch Hauptspeise Bowl Braten Airfryer Backen Einfach Schnell",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/loaded-cheeseburger-potato-bowl/"
+ },
+ {
+  "slug": "pancake-stack",
+  "title": "Pancake Stack",
+  "subtitle": "fluffig, fruchtig & über 40 g Eiweiß",
+  "url": "rezepte/pancake-stack/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 20,
+  "difficulty": "simpel",
+  "calories": 365,
+  "diet": [
+   "vegetarisch",
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Frühstück",
+   "Backen & Süßspeisen > Süßspeise",
+   "Spezielles > High Protein",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Frühstück",
+   "High Protein",
+   "Süß"
+  ],
+  "cuisine": null,
+  "servings": 1,
+  "meal": [
+   "Frühstück",
+   "Dessert"
+  ],
+  "daytime": [
+   "Frühstück"
+  ],
+  "dish_type": [
+   "Pfannkuchen"
+  ],
+  "properties": [
+   "Einfach",
+   "Schnell"
+  ],
+  "method": [
+   "Braten"
+  ],
+  "occasion": [
+   "Für Kinder"
+  ],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Pancake Stack fluffig, fruchtig & über 40 g Eiweiß Fluffige Protein-Pancakes aus Proteinpulver, Schmelzflocken und Ei, gestapelt und mit Fruchtaufstrich und frischen Beeren getoppt. Ein Frühstück wie ein Dessert. Proteinpulver Puddingpulver Schmelzflocken Backpulver Ei Mandelmilch Chunky Flavour Fruchtaufstrich light Beeren Frühstück High Protein Süß Pancakes Protein-Pancakes Frühstück Beeren Menüart > Frühstück Backen & Süßspeisen > Süßspeise Spezielles > High Protein Spezielles > Vegetarisch  Frühstück Dessert Pfannkuchen Braten Für Kinder Einfach Schnell",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/pancake-stack/"
+ },
+ {
+  "slug": "protein-cinnamon-roll-bowl",
+  "title": "Protein Cinnamon Roll Bowl",
+  "subtitle": "warm, zimtig & mit Vanille-Frosting",
+  "url": "rezepte/protein-cinnamon-roll-bowl/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 30,
+  "difficulty": "simpel",
+  "calories": 360,
+  "diet": [
+   "vegetarisch",
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Frühstück",
+   "Menüart > Dessert",
+   "Backen & Süßspeisen > Süßspeise",
+   "Spezielles > High Protein",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Frühstück",
+   "Dessert",
+   "High Protein"
+  ],
+  "cuisine": null,
+  "servings": 1,
+  "meal": [
+   "Frühstück",
+   "Dessert"
+  ],
+  "daytime": [
+   "Frühstück",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Bowl",
+   "Protein-Dessert"
+  ],
+  "properties": [
+   "Einfach"
+  ],
+  "method": [
+   "Backen"
+  ],
+  "occasion": [
+   "Winter"
+  ],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Protein Cinnamon Roll Bowl warm, zimtig & mit Vanille-Frosting Eine warme Zimt-Bowl mit weichem Kern aus Schmelzflocken, Proteinpulver, Eiklar und Skyr, getoppt mit kaltem Vanille-Frosting. Schmeckt wie eine Zimtschnecke mit 40 g Eiweiß. Schmelzflocken Proteinpulver Eiklar Skyr Mandelmilch Backpulver Zimt und Süßstoff Skyr Süßstoff Mandelmilch Frühstück Dessert High Protein Cinnamon Roll Zimtschnecke Protein-Bowl Frühstück Menüart > Frühstück Menüart > Dessert Backen & Süßspeisen > Süßspeise Spezielles > High Protein Spezielles > Vegetarisch  Frühstück Dessert Bowl Protein-Dessert Backen Winter Einfach",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/protein-cinnamon-roll-bowl/"
+ },
+ {
+  "slug": "protein-cookie-dough-cheesecake",
+  "title": "Protein Cookie Dough Cheesecake",
+  "subtitle": "cremig, mit weichen Cookie-Dough-Klecksen",
+  "url": "rezepte/protein-cookie-dough-cheesecake/",
+  "image": "bild.jpg",
+  "prep_min": 10,
+  "total_min": 160,
+  "difficulty": "normal",
+  "calories": 335,
+  "diet": [
+   "vegetarisch",
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Dessert",
+   "Backen & Süßspeisen > Dessert",
+   "Spezielles > High Protein",
+   "Spezielles > Kalorienarm",
+   "Spezielles > Vegetarisch"
+  ],
+  "tags": [
+   "Dessert",
+   "High Protein"
+  ],
+  "cuisine": null,
+  "servings": 1,
+  "meal": [
+   "Dessert",
+   "Snack"
+  ],
+  "daytime": [
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Protein-Dessert",
+   "Kuchen"
+  ],
+  "properties": [
+   "Einfach",
+   "Meal Prep"
+  ],
+  "method": [
+   "Backen"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Protein Cookie Dough Cheesecake cremig, mit weichen Cookie-Dough-Klecksen Ein gebackener Protein-Cheesecake aus Magerquark und Skyr, auf dem kleine Cookie-Dough-Kleckse backen. Nach dem Kühlen fest und cremig, mit 43 g Eiweiß pro Portion. Magerquark Skyr Ei Proteinpulver Puddingpulver Süßstoff Schmelzflocken Proteinpulver Skyr Mandelmilch Schokodrops Dessert High Protein Cheesecake Cookie Dough Protein-Dessert Magerquark Menüart > Dessert Backen & Süßspeisen > Dessert Spezielles > High Protein Spezielles > Kalorienarm Spezielles > Vegetarisch  Dessert Snack Protein-Dessert Kuchen Backen Einfach Meal Prep",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/protein-cookie-dough-cheesecake/"
+ },
+ {
+  "slug": "sattmacher-salat",
+  "title": "Sattmacher Salat",
+  "subtitle": "Volumen-Meal mit Crispy Chicken",
+  "url": "rezepte/sattmacher-salat/",
+  "image": "bild.jpg",
+  "prep_min": 15,
+  "total_min": 35,
+  "difficulty": "simpel",
+  "calories": 385,
+  "diet": [
+   "high protein"
+  ],
+  "categories": [
+   "Menüart > Salat",
+   "Menüart > Hauptspeise",
+   "Spezielles > High Protein",
+   "Spezielles > Kalorienarm"
+  ],
+  "tags": [
+   "Salat",
+   "High Protein",
+   "Volumen"
+  ],
+  "cuisine": null,
+  "servings": 1,
+  "meal": [
+   "Hauptspeise"
+  ],
+  "daytime": [
+   "Mittag",
+   "Abendessen"
+  ],
+  "dish_type": [
+   "Salat"
+  ],
+  "properties": [
+   "Einfach"
+  ],
+  "method": [
+   "Backen",
+   "Airfryer"
+  ],
+  "occasion": [
+   "Sommer"
+  ],
+  "rating": 0,
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "search": "Sattmacher Salat Volumen-Meal mit Crispy Chicken Knusprige Kartoffelspalten, ein cremiger Gurken-Skyr-Salat mit Ei und roter Zwiebel, dazu Crispy Chicken. Macht richtig satt und bleibt unter 400 kcal. Kartoffeln Ölspray, Salz, Knoblauchpulver und Rosmarin Crispy Chicken Gurke rote Zwiebel Ei Skyr Senf Zitronensaft, Knoblauchpulver, Salz und Pfeffer Salat High Protein Volumen Gurkensalat Skyr Crispy Chicken Kartoffelspalten Menüart > Salat Menüart > Hauptspeise Spezielles > High Protein Spezielles > Kalorienarm  Hauptspeise Salat Backen Airfryer Sommer Einfach",
+  "absolute_url": "https://smartcooked.github.io/rezepte/rezepte/sattmacher-salat/"
+ },
+ {
   "slug": "big-mac-bowl",
   "title": "Big Mac Bowl",
   "subtitle": "Fast-Food-Geschmack, Diät-Makros",

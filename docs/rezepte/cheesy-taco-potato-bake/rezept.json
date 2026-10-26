@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "slug": "cheesy-taco-potato-bake",
+  "title": "Cheesy Taco Potato Bake",
+  "subtitle": "überbacken, würzig & voller Volumen",
+  "description": "Knusprige Kartoffelwürfel unter einer dicken Taco-Hack-Sauce mit Kidneybohnen und Mais, mit Käse überbacken. Sieht nach Cheat Meal aus, passt in jede Diät.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 200,
+      "unit": "g",
+      "name": "Kartoffeln",
+      "note": null,
+      "group": "Für den Bake",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Käse light",
+      "note": "gerieben, z.B. Protein-Käse",
+      "group": "Für den Bake",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Jalapeños",
+      "note": "optional",
+      "group": "Für den Bake",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 120,
+      "unit": "g",
+      "name": "Rinderhackfleisch",
+      "note": "mager",
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Zwiebel",
+      "note": null,
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Kidneybohnen",
+      "note": null,
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 30,
+      "unit": "g",
+      "name": "Mais",
+      "note": null,
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "passierte Tomaten",
+      "note": null,
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Taco-Gewürz, Salz und Pfeffer",
+      "note": null,
+      "group": "Für die Taco-Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Kartoffeln klein würfeln, würzen und im Airfryer oder Ofen knusprig backen.",
+    "Die Zwiebel klein schneiden und mit dem Hack anbraten.",
+    "Taco-Gewürz, passierte Tomaten, Kidneybohnen und Mais zugeben.",
+    "Alles einige Minuten einköcheln lassen, bis eine dicke Taco-Hack-Sauce entsteht.",
+    "Die Kartoffeln in eine kleine Auflaufform geben und die Sauce darüber verteilen.",
+    "Mit Käse toppen und bei etwa 200 °C kurz überbacken, nach Belieben Jalapeños daraufgeben."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 450,
+  "nutrition": {
+    "carbs_g": 48,
+    "protein_g": 45,
+    "fat_g": 10
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Zubereitungsarten > Überbacken",
+    "Regional > Mexiko",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Mexikanisch",
+  "keywords": [
+    "Taco",
+    "Auflauf",
+    "Kartoffeln",
+    "Hackfleisch"
+  ],
+  "tags": [
+    "Auflauf",
+    "High Protein",
+    "Tex-Mex"
+  ],
+  "tip": "Den Bake ruhig üppig anrichten: Viel Volumen und geschmolzener Käse nehmen das Diät-Gefühl.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Auflauf"
+  ],
+  "properties": [
+    "Einfach"
+  ],
+  "method": [
+    "Backen",
+    "Braten",
+    "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

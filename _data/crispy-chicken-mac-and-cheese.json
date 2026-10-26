@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-chicken-mac-and-cheese",
+  "title": "Crispy Chicken Mac & Cheese",
+  "subtitle": "ultra cremig, knusprig & proteinreich",
+  "description": "Cremige Mac & Cheese aus Light-Frischkäse, Milch und Protein-Käse, getoppt mit knusprigem Crispy Chicken. Comfort Food mit fast 50 g Eiweiß.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Pasta",
+      "note": "trocken",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Crispy Chicken",
+      "note": "tiefgekühlt, paniert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "g",
+      "name": "Frischkäse light",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 20,
+      "unit": "g",
+      "name": "Käse light",
+      "note": "gerieben, z.B. Protein-Käse",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 60,
+      "unit": "ml",
+      "name": "Milch",
+      "note": "fettarm",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Paprikapulver",
+      "note": "geräuchert",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Salz und Pfeffer",
+      "note": null,
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Nudelwasser",
+      "note": "optional",
+      "group": "Für die Sauce",
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Die Pasta nach Packungsanweisung kochen und etwas Nudelwasser auffangen.",
+    "Das Crispy Chicken im Airfryer oder Ofen goldbraun und knusprig backen.",
+    "Milch, Frischkäse, Senf und Gewürze bei niedriger Hitze in einer Pfanne zu einer cremigen Sauce verrühren.",
+    "Den geriebenen Käse zugeben und langsam schmelzen lassen.",
+    "Ist die Sauce zu dick, etwas Nudelwasser zugeben. Die Pasta untermischen.",
+    "Das Crispy Chicken in Stücke schneiden, auf die Mac & Cheese geben und sofort servieren."
+  ],
+  "times": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 490,
+  "nutrition": {
+    "carbs_g": 50,
+    "protein_g": 48,
+    "fat_g": 11
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > USA oder Kanada",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Amerikanisch",
+  "keywords": [
+    "Mac and Cheese",
+    "Pasta",
+    "Crispy Chicken",
+    "Käsesauce"
+  ],
+  "tags": [
+    "Pasta",
+    "High Protein",
+    "Cheat Meal"
+  ],
+  "tip": "Etwas Nudelwasser macht die Sauce cremig, ohne mehr Käse oder Milch zu brauchen.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Pasta"
+  ],
+  "properties": [
+    "Einfach",
+    "Schnell"
+  ],
+  "method": [
+    "Kochen",
+    "Airfryer"
+  ],
+  "occasion": [
+    "Für Kinder"
+  ],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}

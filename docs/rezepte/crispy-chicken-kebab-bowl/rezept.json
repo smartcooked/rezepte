@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "slug": "crispy-chicken-kebab-bowl",
+  "title": "Crispy Chicken Kebab Bowl",
+  "subtitle": "wie ein Dönerteller, nur leichter",
+  "description": "Knuspriges Chicken, Reis, knackiger Salat mit Tomate, Gurke und roter Zwiebel, dazu eine cremige Knoblauch-Sauce aus Magerquark. Beim Gemüse darf es großzügig sein.",
+  "servings": 1,
+  "ingredients": [
+    {
+      "amount": 150,
+      "unit": "g",
+      "name": "Crispy Chicken",
+      "note": "tiefgekühlt, paniert",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 40,
+      "unit": "g",
+      "name": "Reis",
+      "note": "roh",
+      "group": null,
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Eisbergsalat",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Tomate",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.5,
+      "unit": "Stück",
+      "name": "Gurke",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 0.25,
+      "unit": "Stück",
+      "name": "rote Zwiebel",
+      "note": null,
+      "group": "Für den Salat",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 100,
+      "unit": "g",
+      "name": "Magerquark",
+      "note": null,
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Senf",
+      "note": null,
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Knoblauchpulver, Salz, Pfeffer und Paprikapulver",
+      "note": null,
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "etwas",
+      "name": "Zitronensaft",
+      "note": "optional",
+      "group": "Für die Knoblauch-Sauce",
+      "grams": null,
+      "per100": null
+    },
+    {
+      "amount": null,
+      "unit": "n. B.",
+      "name": "Light-Sauce",
+      "note": "optional",
+      "group": null,
+      "grams": null,
+      "per100": null
+    }
+  ],
+  "steps": [
+    "Das Crispy Chicken im Airfryer oder Ofen goldbraun und knusprig backen.",
+    "Den Reis nach Packungsanweisung kochen oder bereits gekochten Reis erwärmen.",
+    "Salat, Tomate, Gurke und rote Zwiebel klein schneiden.",
+    "Magerquark mit Senf, Knoblauchpulver, Salz, Pfeffer und nach Belieben Zitronensaft cremig rühren.",
+    "Den Reis als Basis in eine Bowl geben, Salat und Gemüse daneben verteilen.",
+    "Das Chicken in Stücke schneiden, daraufgeben und mit der Knoblauch-Sauce und optional etwas Light-Sauce toppen."
+  ],
+  "times": {
+    "prep_min": 15,
+    "cook_min": 15,
+    "rest_min": 0
+  },
+  "difficulty": "simpel",
+  "calories_per_serving": 450,
+  "nutrition": {
+    "carbs_g": 48,
+    "protein_g": 45,
+    "fat_g": 9
+  },
+  "diet": [
+    "high protein"
+  ],
+  "categories": [
+    "Menüart > Hauptspeise",
+    "Regional > Türkei",
+    "Spezielles > High Protein"
+  ],
+  "cuisine": "Türkisch",
+  "keywords": [
+    "Kebab",
+    "Döner",
+    "Bowl",
+    "Knoblauchsauce"
+  ],
+  "tags": [
+    "Bowl",
+    "High Protein",
+    "Volumen"
+  ],
+  "tip": "Bei Salat, Gurke und Tomate großzügig sein: viel Volumen und Sättigung für kaum Kalorien.",
+  "image": "bild.jpg",
+  "source": {
+    "type": "pdf",
+    "note": "nach: E-Book „10 Rezepte unter 500 kcal“"
+  },
+  "author": null,
+  "estimated": [
+    "times"
+  ],
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "status": "published",
+  "meal": [
+    "Hauptspeise"
+  ],
+  "daytime": [
+    "Mittag",
+    "Abendessen"
+  ],
+  "dish_type": [
+    "Bowl",
+    "Reisgericht"
+  ],
+  "properties": [
+    "Einfach",
+    "Meal Prep"
+  ],
+  "method": [
+    "Kochen",
+    "Airfryer"
+  ],
+  "occasion": [],
+  "rating": 0,
+  "notes": null,
+  "image_source": "KI-generiert (Gamma), 2026-10-26"
+}
